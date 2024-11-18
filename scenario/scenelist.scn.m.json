@@ -14409,13 +14409,13 @@
           "selidx": 0,
           "storage": "tutorial_01.txt",
           "target": "*tutorial",
-          "text": "チュートリアルを見る"
+          "text": "查看教程"
         },{
           "render": 1,
           "selidx": 1,
           "storage": "tutorial_01.txt",
           "target": "*tutorial_skip",
-          "text": "チュートリアルを見ない"
+          "text": "不查看教程"
         }],
       "storage": "tutorial_01.txt",
       "target": "*dummyselect1",
@@ -14426,13 +14426,13 @@
       "storage": "tutorial_01.txt",
       "target": "*tutorial",
       "textCount": 12,
-      "title": "チュートリアルを見る"
+      "title": "查看教程"
     },{
       "selects": null,
       "storage": "tutorial_01.txt",
       "target": "*tutorial_skip",
       "textCount": 0,
-      "title": "チュートリアルを見ない"
+      "title": "不查看教程"
     },{
       "selects": null,
       "storage": "tutorial_01.txt",
@@ -14451,13 +14451,13 @@
           "selidx": 0,
           "storage": "tutorial_02.txt",
           "target": "*tutorial",
-          "text": "チュートリアルを見る"
+          "text": "查看教程"
         },{
           "render": 1,
           "selidx": 1,
           "storage": "tutorial_02.txt",
           "target": "*tutorial_skip",
-          "text": "チュートリアルを見ない"
+          "text": "不查看教程"
         }],
       "storage": "tutorial_02.txt",
       "target": "*dummyselect1",
@@ -14468,13 +14468,13 @@
       "storage": "tutorial_02.txt",
       "target": "*tutorial",
       "textCount": 35,
-      "title": "チュートリアルを見る"
+      "title": "查看教程"
     },{
       "selects": null,
       "storage": "tutorial_02.txt",
       "target": "*tutorial_skip",
       "textCount": 0,
-      "title": "チュートリアルを見ない"
+      "title": "不查看教程"
     },{
       "selects": null,
       "storage": "tutorial_02.txt",

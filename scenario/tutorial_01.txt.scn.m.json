@@ -133,7 +133,7 @@
           "type": 0
         }],
       "spCount": 5,
-      "texts": [[null,null,"ゲームのチュートリアルを見ますか？",null,72,{
+      "texts": [[null,null,"你想看游戏教程吗？",null,72,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -204,21 +204,21 @@
             "msgwin": 0
           },null,1,26]],
       "selectInfo": {
-        "message": "ゲームのチュートリアルを見ますか？",
+        "message": "你想看游戏教程吗？",
         "select": [{
             "render": 1,
             "runLine": 21,
-            "runLineStr": "[seladd text=\"チュートリアルを見る\"  target=\"*tutorial\"]",
+            "runLineStr": "[seladd text=\"查看教程\"  target=\"*tutorial\"]",
             "tagname": "seladd",
             "target": "*tutorial",
-            "text": "チュートリアルを見る"
+            "text": "查看教程"
           },{
             "render": 1,
             "runLine": 22,
-            "runLineStr": "[seladd text=\"チュートリアルを見ない\"  target=\"*tutorial_skip\"]",
+            "runLineStr": "[seladd text=\"不查看教程\"  target=\"*tutorial_skip\"]",
             "tagname": "seladd",
             "target": "*tutorial_skip",
-            "text": "チュートリアルを見ない"
+            "text": "不查看教程"
           }]
       },
       "selects": [{
@@ -226,13 +226,13 @@
           "selidx": 0,
           "storage": "tutorial_01.txt",
           "target": "*tutorial",
-          "text": "チュートリアルを見る"
+          "text": "查看教程"
         },{
           "render": 1,
           "selidx": 1,
           "storage": "tutorial_01.txt",
           "target": "*tutorial_skip",
-          "text": "チュートリアルを見ない"
+          "text": "不查看教程"
         }],
       "spCount": 1,
       "title": "tutorial_01"
@@ -1176,7 +1176,7 @@
           "type": 0
         }],
       "spCount": 31,
-      "texts": [["タカヒロ","チノの父","さて、それではゲームの説明をしておこう。",[{
+      "texts": [["香风隆宏","智乃的父亲","那么，让我来解释一下游戏的规则吧。",[{
               "labels": [0,"vlstart",188,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1216,7 +1216,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","このゲームは、君がココア君になって、\\n友人達と仲良く日々を過ごすゲームだ。",[{
+          }],["香风隆宏","智乃的父亲","在这个游戏中，你将成为心爱\\n与你的朋友们一起愉快地度过每一天",[{
               "labels": [0,"vlstart",343,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1256,7 +1256,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","文章選択の内容や\\n休日のおでかけ先で出会うことで、\\nチノやリゼ君達の「親密度」がＵＰする。",[{
+          }],["香风隆宏","智乃的父亲","通过选择不同的选项\\n在休息日外出的地方相遇\\n可以提升智乃，理世等人的亲密度。",[{
               "labels": [0,"vlstart",450,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1296,7 +1296,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],[null,null,"（チノの誕生日のあと、親密度が星９つ以上の\\n　キャラクターストーリーに移行するように\\n　なっています）",null,72,{
+          }],[null,null,"（在智乃生日过后\\n　将进入亲密度达到9星的角色的个人路线）",null,72,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -1328,7 +1328,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],[null,null,"（ただし、キャラクターストーリーには\\n　優先度が存在します）",null,72,{
+          }],[null,null,"（但是，角色故事存在优先级。）",null,72,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -1360,7 +1360,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],[null,null,"（チノ、リゼ、千夜、シャロの順に\\n　優先度がありますのでご注意ください）",null,72,{
+          }],[null,null,"（请注意，故事优先级顺序为\\n智乃、理世、千夜、纱路。）",null,72,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -1392,7 +1392,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],[null,null,"（キャラクターストーリーでは\\n　「親密度」に代わり、「友情度」が\\n　ＵＰしていくようになります）",null,72,{
+          }],[null,null,"（在角色故事中，\\n将不再提升“亲密度”，\\n而是提升“友情度”。）",null,72,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -1424,7 +1424,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],[null,null,"（「友情度」の状態によって\\n　エンディングが変化します）",null,1608,{
+          }],[null,null,"（结局会根据“友情度”的状态而变化。）",null,1608,{
             "backbase": 0,
             "data": [["bgm","bgm",{
                   "name": "bgm",
@@ -1456,7 +1456,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","また、ラビットハウスでのバイトぶりによっては\\n特定のキャラクターストーリーではなく――",[{
+          }],["香风隆宏","智乃的父亲","另外，根据你在Rabbit House打工的表现，\\n也有可能不进入特定的角色故事，",[{
               "labels": [0,"vlstart",348,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1496,7 +1496,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","「みんなで過ごすストーリー」に\\n移行することもできるんだ。",[{
+          }],["香风隆宏","智乃的父亲","而是进入“大家一起度过的故事”。",[{
               "labels": [0,"vlstart",176,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1536,7 +1536,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","詳しくは、ラビットハウスでのバイトの時に\\n説明しよう。",[{
+          }],["香风隆宏","智乃的父亲","详细的内容，\\n等你在Rabbit House打工的时候\\n再说明吧。",[{
               "labels": [0,"vlstart",209,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1576,7 +1576,7 @@
               "name": "env"
             },
             "msgwin": 0
-          }],["タカヒロ","チノの父","では、ココア君、チノをよろしく。",[{
+          }],["香风隆宏","智乃的父亲","那么，心爱，智乃就拜托你了。",[{
               "labels": [0,"vlstart",154,"vlstop"],
               "name": "タカヒロ",
               "pan": 0,
@@ -1617,7 +1617,7 @@
             },
             "msgwin": 0
           }]],
-      "title": "チュートリアルを見る"
+      "title": "查看教程"
     },{
       "firstLine": 125,
       "label": "*tutorial_skip",
@@ -1761,7 +1761,7 @@
           "type": 0
         }],
       "spCount": 3,
-      "title": "チュートリアルを見ない"
+      "title": "不查看教程"
     },{
       "firstLine": 134,
       "label": "*tutorial_end",

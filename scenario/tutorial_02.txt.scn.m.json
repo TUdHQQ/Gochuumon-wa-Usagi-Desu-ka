@@ -208,17 +208,17 @@
         "select": [{
             "render": 1,
             "runLine": 20,
-            "runLineStr": "[seladd text=\"チュートリアルを見る\"  target=\"*tutorial\"]",
+            "runLineStr": "[seladd text=\"查看教程\"  target=\"*tutorial\"]",
             "tagname": "seladd",
             "target": "*tutorial",
-            "text": "チュートリアルを見る"
+            "text": "查看教程"
           },{
             "render": 1,
             "runLine": 21,
-            "runLineStr": "[seladd text=\"チュートリアルを見ない\"  target=\"*tutorial_skip\"]",
+            "runLineStr": "[seladd text=\"不查看教程\"  target=\"*tutorial_skip\"]",
             "tagname": "seladd",
             "target": "*tutorial_skip",
-            "text": "チュートリアルを見ない"
+            "text": "不查看教程"
           }]
       },
       "selects": [{
@@ -226,13 +226,13 @@
           "selidx": 0,
           "storage": "tutorial_02.txt",
           "target": "*tutorial",
-          "text": "チュートリアルを見る"
+          "text": "查看教程"
         },{
           "render": 1,
           "selidx": 1,
           "storage": "tutorial_02.txt",
           "target": "*tutorial_skip",
-          "text": "チュートリアルを見ない"
+          "text": "不查看教程"
         }],
       "spCount": 1,
       "title": "tutorial_02"
@@ -2853,7 +2853,7 @@
             },
             "msgwin": 0
           }]],
-      "title": "チュートリアルを見る"
+      "title": "查看教程"
     },{
       "firstLine": 233,
       "label": "*tutorial_skip",
@@ -2997,7 +2997,7 @@
           "type": 0
         }],
       "spCount": 3,
-      "title": "チュートリアルを見ない"
+      "title": "不查看教程"
     },{
       "firstLine": 242,
       "label": "*tutorial_end",
