@@ -1,0 +1,2476 @@
+{
+  "hash": "8231d3669d4326324e2036960c089860",
+  "name": "shop.ks",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,5,64],["msgwin","type","0","backbase","true"],1,[3,1,null,null,5],["envupdate","update",[["new","stage","stage"],["new","lay01","event"],["new","lay02","event"],["new","lay03","event"],["new","lay04","event"],["new","lay0b","event"],["new","lay0f","event"],["new","lay1b","event"],["new","lay1f","event"],["new","lay2b","event"],["new","lay2f","event"],["new","lay3b","event"],["new","lay3f","event"],["new","lay4b","event"],["new","lay4f","event"],["new","lay5b","event"],["new","lay5f","event"],{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",526],["ypos",-433],["order",11]],
+              "class": "event",
+              "link": null,
+              "name": "lay5b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",50],["ypos",-310],["order",9]],
+              "class": "event",
+              "link": null,
+              "name": "lay0f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",836],["ypos",-196],["order",6]],
+              "class": "event",
+              "link": null,
+              "name": "lay03",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",66],["ypos",-433],["order",11]],
+              "class": "event",
+              "link": null,
+              "name": "lay3b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_base"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",336],["ypos",-283],["order",11]],
+              "class": "event",
+              "link": null,
+              "name": "lay1b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",566],["ypos",-283],["order",11]],
+              "class": "event",
+              "link": null,
+              "name": "lay2b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",106],["ypos",-283],["order",7]],
+              "class": "event",
+              "link": null,
+              "name": "lay0b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",612],["ypos",-361],["order",15]],
+              "class": "event",
+              "link": null,
+              "name": "lay04",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",470],["ypos",-460],["order",13]],
+              "class": "event",
+              "link": null,
+              "name": "lay5f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",240],["ypos",-460],["order",13]],
+              "class": "event",
+              "link": null,
+              "name": "lay4f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",280],["ypos",-310],["order",13]],
+              "class": "event",
+              "link": null,
+              "name": "lay1f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",52],["ypos",-155],["order",5]],
+              "class": "event",
+              "link": null,
+              "name": "lay02",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",296],["ypos",-433],["order",11]],
+              "class": "event",
+              "link": null,
+              "name": "lay4b",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",10],["ypos",-460],["order",13]],
+              "class": "event",
+              "link": null,
+              "name": "lay3f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",510],["ypos",-310],["order",13]],
+              "class": "event",
+              "link": null,
+              "name": "lay2f",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "action": [null,["originx",-480.0],["originy",-272.0],["xpos",748],["ypos",-144],["order",3]],
+              "class": "event",
+              "link": null,
+              "name": "lay01",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_base","cg_shop_saku_b","cg_shop_counter","cg_shop_saku_m","cg_shop_saku_f","cg_shop_chair_b","cg_shop_chair_f","cg_shop_chair_b","cg_shop_chair_f","cg_shop_chair_b","cg_shop_chair_f","cg_shop_chair_b","cg_shop_chair_f","cg_shop_chair_b","cg_shop_chair_f","cg_shop_chair_b","cg_shop_chair_f",[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },2,null,26,72],2,[5,2,null,null,26],["envupdate","update",[["new","event","event"],{
+              "action": [["zpos",-60.0],null,["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 1000,
+                      "value": 100
+                    }]]],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_b"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "event"
+              }]
+          }],"cg_shop_saku_b",[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,27],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_counter"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_counter",[7,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,28],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_m"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_saku_m",[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_saku_f"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_saku_f",[9,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,30],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_b"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_chair_b",[10,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,31],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "shop_chair_f"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 1000
+          }],"cg_shop_chair_f",[11,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,32]],
+      "spCount": 11,
+      "texts": [[null,null,"ショップ画像データ構築用",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],[null,null,"てすと",null,72,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["lay01","event",{
+                  "action": [["originy",-272.0],["xpos",748],["order",3],["ypos",-144],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay01",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay02","event",{
+                  "action": [["originy",-272.0],["xpos",52],["order",5],["ypos",-155],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay02",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_counter_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay03","event",{
+                  "action": [["originy",-272.0],["xpos",836],["order",6],["ypos",-196],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay03",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_m_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay04","event",{
+                  "action": [["originy",-272.0],["xpos",612],["order",15],["ypos",-361],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay04",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_saku_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0b","event",{
+                  "action": [["originy",-272.0],["xpos",106],["order",7],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay0f","event",{
+                  "action": [["originy",-272.0],["xpos",50],["order",9],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay0f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1b","event",{
+                  "action": [["originy",-272.0],["xpos",336],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay1f","event",{
+                  "action": [["originy",-272.0],["xpos",280],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay1f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2b","event",{
+                  "action": [["originy",-272.0],["xpos",566],["order",11],["ypos",-283],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay2f","event",{
+                  "action": [["originy",-272.0],["xpos",510],["order",13],["ypos",-310],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay2f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3b","event",{
+                  "action": [["originy",-272.0],["xpos",66],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay3f","event",{
+                  "action": [["originy",-272.0],["xpos",10],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay3f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4b","event",{
+                  "action": [["originy",-272.0],["xpos",296],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay4f","event",{
+                  "action": [["originy",-272.0],["xpos",240],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay4f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5b","event",{
+                  "action": [["originy",-272.0],["xpos",526],["order",11],["ypos",-433],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5b",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_b_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["lay5f","event",{
+                  "action": [["originy",-272.0],["xpos",470],["order",13],["ypos",-460],["originx",-480.0]],
+                  "class": "event",
+                  "name": "lay5f",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_chair_f_45f2870f4a0beaa7c7a0ace5fa91618d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "shop_base"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": ""
+    }]
+}

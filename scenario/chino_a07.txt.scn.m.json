@@ -1,0 +1,4442 @@
+{
+  "hash": "c2b1460f86a53b965320c2fe76df14d7",
+  "name": "chino_a07.txt",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11]],
+      "nexts": [{
+          "storage": "chino_a07.txt",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "postevals": ["f.day=27"],
+      "spCount": 3,
+      "title": "CHINO_A07"
+    },{
+      "firstLine": 11,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[["new","event","event"],["new","stage","stage"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg08ca"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_10",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_10",[5,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,15],["envupdate","update",[["new","チノ","character"],{
+              "action": [null,["xpos",0],null,["ypos",0],["zpos",47.058823529411768],["order",0],["$lip","$lipチノ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.13763847773674734
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          }],"cg_tino.stand",[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.13763847773674734
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,24,1616],["envupdate","update",[{
+              "action": [["ypos",[{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@"
+                    }]]],
+              "name": "チノ",
+              "showmode": 3
+            }]],1,[7,1,null,null,24],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.77697073274941253
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.77697073274941253
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },2,null,29,1600],2,[9,2,null,null,29],["stopvoice"],["envupdate","update",[{
+              "hideact": [["left",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@",
+                      "time": 300,
+                      "value": "@-10"
+                    }]]],
+              "name": "チノ",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "300"
+          }],[10,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[["new","se","se"],{
+              "name": "se",
+              "replay": {
+                "filename": "is2028",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "チノ"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[11,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,31],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[12,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,34],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[13,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,34],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bga01db"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[14,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },3,null,40,1616],3,[15,3,4,null,46,1600],4,[16,4,5,null,52,1600],5,[17,5,6,null,59,1600],6,[18,6,null,null,59],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[19,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,60],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[20,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,60],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg08ca"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[21,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,60],["envupdate","update",[{
+              "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$lip","$lipチノ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.71138645588549454
+                    }]],["order",0],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目目そらし:口目そらし",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          }],[22,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.71138645588549454
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目目そらし:口目そらし",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },7,null,66,1616],7,[23,7,null,null,66],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.15900143436994538
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[24,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.15900143436994538
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },8,null,72,1600],8,[25,8,null,null,72],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.72215948973052158
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[26,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.72215948973052158
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },9,null,79,1600],9,[27,9,null,null,79],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.80037842951750238
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[28,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.80037842951750238
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },10,null,86,1600],10,[29,10,null,null,86],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.30521561326944791
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目あきれ:口あきれ",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[30,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.30521561326944791
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },11,null,93,1600],11,[31,11,null,null,93],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.94479201635792109
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[32,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94479201635792109
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },12,null,99,1600],12,[33,12,null,null,99],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.94631794183172091
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[34,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94631794183172091
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },13,null,107,1600],["envupdate","update",[{
+              "action": [["xpos",[{
+                      "handler": "MoveAction",
+                      "time": 200,
+                      "value": "@-10"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@+10"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-10"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@+10"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 200,
+                      "value": "@"
+                    }]]],
+              "name": "チノ",
+              "showmode": 3
+            }]],13,[35,13,null,null,107],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.5340433973204749
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[36,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5340433973204749
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },14,null,113,1600],14,[37,14,null,null,113],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.43458357493820005
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目あきれ:口あきれ",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[38,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.43458357493820005
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },15,null,120,1600],["envupdate","update",[{
+              "action": [["ypos",[{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@"
+                    }]]],
+              "name": "チノ",
+              "showmode": 3
+            }]],15,[39,15,null,null,120],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.91897335734122743
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[40,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.91897335734122743
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },16,null,126,1600],16,[41,16,null,null,126],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.87618640705587936
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目悲しい:口悲しい",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[42,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.87618640705587936
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },17,null,132,1600],17,[43,17,null,null,132],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.36881618701742608
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目怒り:口怒り",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[44,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.36881618701742608
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目怒り:口怒り",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },18,null,139,1600],18,[45,18,null,null,139],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.51240577410199284
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目怒り:口怒り",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[46,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51240577410199284
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目怒り:口怒り",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },19,null,146,1600],19,[47,19,null,null,146],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.57383953367717522
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目あきれ:口あきれ",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[48,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.57383953367717522
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },20,null,153,1600],20,[49,20,null,null,153],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.34211249122592852
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                  "options": {
+                    "face": "目驚き:口驚き",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[50,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.34211249122592852
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目驚き:口驚き",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },21,null,160,1600],21,[51,21,null,null,160],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.39204077272865995
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                  "options": {
+                    "face": "目笑い:口笑い",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[52,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.39204077272865995
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目笑い:口笑い",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },22,null,165,64],22,[53,22,null,null,165],["stopvoice"],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_10",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "750"
+              }
+            }]],["msgoff"],[54,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,168],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            },{
+              "name": "チノ",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[55,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,168],["wait","time","100"],[56,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,168]],
+      "nexts": [{
+          "storage": "chino_a08.txt",
+          "type": 0
+        }],
+      "spCount": 56,
+      "texts": [["チノ",null,"（……ふう。\\n　お風呂で考え事をしてたせいで、\\n　ちょっとのぼせたかもしれません）",[{
+              "labels": [0,"vlstart",450,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 7503,
+              "type": 0,
+              "voice": "CNA07000"
+            }],1616,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.13763847773674734
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（外の風に当たっておきましょう）",[{
+              "labels": [0,"vlstart",139,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 2320,
+              "type": 0,
+              "voice": "CNA07001"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.77697073274941253
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（……外の風、気持ちいい）",[{
+              "labels": [0,"vlstart",183,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 3050,
+              "type": 0,
+              "voice": "CNA07002"
+            }],1616,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（今日は、ココアさんの言うとおり\\n　みんなに相談してみましたが……）",[{
+              "labels": [0,"vlstart",345,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 5760,
+              "type": 0,
+              "voice": "CNA07003"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（誰もが、クリスマスパーティーは\\n　かしこまらなくてもいいって言っていました）",[{
+              "labels": [0,"vlstart",348,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 5800,
+              "type": 0,
+              "voice": "CNA07004"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（今まで一緒にクリスマスパーティーをしていた\\n　お父さんまで、同じことを言ったのには\\n　驚きましたが……）",[{
+              "labels": [0,"vlstart",447,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 7466,
+              "type": 0,
+              "voice": "CNA07005"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768]],
+                  "class": "character",
+                  "name": "チノ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（私なりの……パーティー）",[{
+              "labels": [0,"vlstart",167,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 2794,
+              "type": 0,
+              "voice": "CNA07006"
+            }],1616,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.71138645588549454
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目目そらし:口目そらし",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（今まで、クリスマスは\\n　心静かに過ごすものだと思っていました）",[{
+              "labels": [0,"vlstart",327,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 5461,
+              "type": 0,
+              "voice": "CNA07007"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.15900143436994538
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（でも、もしクリスマスパーティーを\\n　そんな風にやったら、きっとみんなを\\n　退屈させてしまいます）",[{
+              "labels": [0,"vlstart",536,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 8938,
+              "type": 0,
+              "voice": "CNA07008"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.72215948973052158
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（だからといって、\\n　本の中の世界に出てくるような\\n　豪華な晩餐会なんて無理）",[{
+              "labels": [0,"vlstart",432,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 7210,
+              "type": 0,
+              "voice": "CNA07009"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.80037842951750238
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（それに……そんな晩餐会は\\n　ココアさんたちとのクリスマスパーティーには\\n　相応しくない気がします）",[{
+              "labels": [0,"vlstart",484,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 8080,
+              "type": 0,
+              "voice": "CNA07010"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.30521561326944791
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（クリスマスパーティーは、\\n　おごそかでもいいし、賑やかでもいい……）",[{
+              "labels": [0,"vlstart",316,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 5280,
+              "type": 0,
+              "voice": "CNA07011"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94479201635792109
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（困りました。\\n　なんだかもう、どうしたらいいのか、\\n　どうしたいのか、まったくわかりません）",[{
+              "labels": [0,"vlstart",528,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 8815,
+              "type": 0,
+              "voice": "CNA07012"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94631794183172091
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（こんな調子では、みんなを\\n　がっかりさせてしまいます……）",[{
+              "labels": [0,"vlstart",271,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 4528,
+              "type": 0,
+              "voice": "CNA07013"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5340433973204749
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"はあ……。",[{
+              "labels": [0,"vlstart",67,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 1120,
+              "type": 0,
+              "voice": "CNA07014",
+              "vols": [37,44,46,53,62,72,81,86,90,93,96,98,98,99,102,103,105,105,104,107,106,107,106,107,105,106,104,103,102,102,101,101,99,97,97,95,93,92,91,89,87,86,85,83,80,78,75,71,69,65,62,58,56,52,49,47,46,43,42,41,42,41,41,42,42,41,37]
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.43458357493820005
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（これはもう、ココアさんにも\\n　相談してみた方がいいのでしょうか？）",[{
+              "labels": [0,"vlstart",341,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 5695,
+              "type": 0,
+              "voice": "CNA07015"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.91897335734122743
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（ココアさんは、１番に\\n　相談に乗ると言ってくれたし……）",[{
+              "labels": [0,"vlstart",274,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 4575,
+              "type": 0,
+              "voice": "CNA07016"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.87618640705587936
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目悲しい:口悲しい",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（……ううん、だめ。\\n　私の誕生日パーティーを開いてくれた\\n　ココアさんには――）",[{
+              "labels": [0,"vlstart",397,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 6623,
+              "type": 0,
+              "voice": "CNA07017"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.36881618701742608
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目怒り:口怒り",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（できることなら、\\n　当日まで内容は秘密にして、驚かせたいから。\\n　だから、相談するのは最終手段です）",[{
+              "labels": [0,"vlstart",627,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 10463,
+              "type": 0,
+              "voice": "CNA07018"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51240577410199284
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目怒り:口怒り",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（……だけど、もう少し\\n　誰かの意見を聞いてみたいですね。\\n　他に誰か相談できる人……）",[{
+              "labels": [0,"vlstart",549,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 9151,
+              "type": 0,
+              "voice": "CNA07019"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.57383953367717522
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目あきれ:口あきれ",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（あ、そうだ！　青山さん！\\n　青山さんは大人だし、作家として\\n　色々なパーティーを体験しているかもしれません）",[{
+              "labels": [0,"vlstart",637,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 10623,
+              "type": 0,
+              "voice": "CNA07020"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.34211249122592852
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02388a6acd7d987a18f1d0789c968f8c",
+                      "options": {
+                        "face": "目驚き:口驚き",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["チノ",null,"（今度、お店に来た時に相談してみましょう！）",[{
+              "labels": [0,"vlstart",211,"vlstop"],
+              "name": "チノ",
+              "pan": 0,
+              "time": 3520,
+              "type": 0,
+              "voice": "CNA07021"
+            }],64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg08ca"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.39204077272865995
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3a5c88da7aa9e27416fccfcc48944de4",
+                      "options": {
+                        "face": "目笑い:口笑い",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "CHINO_A07"
+    }]
+}

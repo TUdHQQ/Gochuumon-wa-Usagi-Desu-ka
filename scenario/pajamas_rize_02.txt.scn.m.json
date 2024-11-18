@@ -1,0 +1,4636 @@
+{
+  "hash": "7fff7c757a805b90db4dc49631a15ba4",
+  "name": "pajamas_rize_02.txt",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 0,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,11],["envupdate","update",[["new","event","event"],["new","stage","stage"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,11],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bga01db"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[5,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,11],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_10",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_10",[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,17,80],1,[7,1,null,null,17],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_10",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1000"
+              }
+            }]],["stopvoice"],[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,22],["envupdate","update",[["tag",{
+                "backbase": "0",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=0][endtrans trans=crossfade time=200 sync][clearname][msgoff][begintrans][allchar hide][event file=%file opacity=%opacity|255 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][se buf=2 time=1 fade=100 play=\"&mp.se\" cond=\"mp.se!=''\"][endtrans trans=%trans|crossfade time=%time|500 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          }],[9,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,22],["msgoff"],["envupdate","update",[{
+              "action": [["zpos",-60.0],null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007p"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007p",[10,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,22],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_20",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_20",[11,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,23],"pajamas_rize","md23"],
+      "nexts": [{
+          "storage": "pajamas_rize_02.txt",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "postevals": ["FunctionTrophyNo14()","FunctionLikeRizeCalc(20)"],
+      "spCount": 11,
+      "texts": [["ココア",null,"（今日はリゼちゃんと一緒に寝ようかな）",null,80,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_10",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "PAJAMAS_RIZE_02"
+    },{
+      "firstLine": 29,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,29],["msgoff"],[2,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["beginskip"],["envupdate","update",[["new","se","se"],{
+              "name": "se",
+              "replay": {
+                "filename": "sse006",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[3,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[["new","likepoint","layer"],{
+              "action": [null,["$chara",1],["zpos",-70.326409495548958],["order",0]],
+              "class": "layer",
+              "link": null,
+              "name": "likepoint",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "emotion.mtn",
+                  "options": {
+                    "chara": "WUP1",
+                    "motion": "show"
+                  }
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "likepoint"
+              }]
+          }],"cg_emotion.mtn",[4,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["likepoint","layer",{
+                  "action": [["zpos",-70.326409495548958]],
+                  "class": "layer",
+                  "name": "likepoint",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "emotion.mtn",
+                      "options": {
+                        "chara": "WUP1",
+                        "motion": "show"
+                      }
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[{
+              "class": "layer",
+              "link": null,
+              "name": "likepoint",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "emotion.mtn",
+                  "options": {
+                    "motion": "hide"
+                  }
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "likepoint"
+              }]
+          }],[5,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["likepoint","layer",{
+                  "action": [["zpos",-70.326409495548958]],
+                  "class": "layer",
+                  "name": "likepoint",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "emotion.mtn",
+                      "options": {
+                        "chara": "WUP1",
+                        "motion": "hide"
+                      }
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[{
+              "name": "likepoint",
+              "showmode": 2
+            }]],[6,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["likepoint","layer",{
+                  "action": [["zpos",-70.326409495548958]],
+                  "class": "layer",
+                  "name": "likepoint",
+                  "showmode": 2,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["wait","time","500"],[7,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,36,1624],["endskip"],["envupdate","update",[{
+              "name": "se",
+              "stop": 0
+            }]],1,[8,1,2,null,42,1608],2,[9,2,null,null,42],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007f"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007f",[10,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },3,null,50,1608],3,[11,3,4,null,55,1608],4,[12,4,null,null,55],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[13,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,56],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[14,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,57],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007h"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007h",[15,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007h"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },5,null,67,1608],5,[16,5,null,null,67],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007d"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007d",[17,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },6,null,74,1608],6,[18,6,7,null,81,1608],7,[19,7,null,null,81],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[20,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,82],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[21,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,83],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007e"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007e",[22,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },8,null,92,1608],8,[23,8,null,null,92],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[24,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,93],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[25,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,94],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007t"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007t",[26,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007t"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },9,null,104,1608],9,[27,9,null,null,104],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007p"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007p",[28,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },10,null,112,1608],10,[29,10,null,null,112],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007j"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007j",[30,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007j"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },11,null,119,1608],11,[31,11,null,null,119],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007l"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007l",[32,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007l"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },12,null,127,1608],12,[33,12,null,null,127],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007c"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007c",[34,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007c"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },13,null,134,1608],13,[35,13,null,null,134],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007b"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007b",[36,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },14,null,139,1608],14,[37,14,null,null,139],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007g"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007g",[38,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007g"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },15,null,145,1608],15,[39,15,null,null,145],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007f"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007f",[40,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },16,null,153,1608],16,[41,16,null,null,153],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007a"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007a",[42,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },17,null,160,1608],17,[43,17,null,null,160],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[44,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,161],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[45,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,162],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007s"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007s",[46,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007s"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },18,null,172,1608],18,[47,18,19,null,178,1608],19,[48,19,null,null,178],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007p"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007p",[49,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },20,null,187,1608],20,[50,20,21,null,193,1608],21,[51,21,null,null,193],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[52,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,194],["envupdate","update",[{
+              "name": "se",
+              "replay": {
+                "filename": "is017",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[53,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,195],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007t"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007t",[54,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007t"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },22,null,205,1608],22,[55,22,23,null,210,1608],23,[56,23,null,null,210],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007r"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007r",[57,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007r"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },24,null,218,1608],24,[58,24,null,null,218],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007l"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007l",[59,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007l"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },25,null,225,1608],25,[60,25,null,null,225],["stopvoice"],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ev007a"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "500"
+          }],"cg_ev007a",[61,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },26,null,233,1608],26,[62,26,27,null,238,72],27,[63,27,null,null,238],["stopvoice"],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_20",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "750"
+              }
+            }]],["msgoff"],[64,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,240],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            },{
+              "name": "event",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[65,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,240],["wait","time","100"],[66,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,240]],
+      "nexts": [{
+          "storage": "holiday.ks*end",
+          "type": 0
+        }],
+      "postevals": ["f.PAJAMAS_MAIN_02=0"],
+      "spCount": 66,
+      "texts": [["ココア",null,"トランプ、面白かったね！\\nまだどきどきが残ってるよ。",[{
+              "labels": [0,"vlstart",288,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 4800,
+              "type": 0,
+              "voice": "CC408000",
+              "vols": [30,118,122,119,116,111,108,107,109,112,113,104,106,115,115,115,116,111,111,111,107,103,98,100,98,91,78,72,74,60,32,21,112,117,114,119,118,114,110,108,106,102,102,106,104,88,79,79,80,84,94,106,111,113,128,135,134,134,137,129,113,98,99,99,119,114,103,103,94,83,29,17,111,119,114,115,114,113,112,88,42,22,19,20,105,126,120,118,120,113,95,77,75,90,111,114,117,118,119,118,118,118,118,119,119,122,123,121,123,124,123,122,120,118,114,106,94,73,38,43,75,90,95,98,97,96,94,90,84,74,62,52,46,42,36,33,31,29,28,28,29,35,43,56,70,97,116,121,120,120,119,118,117,116,115,117,114,112,87,59,92,125,119,117,115,115,116,113,87,90,118,120,119,112,108,104,97,52,28,80,111,110,109,112,111,104,74,79,122,121,112,108,104,100,59,24,88,100,104,108,109,110,111,101,101,108,110,114,113,107,100,77,64,72,98,97,92,91,91,84,58,25,32,68,110,112,113,114,114,113,115,109,50,26,24,24,24,25,106,124,121,120,120,120,116,105,112,117,117,118,117,113,110,111,117,118,117,113,106,104,105,107,107,108,107,107,107,106,104,103,103,102,101,99,97,94,91,85,77,69,58,46,35,29,63,42,26,17]
+            }],1624,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"ああ、楽しかったけど……\\nチノだけじゃなく、ココアも顔に出すぎだったな。\\nどこにジョーカーがあるか、わかりやすすぎだ。",[{
+              "labels": [0,"vlstart",581,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 9698,
+              "type": 0,
+              "voice": "RZ408000",
+              "vols": [53,99,116,111,110,108,102,102,103,105,104,106,104,102,101,103,106,112,114,114,115,114,116,112,107,98,87,75,61,51,41,35,32,31,35,36,38,37,49,34,39,42,45,48,46,36,36,40,41,42,43,42,126,132,128,121,110,106,105,84,67,98,111,112,114,112,129,142,146,143,140,110,63,101,120,123,120,117,105,39,24,21,21,104,124,125,123,101,88,111,115,123,126,117,105,120,116,108,105,101,100,100,102,102,104,109,112,116,117,116,114,107,97,78,55,39,38,45,52,58,64,69,71,76,77,77,77,76,74,73,73,71,68,66,63,61,59,57,55,52,49,47,44,42,39,37,35,34,34,34,34,34,34,34,36,59,44,37,40,42,107,141,152,153,151,145,135,119,111,109,110,109,106,87,90,112,120,114,109,108,110,92,53,94,106,107,102,97,95,94,65,37,36,99,118,120,124,122,117,118,131,132,126,116,115,109,104,97,71,92,104,102,104,108,107,79,57,56,103,112,113,115,112,106,104,109,117,122,123,117,107,101,93,84,70,56,44,37,34,35,34,34,34,34,35,35,34,35,35,35,36,41,51,52,41,35,35,36,39,101,126,119,115,110,110,107,100,78,29,21,21,80,96,100,99,95,96,99,99,96,88,71,62,75,82,80,74,54,27,29,29,30,107,114,116,118,112,110,110,110,105,99,97,104,105,87,91,95,92,92,82,61,88,123,126,119,116,111,115,123,129,131,138,136,131,109,88,75,90,96,97,97,98,117,114,111,109,105,76,28,24,23,101,120,120,121,114,86,77,107,106,105,109,107,107,109,110,112,112,113,113,115,116,120,121,124,124,122,117,110,95,79,57,38,31,32,32,32,32,34,36,38,40,43,44,46,49,51,53,55,56,58,58,58,59,60,57,56,53,50,47,45,57,57,41,40,38,37,37,36,37,36,36,37,38,59,77,85,82,62,64,128,128,110,100,100,98,104,89,43,24,46,99,100,100,105,107,109,95,71,87,93,95,99,94,105,105,113,132,133,114,110,108,109,113,112,113,114,107,101,93,56,44,41,112,123,130,127,120,114,110,106,93,62,67,100,108,111,104,100,99,102,104,108,111,109,93,102,106,97,62,54,44,105,118,120,124,120,118,114,110,106,105,103,97,89,76,45,38,65,79,94,106,110,100,96,96,97,96,80,34,28,62,96,105,113,113,116,100,97,110,113,108,103,113,114,110,110,115,129,136,136,130,123,131,141,140,143,142,124,108,80,88,101,113,109,110,87,109,121,118,118,116,116,119,121,126,126,125,123,120,114,105,98,89,78,64,52,40,34,30]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"私も顔に出てたの！？\\nそ、そんなことないよ！？　出てないよ！",[{
+              "labels": [0,"vlstart",344,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 5738,
+              "type": 0,
+              "voice": "CC408001",
+              "vols": [37,49,45,63,77,87,94,99,100,103,101,103,108,116,124,120,117,104,96,43,27,14,111,114,110,111,111,121,124,116,119,127,122,101,87,81,93,92,112,111,110,114,110,97,56,22,22,24,132,127,125,123,122,120,116,110,109,108,107,112,112,88,81,96,105,110,113,108,71,49,119,127,124,117,114,90,36,64,121,116,114,96,31,20,81,130,127,127,120,107,100,83,81,83,100,97,90,90,91,95,97,98,103,104,102,101,97,88,62,35,68,86,93,93,94,92,88,83,77,71,64,56,46,38,32,29,27,26,27,28,25,26,26,40,90,109,123,124,107,105,92,67,35,65,82,91,94,92,88,78,60,42,30,27,26,31,38,48,55,63,62,71,86,94,100,105,109,112,114,117,121,121,106,97,91,86,81,77,79,84,88,89,85,85,85,85,86,116,118,123,123,108,106,88,68,28,22,104,103,99,99,105,97,35,23,73,117,108,103,100,91,74,69,65,66,96,95,98,98,103,103,105,108,111,114,115,111,111,113,110,105,97,91,89,90,88,86,85,86,88,92,98,103,107,106,102,97,79,42,66,80,85,88,86,83,79,73,67,59,52,0,0,0,0,0,0,0,0,0,0,5,91,116,113,114,117,122,123,123,124,121,110,77,59,36,39,109,115,117,115,108,103,93,78,57,58,59,85,103,113,112,110,116,109,114,118,119,119,110,102,101,102,109,111,106,103,99,90,87,84,82,84,87,91,98,101,109,113,115,113,114,112,109,106,103,98,89,82,73,58,43,36,33,26]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"いーや、出てた。\\nこの頬がぷくーっと膨れたりしてたな。",[{
+              "labels": [0,"vlstart",282,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4706,
+              "type": 0,
+              "voice": "RZ408001",
+              "vols": [49,55,70,86,101,106,101,103,103,103,103,102,99,98,95,92,92,93,93,98,100,97,100,96,95,96,96,99,108,114,123,118,118,123,116,115,123,120,74,52,106,113,108,109,115,104,39,98,124,122,122,121,114,59,49,118,122,123,117,111,107,102,101,107,114,119,123,120,117,114,109,101,88,72,51,38,32,39,34,39,44,46,49,51,54,55,56,56,57,59,59,58,58,56,56,55,52,48,45,41,40,38,37,36,43,35,35,36,38,38,48,40,40,41,42,64,121,127,125,124,117,104,106,113,118,117,98,123,117,115,112,111,110,111,111,112,114,112,111,108,101,98,92,89,91,92,83,71,85,106,106,100,91,55,37,35,35,35,35,69,125,110,107,102,97,98,96,87,73,47,29,30,49,103,99,97,99,101,100,100,100,99,98,99,107,115,115,115,106,55,29,56,50,27,28,29,34,75,127,123,117,112,112,121,125,127,129,126,121,91,66,57,45,95,103,111,108,99,119,117,113,107,85,57,97,121,118,116,112,97,99,105,104,104,114,124,126,115,89,85,120,109,111,110,88,56,105,114,106,103,96,65,67,100,103,101,102,106,109,109,112,114,115,118,118,120,124,124,125,126,128,123,112,99,89,77,65,57,50,41,38,30]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"おお！？\\nこれは……！",[{
+              "labels": [0,"vlstart",125,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 2088,
+              "type": 0,
+              "voice": "RZ408002",
+              "vols": [32,38,70,112,110,118,121,118,111,102,92,83,80,86,95,102,107,111,114,116,123,128,133,136,136,133,125,114,101,76,40,60,85,95,99,103,105,109,108,107,104,100,92,83,73,63,55,47,47,38,35,33,34,33,33,32,34,34,33,35,34,34,34,35,37,40,37,34,36,40,36,37,35,37,89,97,105,113,122,133,137,136,128,119,114,109,105,102,98,89,87,90,91,79,103,113,120,120,120,123,120,114,111,114,119,120,121,124,127,127,128,127,128,129,132,130,127,125,119,106,87,64,43,33,28]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007h"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"ん？　どうしたの？",[{
+              "labels": [0,"vlstart",110,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 1845,
+              "type": 0,
+              "voice": "CC408002",
+              "vols": [36,54,74,89,94,94,94,92,87,77,67,52,29,41,55,66,72,73,70,67,66,63,60,55,51,48,44,40,36,34,31,28,27,26,26,26,26,27,27,27,26,26,26,26,26,26,27,27,27,27,27,27,28,31,46,28,30,33,29,29,28,28,27,26,26,79,121,111,108,107,107,104,109,131,141,141,114,54,72,126,121,117,113,110,102,79,69,61,67,71,62,60,63,67,70,76,79,80,74,65,51,37,28,28,33,39,40,38,32,29,19]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"いや、思いの外ぷにぷにで……。",[{
+              "labels": [0,"vlstart",171,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 2851,
+              "type": 0,
+              "voice": "RZ408003",
+              "vols": [30,34,88,99,102,105,104,107,109,110,117,124,124,126,125,125,127,126,126,124,126,127,125,125,123,114,99,67,34,42,59,70,80,85,88,89,89,91,87,83,78,72,66,62,60,64,53,52,52,57,55,63,69,70,70,68,65,61,61,53,47,42,42,43,41,62,85,92,90,91,95,99,104,105,102,97,82,77,88,92,92,96,99,101,103,106,109,113,109,108,98,77,101,117,114,110,104,100,99,99,101,103,107,107,104,84,46,36,118,127,130,131,127,122,107,65,32,30,30,32,38,111,131,120,105,105,106,101,86,84,106,110,115,115,103,46,37,34,112,122,110,108,109,96,85,89,108,111,116,124,101,121,136,127,121,118,119,121,122,127,133,139,140,140,139,134,128,119,108,89,60]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007d"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"これ、なんだか楽しいな。",[{
+              "labels": [0,"vlstart",168,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 2804,
+              "type": 0,
+              "voice": "RZ408004",
+              "vols": [33,36,95,95,99,100,98,89,90,87,85,82,82,88,94,90,83,97,104,108,111,106,102,107,117,122,125,124,120,113,102,92,81,65,50,37,37,33,34,34,34,34,34,33,34,33,33,33,34,34,34,33,34,40,34,35,35,34,46,37,33,33,35,35,35,45,41,34,34,34,35,38,56,68,75,76,83,88,89,96,124,121,114,109,103,97,105,105,107,109,91,64,63,55,81,120,122,116,103,75,30,48,95,89,91,95,84,46,31,27,27,106,127,117,111,106,108,108,107,100,62,96,111,104,100,100,110,121,125,130,132,139,141,128,111,116,120,108,112,100,100,88,83,111,121,121,117,115,112,112,116,118,123,128,130,131,133,132,130,127,122,114,96,76,52,36,31,25]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"り、リゼちゃん！\\nそんなにしたら、くすぐったいよ～！",[{
+              "labels": [0,"vlstart",278,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 4640,
+              "type": 0,
+              "voice": "CC408003",
+              "vols": [21,40,116,113,109,101,87,49,53,78,92,97,97,98,95,93,87,78,69,56,42,26,25,26,26,26,26,25,25,26,25,95,114,107,110,110,109,113,116,114,116,117,115,113,110,118,110,106,85,93,109,118,129,127,118,118,119,115,114,112,111,111,110,107,100,44,55,30,52,89,113,129,115,114,114,116,122,120,117,115,114,114,112,110,107,104,99,96,87,79,68,55,35,26,39,65,88,94,98,97,96,94,91,90,89,87,86,82,77,73,66,55,43,29,50,83,80,79,100,122,124,108,108,102,101,101,101,101,101,102,97,81,70,71,71,85,108,100,103,106,110,108,103,93,76,73,73,91,95,92,93,93,94,97,100,103,102,124,131,133,135,132,117,54,25,47,113,111,113,113,112,110,104,94,100,106,106,107,103,98,98,97,90,69,48,34,30,26,34,107,109,106,107,119,123,113,114,113,114,116,121,115,101,97,98,104,104,105,105,94,77,82,87,108,110,108,105,106,104,104,101,98,91,79,61,29,22,24,23,23,49,111,121,117,116,113,113,111,110,110,111,113,117,117,115,115,112,110,109,106,102,104,110,115,113,108,102,101,101,103,103,103,102,101,100,100,100,99,99,98,95,91,84,79,72,63,51,35]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007t"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"あ、悪い。\\n手触りがよくて、つい。",[{
+              "labels": [0,"vlstart",244,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4067,
+              "type": 0,
+              "voice": "RZ408005",
+              "vols": [39,44,87,92,94,98,94,93,88,88,91,95,103,106,103,110,113,119,122,125,126,127,129,126,121,119,116,112,103,93,83,81,82,82,81,86,87,92,97,105,112,112,112,113,115,117,114,119,120,116,111,102,100,105,104,106,111,116,122,122,121,120,118,118,116,116,113,108,102,94,82,60,38,36,55,66,77,84,89,91,93,93,95,96,93,90,86,81,79,75,73,74,62,59,56,54,50,47,46,46,42,46,39,36,37,36,36,46,62,54,43,41,38,39,101,137,134,129,122,119,118,118,124,124,122,120,116,112,105,101,98,89,85,95,97,103,106,105,86,101,99,100,98,91,88,99,113,114,112,107,104,102,99,98,95,100,105,94,56,76,114,130,129,56,36,75,129,124,123,121,119,118,116,114,116,113,111,110,107,104,102,98,79,77,41,34,33,33,33,42,76,95,112,129,136,140,143,141,130,112,95,94,99,100,102,104,109,109,109,111,115,119,120,118,116,116,117,114,112,105,96,79,53,35,43,58,72,81,87,88,88,85,82,75,69,65,57,52,46,42,40,37,36,28]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"チノちゃんにもつんつんされてないのに！\\nリゼちゃんに先にされちゃうなんて……\\nひどいっ！",[{
+              "labels": [0,"vlstart",390,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 6506,
+              "type": 0,
+              "voice": "CC408004",
+              "vols": [22,67,98,117,128,130,124,112,104,104,101,104,105,98,82,90,118,123,120,120,120,114,119,113,118,91,60,48,82,109,137,132,129,123,122,122,118,111,108,101,86,75,73,87,101,115,115,106,96,83,77,97,111,115,116,119,112,75,45,20,29,85,123,130,118,116,121,118,120,113,102,94,83,80,66,39,96,122,128,121,122,120,119,107,98,98,98,107,126,127,125,134,127,120,122,121,118,103,113,118,118,116,115,98,67,36,109,127,132,123,114,116,109,80,73,106,132,128,125,119,108,109,112,115,113,112,106,106,82,75,78,117,119,107,106,104,108,94,69,73,99,112,113,110,104,105,104,105,106,106,96,70,40,23,22,25,24,29,31,65,68,93,104,110,112,111,109,108,104,101,97,91,84,74,69,56,45,40,33,27,28,26,26,25,25,27,28,26,26,26,106,118,117,120,123,123,123,128,136,136,135,133,127,128,126,123,129,124,95,98,129,140,130,129,128,121,115,107,92,61,57,63,71,73,75,85,91,112,119,126,128,117,114,112,109,102,79,42,43,87,103,106,106,102,102,87,77,76,87,93,99,107,110,114,119,128,137,129,121,116,122,119,110,104,110,112,113,110,107,106,80,79,100,128,125,124,125,115,110,104,108,109,114,115,118,87,72,77,106,123,124,117,113,111,113,105,95,78,70,57,31,18,106,123,124,127,127,124,122,120,116,111,102,90,71,46,26,36,59,80,99,108,113,113,114,112,111,109,104,100,95,90,83,74,61,47,42,34,26,33,24,41,71,90,101,113,120,122,121,127,129,126,125,118,84,64,134,139,135,125,123,123,122,120,126,121,120,124,123,116,116,111,115,117,121,127,124,115,110,96,76,55,45,35,24,19,20,20,21,14]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007j"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"お、おい！\\n変な言い方をするな、はずかしい！",[{
+              "labels": [0,"vlstart",271,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4526,
+              "type": 0,
+              "voice": "RZ408006",
+              "vols": [34,80,90,90,83,71,34,29,30,28,28,30,39,85,78,84,84,86,86,90,95,93,91,95,97,96,99,106,111,112,110,112,118,119,118,121,122,119,115,120,116,123,126,125,127,128,130,130,129,128,125,119,112,94,63,37,64,83,89,93,96,94,90,84,72,56,46,37,33,40,58,78,111,131,138,136,127,126,119,106,105,115,124,128,118,90,84,96,99,107,143,144,127,120,116,104,95,96,96,99,110,110,116,121,119,111,102,80,86,131,127,129,127,122,86,51,120,122,117,113,111,110,114,120,130,135,134,134,137,138,128,116,112,85,93,104,115,122,117,93,101,131,132,124,121,119,120,116,118,120,123,126,127,125,122,119,112,97,73,29,51,78,88,94,99,102,105,107,109,109,106,102,96,78,47,31,31,31,31,31,32,33,33,32,34,33,92,106,105,105,103,102,116,117,117,112,113,115,118,117,116,118,120,123,129,127,127,125,123,130,131,137,142,141,136,121,63,27,85,135,133,137,132,126,131,134,131,130,141,141,134,128,127,128,128,130,131,132,133,130,128,121,112,97,68,36,47,69,85,93,96,97,98,97,96,93,91,87,84,79,72,64,58,54,46,44,42,41,42,41,38]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007l"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"じゃあ、リゼちゃんもつんつんさせて！",[{
+              "labels": [0,"vlstart",140,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 2346,
+              "type": 0,
+              "voice": "CC408005",
+              "vols": [23,83,117,129,115,108,109,111,107,106,105,103,103,107,104,104,104,102,99,98,96,98,103,105,106,108,109,109,109,106,103,102,99,96,94,89,84,77,51,62,42,71,111,109,112,112,114,122,101,104,132,130,128,120,116,118,77,31,82,126,127,109,108,109,107,102,89,73,64,61,58,60,73,87,92,88,74,37,27,63,112,136,137,122,125,115,119,112,93,78,73,76,56,90,114,126,126,114,103,102,100,99,96,90,84,96,105,111,116,131,120,102,110,123,126,123,124,130,120,120,116,116,107,84,30,27,25,105,110,117,121,115,108,102,95,90,80,68,48,31,16]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007c"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"どうしてそうなる！？",[{
+              "labels": [0,"vlstart",103,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 1718,
+              "type": 0,
+              "voice": "RZ408007",
+              "vols": [40,86,154,140,129,120,120,117,109,95,98,108,117,120,116,116,119,120,121,118,121,117,132,144,132,122,87,53,62,127,129,129,125,124,127,130,129,131,133,135,141,140,126,116,105,96,88,85,96,109,112,84,84,124,120,117,121,119,125,122,130,134,130,125,124,129,130,132,131,128,126,118,108,95,73,41,23,25,34,52,67,81,90,95,99,101,102,100,99,96,90,84,74,63,53,46,41,39,37,38,37,37,31]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"だって、リゼちゃんばっかずるいよ。\\nそれでおあいこだよ。",[{
+              "labels": [0,"vlstart",303,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 5058,
+              "type": 0,
+              "voice": "CC408006",
+              "vols": [108,112,105,100,97,97,98,98,104,105,105,107,105,98,75,31,18,17,17,17,19,19,20,20,22,22,23,23,23,23,24,89,117,114,119,118,119,117,117,114,113,110,107,103,98,92,76,49,35,63,85,94,98,96,94,92,89,86,81,77,71,65,57,50,46,44,30,26,28,26,27,27,29,30,28,29,29,30,30,89,100,99,104,107,108,109,114,106,105,111,113,120,124,115,111,109,108,105,110,91,30,64,101,132,129,117,112,107,104,102,95,83,66,63,59,60,61,92,97,99,101,101,108,90,32,27,28,29,26,70,102,96,97,96,91,81,28,72,103,120,126,126,123,106,94,91,87,86,79,105,94,92,96,101,105,104,105,103,103,102,101,103,102,99,97,93,90,90,88,84,83,82,82,81,80,81,84,88,90,93,94,93,91,87,79,67,49,29,35,57,65,74,77,75,75,73,68,64,59,53,48,45,41,37,34,32,30,28,27,27,26,26,27,27,27,27,26,28,31,66,79,90,97,109,128,126,112,111,108,103,104,97,94,106,116,123,127,121,116,61,89,113,111,111,107,108,102,91,85,80,78,74,73,70,72,73,78,86,88,90,94,103,102,96,97,101,105,111,115,97,54,26,25,52,96,101,94,95,92,49,97,106,101,104,103,104,102,100,98,99,103,108,108,111,116,110,102,97,89,85,80,73,60]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007g"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"わ、わかった！\\nまあ、つんつんするぐらいなら構わないぞ。",[{
+              "labels": [0,"vlstart",319,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 5331,
+              "type": 0,
+              "voice": "RZ408008",
+              "vols": [31,57,95,100,94,81,39,49,35,30,31,35,32,31,30,31,31,36,32,32,33,33,32,32,33,34,55,68,70,69,70,73,77,80,77,78,85,93,97,104,108,108,109,112,108,104,57,25,64,115,124,121,114,106,59,34,22,28,87,125,120,117,114,110,112,115,116,114,111,106,95,77,48,37,38,48,55,62,64,65,65,65,64,61,58,52,49,46,44,40,40,37,35,35,35,34,34,35,37,37,33,33,33,34,33,33,33,33,33,33,37,35,36,36,36,42,49,39,57,66,71,78,74,71,71,70,72,75,77,99,103,101,97,92,95,99,99,100,99,98,99,98,98,96,98,98,94,97,98,93,90,83,75,70,63,55,50,30,34,35,30,31,31,32,32,31,32,33,83,121,136,138,140,142,140,131,116,112,111,109,100,90,85,83,65,102,121,138,139,133,120,108,103,102,105,114,124,131,132,130,130,134,136,131,123,108,104,99,97,98,98,101,100,75,44,67,95,104,104,104,97,89,101,109,105,107,108,107,106,102,90,72,57,79,102,106,103,106,107,94,101,107,105,97,98,100,102,103,106,107,107,105,97,74,30,24,23,23,25,25,26,26,28,28,29,38,29,68,124,127,125,129,127,120,105,84,61,60,88,99,97,95,88,85,90,93,96,103,89,60,83,97,93,91,90,86,81,82,104,107,115,116,99,76,71,70,82,91,98,107,115,121,123,122,115,103,83,56,35,17]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007f"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"じゃあ、失礼しまーす。",[{
+              "labels": [0,"vlstart",121,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 2026,
+              "type": 0,
+              "voice": "CC408007",
+              "vols": [58,95,122,125,119,115,114,113,108,105,108,110,106,99,99,101,100,103,104,104,104,107,111,113,112,108,102,96,97,109,122,130,129,114,70,28,39,89,129,135,125,113,116,97,120,119,113,111,109,107,112,113,110,107,120,124,119,123,131,129,122,102,87,81,81,79,85,93,109,112,111,108,104,102,98,97,96,96,95,97,97,96,96,97,96,98,103,106,108,108,113,109,119,124,122,119,108,108,111,111,114,110,109,108,108,107,106,103,101,97,93,87,81,76,74,65,50,50,51,50,50,35]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"うっ！\\n結構、くすぐったいな。",[{
+              "labels": [0,"vlstart",255,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4250,
+              "type": 0,
+              "voice": "RZ408009",
+              "vols": [39,65,102,100,97,96,92,94,97,99,104,114,116,122,125,124,122,121,123,124,127,123,122,121,124,125,127,126,119,111,93,59,38,49,69,85,101,110,114,116,115,115,112,111,108,106,102,97,90,81,72,59,50,44,41,43,42,40,38,36,36,35,35,36,37,34,34,35,34,34,35,35,37,40,46,49,46,39,38,39,39,39,38,39,41,44,45,45,46,79,116,114,124,131,135,135,128,125,126,127,129,128,123,92,36,31,31,37,32,36,31,33,33,34,33,38,109,106,101,97,93,91,89,87,86,89,91,90,92,89,89,88,85,82,77,71,57,37,36,35,33,32,34,31,32,33,33,33,34,34,103,112,117,124,131,132,125,122,123,127,144,146,138,137,141,144,145,137,126,119,116,103,102,111,113,114,113,118,117,74,28,34,25,24,25,25,26,79,124,124,120,116,117,117,116,116,113,105,92,76,80,93,103,103,102,101,99,97,96,99,108,115,117,115,110,102,86,61,39,33,40,53,69,82,90,96,97,98,97,95,96,93,90,87,85,82,78,76,74,71,66,62,60,59,57,52,48,45,44,43,43,43,43,44,36]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007s"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"これは……！\\nうん、リゼちゃんの気持ちがわかった。\\nなんだか楽しいね、これ。",[{
+              "labels": [0,"vlstart",415,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 6922,
+              "type": 0,
+              "voice": "CC408008",
+              "vols": [22,25,104,132,130,127,124,123,123,125,125,123,122,121,125,128,132,128,121,120,125,128,129,130,133,133,127,118,114,116,115,117,123,128,130,131,130,127,126,126,122,119,114,107,98,86,72,52,30,25,34,51,69,87,98,103,106,107,106,106,104,103,100,96,96,92,88,85,81,76,67,58,46,37,31,29,27,27,26,27,25,27,26,25,26,25,27,26,26,26,28,27,28,27,25,27,27,27,28,27,33,62,101,123,132,136,135,129,127,121,108,89,70,51,37,30,26,25,43,27,25,25,26,27,28,33,40,53,62,79,74,74,69,61,55,50,45,43,41,37,46,42,28,27,28,39,27,26,27,28,32,32,27,27,27,26,36,30,26,26,27,26,35,29,26,83,126,118,117,116,118,121,126,123,137,139,130,121,118,120,131,111,75,114,138,130,122,121,117,114,103,73,67,64,79,98,104,109,112,60,34,28,126,134,135,130,121,110,91,82,81,80,91,96,107,115,117,87,37,86,118,138,140,122,107,103,103,109,113,116,112,103,97,90,88,94,99,108,112,106,97,73,24,22,120,126,112,116,118,117,109,74,28,21,20,20,25,22,29,121,122,119,110,100,86,60,38,31,30,27,26,27,27,28,31,30,27,26,25,27,38,61,77,92,100,104,104,104,101,96,92,86,78,71,64,57,52,47,42,37,35,30,35,49,50,50,66,96,125,127,122,119,119,120,118,110,89,80,89,125,130,131,125,116,67,77,131,126,133,134,125,89,30,23,105,131,128,124,120,118,102,85,84,104,102,108,115,119,125,137,140,137,136,133,128,119,105,101,101,102,102,102,100,87,79,75,83,111,117,122,125,125,123,123,123,118,110,110,68,47,41,22,22,110,110,105,106,113,117,117,101,105,114,114,114,118,121,124,123,125,122,124,124,126,125,118,112,102,91,76,59,44,32,27,19]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007s"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"だろ？\\nまあ、私の頬は、ココアほど\\nぷにぷにしてないと思うけどさ。",[{
+              "labels": [0,"vlstart",358,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 5971,
+              "type": 0,
+              "voice": "RZ408010",
+              "vols": [33,41,49,62,69,68,67,69,62,48,94,113,116,117,113,111,110,109,106,107,108,106,101,102,91,80,87,87,86,87,88,89,93,99,101,103,105,109,115,117,118,120,122,122,120,116,105,90,75,58,44,38,42,48,43,47,48,50,50,51,52,50,49,48,46,46,46,45,44,43,43,41,40,38,38,39,37,37,36,39,40,35,35,34,35,34,34,34,34,34,35,35,36,40,56,70,73,74,78,79,88,112,114,115,114,112,112,112,106,102,99,98,98,98,100,100,100,99,102,101,100,101,98,99,97,99,90,79,76,78,86,95,100,106,107,107,108,104,63,34,32,98,115,113,114,119,133,139,136,132,129,113,84,74,79,102,105,104,109,114,111,110,110,111,112,109,108,109,105,103,102,100,96,96,95,94,99,102,100,100,99,99,100,101,102,100,97,96,95,93,95,92,94,92,91,91,90,87,80,53,32,31,32,32,32,33,33,33,86,129,110,112,112,109,104,96,74,30,27,52,111,118,109,105,110,109,111,102,99,101,101,100,95,94,99,104,107,82,85,107,111,108,102,88,41,36,43,39,111,123,116,109,104,89,92,108,109,113,90,83,113,111,103,107,102,79,87,92,93,93,101,110,115,123,133,124,93,83,110,126,118,117,116,109,86,96,111,109,108,109,111,113,107,102,44,26,115,122,111,111,109,108,103,93,73,72,85,89,89,91,93,95,91,68,68,32,121,112,113,115,104,70,109,110,102,98,107,118,117,120,124,104,103,106,110,112,113,115,117,115,112,113,116,116,118,118,119,118,115,111,101,89,69,46,33,32,32,25]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"そんなことないよ。\\nいやぁ、リゼちゃんも\\nなかなかのものをお持ちですな～。",[{
+              "labels": [0,"vlstart",382,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 6368,
+              "type": 0,
+              "voice": "CC408009",
+              "vols": [33,52,67,83,110,130,134,126,115,125,141,136,127,128,126,121,121,119,118,117,115,113,114,111,106,103,94,88,80,95,126,121,124,116,110,106,99,45,21,79,109,112,118,119,116,67,22,40,120,124,122,118,115,105,84,80,83,109,112,110,108,111,117,122,122,123,123,124,122,122,119,116,111,108,109,113,120,121,115,112,112,112,112,113,115,114,111,107,101,91,67,37,45,70,86,92,95,97,94,96,94,91,87,83,81,78,74,70,64,58,53,49,44,41,35,31,29,28,27,27,27,27,27,33,60,88,99,108,118,122,121,122,120,119,117,113,112,110,107,104,101,100,97,95,95,94,91,88,86,82,77,74,66,52,36,29,46,70,88,93,91,87,83,79,73,67,61,52,48,42,39,34,33,35,29,27,27,29,29,32,34,37,35,36,102,124,108,107,108,109,113,120,119,117,126,119,106,103,104,112,66,26,70,120,129,114,115,111,102,96,80,65,63,61,59,61,86,88,95,93,66,63,64,88,107,107,107,103,102,82,31,28,128,128,121,122,124,121,110,85,77,74,95,109,107,102,96,88,50,54,88,112,101,105,105,94,69,65,65,92,97,94,92,86,73,65,65,67,65,76,88,90,93,94,94,90,69,65,66,77,102,94,93,89,89,91,92,92,94,91,89,88,89,89,89,87,83,74,65,62,62,85,88,89,95,95,98,91,35,59,83,123,125,115,104,97,94,51,31,106,110,109,105,104,110,110,118,116,115,116,117,110,108,109,104,76,71,67,66,67,105,108,106,102,99,101,100,96,92,91,90,90,88,89,90,90,89,89,88,86,86,85,84,83,81,79,75,72,68,65,65,62,51,41,34,31,28,26,27,25,26,15]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007p"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"なんだ、その言い方。",[{
+              "labels": [0,"vlstart",107,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 1798,
+              "type": 0,
+              "voice": "RZ408011",
+              "vols": [33,51,80,88,85,86,87,86,80,81,79,100,108,115,116,113,109,108,103,100,88,82,79,81,84,89,90,78,68,69,64,66,68,60,49,52,114,129,124,123,122,117,117,132,131,126,130,130,109,110,108,106,106,93,65,110,108,102,104,106,109,108,108,105,110,109,109,111,110,111,110,106,88,48,107,127,122,122,121,120,89,115,118,121,118,118,117,118,120,122,123,124,125,127,126,124,121,117,114,107,98,88,74,57,42,34,32,21]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007t"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"このままだと\\n朝までぷにぷにしちゃいそうだよ。",[{
+              "labels": [0,"vlstart",227,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 3797,
+              "type": 0,
+              "voice": "CC408010",
+              "vols": [22,77,120,114,114,113,117,120,120,119,115,102,80,77,78,81,105,106,101,99,97,88,76,70,67,67,70,86,94,96,97,94,86,70,68,70,81,98,104,103,101,102,93,77,74,113,116,116,114,111,108,90,32,23,22,64,109,105,101,101,100,97,98,97,99,99,103,106,110,114,111,120,127,121,114,120,122,117,104,96,98,98,90,73,62,61,66,81,96,103,106,111,110,90,93,108,110,112,112,114,109,81,68,27,25,102,114,104,107,110,110,95,76,83,92,98,103,105,97,73,52,61,62,66,86,90,96,109,113,105,76,76,76,84,95,95,97,98,98,108,118,124,124,113,89,41,26,78,109,123,111,110,108,110,113,114,115,114,111,107,106,102,110,121,123,122,126,120,112,107,100,92,85,85,89,96,105,105,67,69,108,111,107,106,106,105,104,102,101,103,102,104,107,109,106,96,81,76,79,88,95,98,97,100,97,93,90,88,85,81,78,75,70,68,63,57,52,47,44,36,34,30,25,26,26,26,25,15]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007t"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"朝までか！？\\nさすがにそれは、頬がすり切れてしまうだろ。",[{
+              "labels": [0,"vlstart",288,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4812,
+              "type": 0,
+              "voice": "RZ408012",
+              "vols": [37,48,92,115,126,126,121,115,106,104,98,99,109,125,130,127,128,134,137,128,116,108,104,95,88,116,126,132,131,126,82,107,124,125,120,103,47,37,43,138,131,131,125,119,111,105,103,106,112,116,123,127,120,120,118,113,106,87,43,27,52,66,77,83,86,88,92,95,98,98,96,93,87,79,69,59,51,42,36,34,31,29,34,37,37,32,33,33,32,34,33,33,33,33,33,34,33,34,34,34,34,80,101,97,103,121,132,138,142,144,145,148,135,133,130,127,136,140,136,137,139,139,132,124,120,92,131,130,125,120,119,113,92,80,94,98,99,109,122,129,130,130,132,129,123,118,117,102,112,111,114,114,110,106,104,106,110,113,110,108,105,105,102,101,99,96,96,96,96,98,94,97,100,102,107,89,59,22,17,17,18,18,21,22,65,87,96,97,100,103,104,103,101,103,105,109,110,111,112,108,109,111,109,100,85,84,109,112,114,118,121,132,130,131,135,137,138,139,137,140,129,122,124,122,131,129,124,117,103,56,27,100,133,132,124,123,126,125,126,127,122,84,34,121,129,125,134,144,140,140,141,138,139,138,120,85,78,90,118,117,120,120,109,110,109,98,68,114,124,124,122,122,108,111,110,102,100,101,102,103,108,113,113,112,108,96,70,40,17]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007r"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"じゃあ……我慢して、つんつん中止！",[{
+              "labels": [0,"vlstart",207,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 3455,
+              "type": 0,
+              "voice": "CC408011",
+              "vols": [23,30,64,115,134,145,141,136,139,137,133,129,127,126,123,118,114,112,109,102,95,88,77,65,51,37,26,44,69,86,96,100,104,103,101,100,98,94,90,84,78,71,62,54,47,42,34,28,26,32,28,28,27,28,28,31,34,27,27,25,57,47,26,86,140,133,136,133,129,128,121,112,103,66,67,77,87,109,117,114,105,114,116,110,109,107,123,133,138,143,141,127,95,41,41,123,126,123,121,116,112,85,38,26,23,45,22,22,98,135,142,125,119,110,105,102,100,99,91,85,85,75,40,21,18,65,122,129,114,111,111,111,113,109,107,99,85,77,80,64,39,34,23,23,77,104,134,144,138,115,109,99,95,97,94,94,108,106,106,109,126,134,133,132,135,133,128,114,104,103,106,109,116,121,125,129,129,130,127,125,122,119,113,103,89,64,39,49,74,92,99,102,103,104,102,99,98,96,92,87,81,73,64,51,41,44,31]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007l"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["ココア",null,"リゼちゃんのほっぺたを守るために、もう寝るね。\\nおやすみなさい、リゼちゃん。",[{
+              "labels": [0,"vlstart",322,"vlstop"],
+              "name": "ココア",
+              "pan": 0,
+              "time": 5375,
+              "type": 0,
+              "voice": "CC408012",
+              "vols": [38,29,121,129,120,113,112,112,124,132,129,122,131,127,124,119,116,118,65,65,117,134,127,125,118,107,103,97,72,69,68,65,94,98,95,92,93,93,94,92,90,94,98,97,94,75,32,29,27,26,50,119,115,115,108,68,23,34,115,114,112,110,103,99,95,89,81,58,59,59,83,94,95,97,97,84,70,77,105,104,107,111,89,107,110,111,105,86,30,19,25,105,107,108,106,89,68,71,104,113,115,115,110,99,91,92,98,111,114,114,111,104,92,62,36,60,83,89,94,94,92,87,81,72,64,53,46,42,38,35,48,27,27,26,26,28,32,44,66,86,108,115,115,109,103,99,98,98,96,94,96,93,86,74,51,51,52,80,92,95,94,104,97,88,91,102,107,106,93,62,62,81,110,115,117,123,125,120,119,115,110,108,102,89,74,56,42,36,30,34,51,68,74,75,73,65,57,51,43,38,36,35,34,33,31,30,30,29,30,28,27,26,25,27,27,26,27,27,26,27,25,26,28,28,37,60,88,113,123,128,127,125,122,122,120,119,117,115,128,132,129,133,135,122,106,86,74,76,91,99,104,96,78,78,111,113,106,105,106,103,119,124,117,125,114,113,111,113,114,115,118,121,122,123,120,119,116,109,86,97,111,106,106,110,114,125,134,128,121,118,115,112,115,97,43,79,119,130,121,117,117,115,107,105,105,104,97,85,82,76,70,67,60,48,40,34,33,32,31,25,0,0]
+            }],1608,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"おやすみ、ココア。\\n私の頬を守ってくれてありがとな。",[{
+              "labels": [0,"vlstart",312,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 5211,
+              "type": 0,
+              "voice": "RZ408013",
+              "vols": [53,65,84,100,95,93,94,101,107,110,108,107,106,108,112,118,119,114,127,131,130,132,135,138,128,114,113,97,83,88,110,115,116,118,119,121,122,120,119,114,107,97,97,78,22,0,0,0,0,10,68,96,106,109,114,106,88,48,29,29,88,90,79,83,84,84,82,88,95,102,110,115,118,119,121,122,126,130,129,123,116,107,98,82,64,47,35,32,34,32,32,33,34,35,35,34,35,34,35,35,33,34,34,34,34,34,34,34,34,36,34,34,34,43,51,37,38,49,48,46,36,36,38,41,42,43,42,40,39,41,42,43,46,47,54,60,75,84,88,98,105,104,105,94,48,44,44,99,102,102,105,127,137,133,128,125,121,105,59,71,98,101,102,109,111,107,103,101,100,100,99,100,101,102,98,95,95,93,92,91,92,90,90,79,59,62,66,87,99,101,93,73,58,61,78,85,96,103,104,76,35,30,30,30,91,114,114,111,94,39,33,83,116,109,112,116,110,108,110,109,98,39,34,109,122,118,117,114,114,115,118,121,123,122,113,102,90,71,47,31,33,33,34,36,37,36,35,34,35,33,33,34,33,34,33,33,32,33,35,34,33,33,34,34,34,34,49,51,34,34,112,112,114,115,103,81,97,101,102,96,93,89,104,112,117,119,102,43,39,114,106,96,91,92,68,87,105,107,110,110,113,117,123,125,126,123,116,104,84,57,37,30,13]
+            }],72,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_20",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ev007a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01db"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "PAJAMAS_RIZE_02"
+    }]
+}

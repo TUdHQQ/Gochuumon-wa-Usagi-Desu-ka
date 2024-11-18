@@ -1,0 +1,3527 @@
+{
+  "hash": "f8740ba9fab13bdf4658914a97cda13c",
+  "name": "kigae.ks",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],["envupdate","update",[["new","チノ","character"],{
+              "action": [null,null,["ypos",0],["zpos",47.058823529411768],["order",0],["$lip","$lipチノ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.32453382976775413
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_4656c9313a0576a00ed9229ad53bf751",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          }],"cg_tino.stand",[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.32453382976775413
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_4656c9313a0576a00ed9229ad53bf751",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,3],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.38007751701406906
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_578cb75a0845e974fe0492c22475b5ae",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.38007751701406906
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_578cb75a0845e974fe0492c22475b5ae",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,4],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.000640888698995941
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[5,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.000640888698995941
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,5],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.26902066103091526
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_02067ccfd161d07b58077b82a508622b",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.26902066103091526
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_02067ccfd161d07b58077b82a508622b",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,6],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.09851374858851894
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_857176dd882c6897d5adef1e0d6b1afc",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[7,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.09851374858851894
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_857176dd882c6897d5adef1e0d6b1afc",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,7],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.13150425733207191
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.13150425733207191
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,8],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.69231238746299628
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_644be79f16b476579646b7e74ee22dea",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[9,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.69231238746299628
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_644be79f16b476579646b7e74ee22dea",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,9],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.858424634540849
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_6d7489ac39acddd2d602f962f1502358",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[10,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.858424634540849
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_6d7489ac39acddd2d602f962f1502358",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,10],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.83175145725882749
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_9ed69123dc75fe09c03d93bba432bd51",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[11,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.83175145725882749
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_9ed69123dc75fe09c03d93bba432bd51",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,11],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.945463423566393
+                    }]],["$lip","$lipチノ"]],
+              "class": "character",
+              "link": null,
+              "name": "チノ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tino_eb2052897721e0c6f844b27424abf2b0",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "チノ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[12,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["チノ","character",{
+                  "action": [["$lip","$lipチノ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.945463423566393
+                        }]]],
+                  "class": "character",
+                  "name": "チノ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tino_eb2052897721e0c6f844b27424abf2b0",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,12],["envupdate","update",[{
+              "hideact": [["left",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@",
+                      "time": 300,
+                      "value": "@-10"
+                    }]],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "time": 300,
+                      "value": 0
+                    }]]],
+              "name": "チノ",
+              "showmode": 2,
+              "trans": {
+                "time": 300
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "チノ"
+              }]
+          }],["envupdate","update",[["del","チノ"]]],[13,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,13],["envupdate","update",[["new","千夜","character"],{
+              "action": [null,null,["ypos",0],["zpos",47.058823529411768],["order",0],["$lip","$lip千夜"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.65703299050874353
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_4656c9313a0576a00ed9229ad53bf751",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          }],"cg_tiya.stand",[14,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.65703299050874353
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_4656c9313a0576a00ed9229ad53bf751",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,15],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.40296639912106691
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_578cb75a0845e974fe0492c22475b5ae",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[15,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.40296639912106691
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_578cb75a0845e974fe0492c22475b5ae",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,16],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.9073152867213965
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[16,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.9073152867213965
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.51490829187902465
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_02067ccfd161d07b58077b82a508622b",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[17,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51490829187902465
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_02067ccfd161d07b58077b82a508622b",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,18],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.78881191442609944
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_857176dd882c6897d5adef1e0d6b1afc",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[18,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.78881191442609944
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_857176dd882c6897d5adef1e0d6b1afc",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,19],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.80135502182073426
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[19,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.80135502182073426
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,20],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.38767662587359231
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_644be79f16b476579646b7e74ee22dea",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[20,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.38767662587359231
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_644be79f16b476579646b7e74ee22dea",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,21],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.87749870296334731
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_6d7489ac39acddd2d602f962f1502358",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[21,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.87749870296334731
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_6d7489ac39acddd2d602f962f1502358",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,22],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.79985961485641044
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_9ed69123dc75fe09c03d93bba432bd51",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[22,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.79985961485641044
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_9ed69123dc75fe09c03d93bba432bd51",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,23],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.94283883175145722
+                    }]],["$lip","$lip千夜"]],
+              "class": "character",
+              "link": null,
+              "name": "千夜",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "tiya_eb2052897721e0c6f844b27424abf2b0",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "千夜"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[23,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["千夜","character",{
+                  "action": [["$lip","$lip千夜"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94283883175145722
+                        }]]],
+                  "class": "character",
+                  "name": "千夜",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "tiya_eb2052897721e0c6f844b27424abf2b0",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,24],["envupdate","update",[{
+              "hideact": [["left",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@",
+                      "time": 300,
+                      "value": "@-10"
+                    }]],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "time": 300,
+                      "value": 0
+                    }]]],
+              "name": "千夜",
+              "showmode": 2,
+              "trans": {
+                "time": 300
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "千夜"
+              }]
+          }],["envupdate","update",[["del","千夜"]]],[24,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,25],["envupdate","update",[["new","リゼ","character"],{
+              "action": [null,null,["ypos",0],["zpos",47.058823529411768],["order",0],["$lip","$lipリゼ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.0271919919431135
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_4656c9313a0576a00ed9229ad53bf751",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          }],"cg_rize.stand",[25,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.0271919919431135
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_4656c9313a0576a00ed9229ad53bf751",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,27],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.0030518509475997192
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_578cb75a0845e974fe0492c22475b5ae",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[26,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.0030518509475997192
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_578cb75a0845e974fe0492c22475b5ae",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,28],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.58143864253669852
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[27,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.58143864253669852
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,29],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.24970244453260904
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_02067ccfd161d07b58077b82a508622b",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[28,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.24970244453260904
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_02067ccfd161d07b58077b82a508622b",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,30],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.77065340128788107
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_857176dd882c6897d5adef1e0d6b1afc",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[29,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.77065340128788107
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_857176dd882c6897d5adef1e0d6b1afc",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,31],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.923215430158391
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[30,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.923215430158391
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,32],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.94201483199560532
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_644be79f16b476579646b7e74ee22dea",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[31,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.94201483199560532
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_644be79f16b476579646b7e74ee22dea",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,33],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.08829004791405988
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_6d7489ac39acddd2d602f962f1502358",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[32,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.08829004791405988
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_6d7489ac39acddd2d602f962f1502358",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,34],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.64439832758568072
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_9ed69123dc75fe09c03d93bba432bd51",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[33,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.64439832758568072
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_9ed69123dc75fe09c03d93bba432bd51",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,35],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.68218024231696528
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_eb2052897721e0c6f844b27424abf2b0",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[34,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.68218024231696528
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_eb2052897721e0c6f844b27424abf2b0",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,36],["envupdate","update",[{
+              "hideact": [["left",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@",
+                      "time": 300,
+                      "value": "@-10"
+                    }]],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "time": 300,
+                      "value": 0
+                    }]]],
+              "name": "リゼ",
+              "showmode": 2,
+              "trans": {
+                "time": 300
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "リゼ"
+              }]
+          }],["envupdate","update",[["del","リゼ"]]],[35,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,37],["envupdate","update",[["new","シャロ","character"],{
+              "action": [null,null,["ypos",0],["zpos",47.058823529411768],["order",0],["$lip","$lipシャロ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.87810907315286724
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_4656c9313a0576a00ed9229ad53bf751",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          }],"cg_syaro.stand",[36,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.87810907315286724
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_4656c9313a0576a00ed9229ad53bf751",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,39],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.58076723532822661
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_578cb75a0845e974fe0492c22475b5ae",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[37,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.58076723532822661
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_578cb75a0845e974fe0492c22475b5ae",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,40],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.44660786767174293
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[38,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.44660786767174293
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_3d78d62fc84cb0e603ee8f4c9e205ec1",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,41],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.89181188390758992
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_02067ccfd161d07b58077b82a508622b",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[39,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.89181188390758992
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_02067ccfd161d07b58077b82a508622b",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,42],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.034974211859492781
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_857176dd882c6897d5adef1e0d6b1afc",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[40,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.034974211859492781
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_857176dd882c6897d5adef1e0d6b1afc",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,43],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.84829248939481794
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[41,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.84829248939481794
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_d9483d0fefa3ad87b3cc2b5d19e11fff",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,44],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.14230780968657492
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_644be79f16b476579646b7e74ee22dea",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[42,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.14230780968657492
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_644be79f16b476579646b7e74ee22dea",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,45],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.17117831965086824
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_6d7489ac39acddd2d602f962f1502358",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[43,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.17117831965086824
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_6d7489ac39acddd2d602f962f1502358",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,46],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.51304666280098876
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9ed69123dc75fe09c03d93bba432bd51",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[44,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51304666280098876
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9ed69123dc75fe09c03d93bba432bd51",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,47],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.217261268959624
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_eb2052897721e0c6f844b27424abf2b0",
+                  "options": {
+                    "face": "目通常:口通常",
+                    "resolution": 68.0
+                  }
+                },
+                "posName": "ウエスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[45,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",47.058823529411768],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.217261268959624
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_eb2052897721e0c6f844b27424abf2b0",
+                      "options": {
+                        "face": "目通常:口通常",
+                        "resolution": 68.0
+                      }
+                    },
+                    "posName": "ウエスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,48],["envupdate","update",[{
+              "hideact": [["left",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@",
+                      "time": 300,
+                      "value": "@-10"
+                    }]],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "time": 300,
+                      "value": 0
+                    }]]],
+              "name": "シャロ",
+              "showmode": 2,
+              "trans": {
+                "time": 300
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "シャロ"
+              }]
+          }],["envupdate","update",[["del","シャロ"]]],[46,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,49]],
+      "spCount": 46,
+      "title": ""
+    }]
+}

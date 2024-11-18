@@ -1,0 +1,30 @@
+{
+  "PsbVersion": 3,
+  "PsbType": "ArchiveInfo",
+  "Platform": "none",
+  "CryptKey": null,
+  "ExternalTextures": false,
+  "Context": {
+    "MdfKeyLength": 131,
+    "FileName": "scenario_info.psb.m",
+    "MdfKey": "38757621acf82scenario_info.psb.m",
+    "PsbZlibFastCompress": false,
+    "PsbShellType": "MDF",
+    "ArchiveSource": [
+      "scenario"
+    ],
+    "MdfMtKey": "38757621acf82",
+    "ArchiveItemFileNames": [
+      "kigae.ks.scn.m",
+      "shop.ks.scn.m",
+      "mainloop.ks.scn.m",
+      "test.ks.scn.m",
+      "day.ks.scn.m",
+      "holiday.ks.scn.m",
+      "date.ks.scn.m",
+      "visit.ks.scn.m",
+      "flyer.ks.scn.m"
+    ]
+  },
+  "Resources": null
+}

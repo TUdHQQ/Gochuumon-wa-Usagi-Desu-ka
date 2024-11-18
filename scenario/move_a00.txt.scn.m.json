@@ -1,0 +1,673 @@
+{
+  "hash": "7f884d3b2b517c9f2734d3b992809e34",
+  "name": "move_a00.txt",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,10],["envupdate","update",[["new","event","event"],["new","stage","stage"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,10],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bga01a"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[5,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,10],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_13",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_13",[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,17,80],1,[7,1,null,null,17],["stopvoice"],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_13",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "750"
+              }
+            }]],["msgoff"],[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[9,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["wait","time","100"],[10,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17]],
+      "nexts": [{
+          "storage": "move_a00.txt",
+          "target": "*move_a",
+          "type": 0
+        }],
+      "spCount": 10,
+      "texts": [["ココア",null,"（今日のバイトは午後からだね。\\n　じゃあ、午前中はちょっとお出かけしようっと）",null,80,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bga01a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "MOVE_A00"
+    },{
+      "firstLine": 19,
+      "label": "*move_a",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 1,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,21]],
+      "nexts": [{
+          "eval": "f.move_cnt<1",
+          "storage": "holiday.ks*holiday_move_end",
+          "type": 0
+        },{
+          "storage": "move_a00.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }],
+      "preevals": ["f.move_cnt--"],
+      "spCount": 1,
+      "title": "MOVE_A00"
+    },{
+      "firstLine": 21,
+      "label": "*dummyselect1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_13",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,23]],
+      "nexts": [{
+          "storage": "move_a00.txt",
+          "target": "*holiday_move_end",
+          "type": 0
+        }],
+      "selectInfo": {
+        "bg": "背景黒",
+        "bgm": "bgm_01",
+        "force": "true",
+        "select": [{
+            "ch": "チノ",
+            "eval": "!(f.move&0x01)",
+            "exp": "f.move=f.move|0x01",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A01.txt",
+            "tagname": "seladd",
+            "text": "ラビットハウス"
+          },{
+            "ch": "千夜",
+            "eval": "!(f.move&0x02)",
+            "exp": "f.move=f.move|0x02",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A02.txt",
+            "tagname": "seladd",
+            "text": "甘兎庵"
+          },{
+            "ch": "シャロ",
+            "eval": "!(f.move&0x04)",
+            "exp": "f.move=f.move|0x04",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A03.txt",
+            "tagname": "seladd",
+            "text": "フルール・ド・ラパン"
+          },{
+            "ch": "マヤ＆メグ",
+            "eval": "!(f.move&0x08)",
+            "exp": "f.move=f.move|0x08",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A04.txt",
+            "tagname": "seladd",
+            "text": "自然公園"
+          },{
+            "ch": "リゼ",
+            "eval": "!(f.move&0x10)",
+            "exp": "f.move=f.move|0x10",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A05.txt",
+            "tagname": "seladd",
+            "text": "街角"
+          },{
+            "ch": "青山",
+            "eval": "!(f.move&0x20)",
+            "exp": "f.move=f.move|0x20",
+            "render": 1,
+            "runLine": 21,
+            "runLineStr": "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+            "storage": "MOVE_A06.txt",
+            "tagname": "seladd",
+            "text": "市場"
+          }],
+        "type": "move"
+      },
+      "selects": [{
+          "ch": "チノ",
+          "eval": "!(f.move&0x01)",
+          "exp": "f.move=f.move|0x01",
+          "render": 1,
+          "selidx": 0,
+          "storage": "move_a01.txt",
+          "text": "ラビットハウス"
+        },{
+          "ch": "千夜",
+          "eval": "!(f.move&0x02)",
+          "exp": "f.move=f.move|0x02",
+          "render": 1,
+          "selidx": 1,
+          "storage": "move_a02.txt",
+          "text": "甘兎庵"
+        },{
+          "ch": "シャロ",
+          "eval": "!(f.move&0x04)",
+          "exp": "f.move=f.move|0x04",
+          "render": 1,
+          "selidx": 2,
+          "storage": "move_a03.txt",
+          "text": "フルール・ド・ラパン"
+        },{
+          "ch": "マヤ＆メグ",
+          "eval": "!(f.move&0x08)",
+          "exp": "f.move=f.move|0x08",
+          "render": 1,
+          "selidx": 3,
+          "storage": "move_a04.txt",
+          "text": "自然公園"
+        },{
+          "ch": "リゼ",
+          "eval": "!(f.move&0x10)",
+          "exp": "f.move=f.move|0x10",
+          "render": 1,
+          "selidx": 4,
+          "storage": "move_a05.txt",
+          "text": "街角"
+        },{
+          "ch": "青山",
+          "eval": "!(f.move&0x20)",
+          "exp": "f.move=f.move|0x20",
+          "render": 1,
+          "selidx": 5,
+          "storage": "move_a06.txt",
+          "text": "市場"
+        }],
+      "spCount": 1,
+      "title": "MOVE_A00"
+    }]
+}

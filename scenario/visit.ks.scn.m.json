@@ -1,0 +1,780 @@
+{
+  "hash": "3c4913e1fae18a3ee9ee5aa66489a020",
+  "name": "visit.ks",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,21]],
+      "nexts": [{
+          "eval": "f.visit==1",
+          "storage": "visit.ks",
+          "target": "*visit_chino",
+          "type": 0
+        },{
+          "eval": "f.visit==2",
+          "storage": "visit.ks",
+          "target": "*visit_chiya",
+          "type": 0
+        },{
+          "eval": "f.visit==3",
+          "storage": "visit.ks",
+          "target": "*visit_rize",
+          "type": 0
+        },{
+          "eval": "f.visit==4",
+          "storage": "visit.ks",
+          "target": "*visit_syaro",
+          "type": 0
+        },{
+          "eval": "f.visit==5",
+          "storage": "visit.ks",
+          "target": "*visit_mayamegu",
+          "type": 0
+        },{
+          "eval": "f.visit==6",
+          "storage": "visit.ks",
+          "target": "*visit_aoyama",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*visit_chino",
+          "type": 0
+        }],
+      "spCount": 3,
+      "title": "visit"
+    },{
+      "firstLine": 21,
+      "label": "*visit_chino",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,25]],
+      "nexts": [{
+          "eval": "f.visit_chino==0",
+          "storage": "visit_chino_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_chino==1",
+          "storage": "visit_chino_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_chino==2",
+          "storage": "visit_chino_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チノ"
+    },{
+      "firstLine": 25,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,32,64],1,[2,1,null,null,32]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"チノ\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チノ"
+    },{
+      "firstLine": 38,
+      "label": "*visit_chiya",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,42]],
+      "nexts": [{
+          "eval": "f.visit_chiya==0",
+          "storage": "visit_chiya_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_chiya==1",
+          "storage": "visit_chiya_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_chiya==2",
+          "storage": "visit_chiya_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy2",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "千夜"
+    },{
+      "firstLine": 42,
+      "label": "*dummy2",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,49,64],1,[2,1,null,null,49]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"千夜\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "千夜"
+    },{
+      "firstLine": 55,
+      "label": "*visit_rize",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,59]],
+      "nexts": [{
+          "eval": "f.visit_rize==0",
+          "storage": "visit_rize_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_rize==1",
+          "storage": "visit_rize_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_rize==2",
+          "storage": "visit_rize_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy3",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "リゼ"
+    },{
+      "firstLine": 59,
+      "label": "*dummy3",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,66,64],1,[2,1,null,null,66]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"リゼ\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "リゼ"
+    },{
+      "firstLine": 72,
+      "label": "*visit_syaro",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,76]],
+      "nexts": [{
+          "eval": "f.visit_syaro==0",
+          "storage": "visit_syaro_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_syaro==1",
+          "storage": "visit_syaro_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_syaro==2",
+          "storage": "visit_syaro_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy4",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "シャロ"
+    },{
+      "firstLine": 76,
+      "label": "*dummy4",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,83,64],1,[2,1,null,null,83]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"シャロ\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "シャロ"
+    },{
+      "firstLine": 89,
+      "label": "*visit_mayamegu",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,93]],
+      "nexts": [{
+          "eval": "f.visit_mayamegu==0",
+          "storage": "visit_mame_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_mayamegu==1",
+          "storage": "visit_mame_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_mayamegu==2",
+          "storage": "visit_mame_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy5",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "マヤ＆メグ"
+    },{
+      "firstLine": 93,
+      "label": "*dummy5",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,100,64],1,[2,1,null,null,100]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"マヤ＆メグ\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "マヤ＆メグ"
+    },{
+      "firstLine": 106,
+      "label": "*visit_aoyama",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,110]],
+      "nexts": [{
+          "eval": "f.visit_aoyama==0",
+          "storage": "visit_aoyama_01.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_aoyama==1",
+          "storage": "visit_aoyama_02.txt",
+          "type": 0
+        },{
+          "eval": "f.visit_aoyama==2",
+          "storage": "visit_aoyama_03.txt",
+          "type": 0
+        },{
+          "storage": "visit.ks",
+          "target": "*dummy6",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "青山"
+    },{
+      "firstLine": 110,
+      "label": "*dummy6",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,117,64],1,[2,1,null,null,117]],
+      "nexts": [{
+          "storage": "visit.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"青山\\n訪問イベント\\n４回目",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "青山"
+    },{
+      "firstLine": 119,
+      "label": "*end",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,119],["stopvoice"],["msgoff"],["envupdate","update",[["new","stage","stage"],["new","event","event"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,121],["wait","time","100"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,121]],
+      "nexts": [{
+          "storage": "day.ks*coffee_break",
+          "type": 0
+        }],
+      "spCount": 3,
+      "title": "終了"
+    }]
+}

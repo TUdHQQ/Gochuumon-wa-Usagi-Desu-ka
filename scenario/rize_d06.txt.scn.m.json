@@ -1,0 +1,2899 @@
+{
+  "hash": "c4aaa7809d0339b0930c443093230bbb",
+  "name": "rize_d06.txt",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11]],
+      "nexts": [{
+          "storage": "rize_d06.txt",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "postevals": ["f.day=39"],
+      "spCount": 3,
+      "title": "RIZE_D06"
+    },{
+      "firstLine": 11,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11],["msgwin","backbase","0"],["msgoff"],[2,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_defa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["beginskip"],["envupdate","pretrans",[["new","event","event"]],"update",[{
+              "action": [["zpos",-60.0],null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "side_defa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "crossfade",
+                "time": "1000"
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],"cg_side_defa",[3,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_defa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[["new","se","se"],{
+              "name": "se",
+              "replay": {
+                "filename": "jingle_02",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[4,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_defa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "side_rize"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "universal",
+                "msgoff": 1,
+                "rule": "wipe_l_r",
+                "time": "1000",
+                "vague": 64
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "universal",
+            "msgoff": 1,
+            "rule": "wipe_l_r",
+            "time": "1000",
+            "vague": 64
+          },"msgoff",1],"cg_side_rize",[5,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_rize"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["endskip"],["wait","time","1000"],[6,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_rize"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "action": [null],
+              "class": "event",
+              "link": null,
+              "name": "event",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "side_defa"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "universal",
+                "msgoff": 1,
+                "rule": "wipe_l_r",
+                "time": "1000",
+                "vague": 64
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "event"
+              }]
+          },"trans",{
+            "method": "universal",
+            "msgoff": 1,
+            "rule": "wipe_l_r",
+            "time": "1000",
+            "vague": 64
+          },"msgoff",1],"cg_side_defa",[7,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_defa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["wait","time","1000"],[8,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "side_defa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["stopvoice"],["msgoff"],["envupdate","update",[["new","stage","stage"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },{
+              "name": "event",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[9,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "name": "se",
+              "stop": 0
+            }]],["stopvoice"],[10,{
+            "backbase": 0,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[11,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[12,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg12ba"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[13,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,17],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_04",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_04",[14,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,18],["envupdate","update",[["new","リゼ","character"],{
+              "action": [null,["xpos",0],null,["ypos",0],["zpos",0.0],["order",0],["$lip","$lipリゼ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.847407452620014
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          }],"cg_rize.stand",[15,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.847407452620014
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,25,1616],1,[16,1,null,null,25],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.5484481337931455
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[17,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5484481337931455
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },2,null,32,1600],["envupdate","update",[{
+              "action": [["ypos",[{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@"
+                    }]]],
+              "name": "リゼ",
+              "showmode": 3
+            }]],2,[18,2,null,null,32],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.72530289620654931
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[19,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.72530289620654931
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },3,null,38,1600],3,[20,3,null,null,38],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.084566789757988217
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[21,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.084566789757988217
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },4,null,45,1600],4,[22,4,null,null,45],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.64729758598590048
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[23,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.64729758598590048
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },5,null,51,1600],5,[24,5,null,null,51],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.60737937559129607
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[25,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.60737937559129607
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },6,null,58,1600],6,[26,6,null,null,58],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.57307657094027531
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                  "options": {
+                    "face": "目笑い:口笑い"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[27,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.57307657094027531
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },7,null,65,1600],7,[28,7,null,null,65],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.26642658772545547
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[29,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.26642658772545547
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },8,null,71,1600],8,[30,8,null,null,71],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.5297708059938353
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目通常:口通常"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[31,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5297708059938353
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },9,null,76,1600],9,[32,9,null,null,76],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.86532181768242444
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[33,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.86532181768242444
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },10,null,84,1600],["envupdate","update",[{
+              "action": [["ypos",[{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@"
+                    }]]],
+              "name": "リゼ",
+              "showmode": 3
+            }]],10,[34,10,null,null,84],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.51466414380321668
+                    }]],["$lip","$lipリゼ"]],
+              "class": "character",
+              "link": null,
+              "name": "リゼ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "リゼ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[35,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51466414380321668
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },11,null,92,64],11,[36,11,null,null,92],["stopvoice"],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_04",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "750"
+              }
+            }]],["msgoff"],[37,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,94],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            },{
+              "name": "リゼ",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[38,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,94],["wait","time","100"],[39,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,94]],
+      "nexts": [{
+          "storage": "rize_d07.txt",
+          "type": 0
+        }],
+      "spCount": 39,
+      "texts": [["リゼ",null,"（……よし、熱は引いたな。\\n　明日からはいつも通りの生活ができそうだ）",[{
+              "labels": [0,"vlstart",321,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 5353,
+              "type": 0,
+              "voice": "RZB36000"
+            }],1616,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.847407452620014
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（だが、寝込んでいて\\n　数日を無駄にしてしまった）",[{
+              "labels": [0,"vlstart",186,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 3114,
+              "type": 0,
+              "voice": "RZB36001"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5484481337931455
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（みんなで行くはずだった飾り付けの買出しは、\\n　私が風邪をひいてる間にすんでしまったし）",[{
+              "labels": [0,"vlstart",369,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 6165,
+              "type": 0,
+              "voice": "RZB36002"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.72530289620654931
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（まあ、それは仕方ない。\\n　私が治るのを待っていたら\\n　準備が進まなかったし――）",[{
+              "labels": [0,"vlstart",366,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 6111,
+              "type": 0,
+              "voice": "RZB36003"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.084566789757988217
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（何より、改めてみんなのスケジュールを\\n　合わせるのは難しかっただろう）",[{
+              "labels": [0,"vlstart",293,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4895,
+              "type": 0,
+              "voice": "RZB36004"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.64729758598590048
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（私が我慢することで\\n　準備がスムーズに進んだんだ）",[{
+              "labels": [0,"vlstart",222,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 3711,
+              "type": 0,
+              "voice": "RZB36005"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.60737937559129607
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（その分、クリスマスパーティーを\\n　全力で楽しめばいいさ）",[{
+              "labels": [0,"vlstart",213,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 3563,
+              "type": 0,
+              "voice": "RZB36006"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.57307657094027531
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（そのためには、今日のうちに\\n　サンタの衣装を仕上げてしまわないとな）",[{
+              "labels": [0,"vlstart",273,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4554,
+              "type": 0,
+              "voice": "RZB36007"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.26642658772545547
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（それから、プレゼントの入手も急がないと）",[{
+              "labels": [0,"vlstart",175,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 2933,
+              "type": 0,
+              "voice": "RZB36008"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5297708059938353
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（やれやれ、病み上がりだというのに\\n　やることが山積みだ）",[{
+              "labels": [0,"vlstart",275,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 4596,
+              "type": 0,
+              "voice": "RZB36009"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.86532181768242444
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_52a1d62ae6efb3be5603ba2033423a8b",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["リゼ",null,"（とはいえ、弱音なんて吐いてられない。\\n　クリスマス当日に向けて、\\n　改めて気合いを入れていくぞ！）",[{
+              "labels": [0,"vlstart",426,"vlstop"],
+              "name": "リゼ",
+              "pan": 0,
+              "time": 7116,
+              "type": 0,
+              "voice": "RZB36010"
+            }],64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_04",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg12ba"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["リゼ","character",{
+                  "action": [["$lip","$lipリゼ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.51466414380321668
+                        }]]],
+                  "class": "character",
+                  "name": "リゼ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "rize_3fc9ad7cc81ed513c8735fd93f761250",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "RIZE_D06"
+    }]
+}

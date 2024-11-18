@@ -1,0 +1,4264 @@
+{
+  "hash": "967b86a8be9551a9a462f03591c10241",
+  "name": "syaro_b03.txt",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11]],
+      "nexts": [{
+          "storage": "syaro_b03.txt",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "postevals": ["f.day=33"],
+      "spCount": 3,
+      "title": "SYARO_B03"
+    },{
+      "firstLine": 11,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,11],["stopvoice"],["envupdate","update",[["tag",{
+                "backbase": "1",
+                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+                "taglist": ["tagname","backbase"],
+                "tagname": "msgwin"
+              }]],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "200"
+          },"msgchange",0],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[["new","event","event"],["new","stage","stage"],{
+              "action": [null,["zpos",233.33333333333337],null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg19e"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[4,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,14],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_06",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "1"
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],"bgm_BGM_06",[5,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,15],["envupdate","update",[["new","シャロ","character"],{
+              "action": [null,["xpos",0],null,["ypos",0],["zpos",0.0],["order",0],["$lip","$lipシャロ"],["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.52272103030487993
+                    }]],["xpos",[{
+                      "accel": -1,
+                      "handler": "MoveAction",
+                      "start": "@+10",
+                      "time": 300,
+                      "value": "@"
+                    }]],["visvalue",0],["visvalue",[{
+                      "delay": null,
+                      "handler": "MoveAction",
+                      "start": 0,
+                      "time": 300,
+                      "value": 100
+                    }]]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目笑い:口笑い"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 1,
+              "trans": {
+                "time": 300
+              },
+              "type": null
+            }],"wait",{
+            "list": [{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          }],"cg_syaro.stand",[6,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.52272103030487993
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,null,26,1616],1,[7,1,null,null,26],["envupdate","update",[["new","se","se"],{
+              "name": "se",
+              "replay": {
+                "filename": "is2022",
+                "start": null,
+                "time": 0,
+                "volume": 100.0
+              }
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "stage"
+              },{
+                "mode": 1,
+                "name": "se"
+              },{
+                "mode": 0,
+                "name": "シャロ"
+              },{
+                "mode": 0,
+                "name": "event"
+              },{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[8,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.52272103030487993
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,27],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.68156987212744524
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[9,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.68156987212744524
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },2,null,35,1600],["envupdate","update",[{
+              "action": [["xpos",[{
+                      "delay": null,
+                      "handler": "RandomAction",
+                      "time": 500,
+                      "vibration": 1.5,
+                      "waittime": null
+                    }]],["ypos",[{
+                      "delay": null,
+                      "handler": "RandomAction",
+                      "time": 500,
+                      "vibration": 1.5,
+                      "waittime": null
+                    }]]],
+              "name": "シャロ",
+              "showmode": 3
+            }]],2,[10,2,null,null,35],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.76522110660115361
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目目そらし:口目そらし"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[11,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.76522110660115361
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },3,null,41,1600],3,[12,3,null,null,41],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.39762565996276744
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[13,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.39762565996276744
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },4,null,47,1600],4,[14,4,null,null,47],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.65834528641621148
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目通常:口通常"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[15,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.65834528641621148
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },5,null,54,1600],5,[16,5,null,null,54],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.478102969450972
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目笑い:口笑い"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[17,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.478102969450972
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },6,null,61,1600],6,[18,6,null,null,61],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.4860072634052553
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目目そらし:口目そらし"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[19,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.4860072634052553
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },7,null,67,1600],7,[20,7,null,null,67],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.74193548387096775
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目あきれ:口あきれ"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[21,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.74193548387096775
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },8,null,73,1600],8,[22,8,null,null,73],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.5917538987395855
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[23,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5917538987395855
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },9,null,81,1600],["envupdate","update",[{
+              "action": [["ypos",[{
+                      "handler": "MoveAction",
+                      "time": 400,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@-5"
+                    },{
+                      "handler": "MoveAction",
+                      "time": 500,
+                      "value": "@"
+                    }]]],
+              "name": "シャロ",
+              "showmode": 3
+            }]],9,[24,9,null,null,81],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.31992553483687858
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目通常:口通常"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[25,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.31992553483687858
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },10,null,87,1600],10,[26,10,null,null,87],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.41132847071749018
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目ときめき:口ときめき"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[27,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.41132847071749018
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },11,null,93,1600],11,[28,11,null,null,93],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.48280281991027557
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[29,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.48280281991027557
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },12,null,99,1600],12,[30,12,null,null,99],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.21118808557390056
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[31,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.21118808557390056
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },13,null,106,1600],13,[32,13,null,null,106],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.7576525162511063
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目あきれ:口あきれ"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[33,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.7576525162511063
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },14,null,113,1600],14,[34,14,null,null,113],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.74330881679738758
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目目そらし:口目そらし"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[35,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.74330881679738758
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },15,null,120,1600],15,[36,15,null,null,120],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.95193334757530446
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[37,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.95193334757530446
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },16,null,126,1600],16,[38,16,null,null,126],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.2077089754936369
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                  "options": {
+                    "face": "目悲しい:口悲しい"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[39,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.2077089754936369
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },17,null,133,1600],["envupdate","update",[{
+              "action": [["xpos",[{
+                      "handler": "wait"
+                    }]],["ypos",[{
+                      "angvel": null,
+                      "cycle": 400,
+                      "delay": null,
+                      "handler": "SinAction",
+                      "time": 200.0,
+                      "vibration": 15
+                    }]]],
+              "name": "シャロ",
+              "showmode": 3
+            }]],17,[40,17,null,null,133],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.15997802667317729
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目あきれ:口あきれ"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[41,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.15997802667317729
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },18,null,138,1600],18,[42,18,null,null,138],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.55012665181432541
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目怒り:口怒り"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[43,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.55012665181432541
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目怒り:口怒り"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },19,null,144,1600],19,[44,19,null,null,144],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.92162846766563922
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目怒り:口怒り"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[45,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.92162846766563922
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目怒り:口怒り"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },20,null,150,1600],20,[46,20,null,null,150],["envupdate","update",[{
+              "action": [["$eye",[{
+                      "disable": "eyeflipdisable",
+                      "flipfreq": 0.5,
+                      "handler": "RandomFlipAction",
+                      "nofast": 1,
+                      "nowait": 1,
+                      "pattern": "eye",
+                      "seed": 0.83315530869472332
+                    }]],["$lip","$lipシャロ"]],
+              "class": "character",
+              "link": null,
+              "name": "シャロ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                  "options": {
+                    "face": "目笑い:口笑い"
+                  }
+                },
+                "posName": "バスト"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 150
+              },
+              "type": null
+            }],"wait",{
+            "list": [null,{
+                "mode": 1,
+                "name": "シャロ"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": 150
+          }],[47,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.83315530869472332
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },21,null,157,64],21,[48,21,null,null,157],["stopvoice"],["envupdate","update",[{
+              "name": "bgm",
+              "replay": {
+                "filename": "bgm_06",
+                "loop": 1,
+                "start": null,
+                "state": 0,
+                "volume": 100.0
+              },
+              "trans": {
+                "method": "",
+                "time": "750"
+              }
+            }]],["msgoff"],[49,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,160],["envupdate","update",[{
+              "action": [null],
+              "class": "stage",
+              "link": null,
+              "name": "stage",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "bg_c_black"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            },{
+              "name": "シャロ",
+              "showmode": 2
+            }],"wait",{
+            "list": [null,{
+                "mode": 0,
+                "name": "env"
+              }]
+          },"trans",{
+            "method": "crossfade",
+            "time": "1000"
+          }],[50,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,160],["wait","time","100"],[51,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg_c_black"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "showmode": 0,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,160]],
+      "nexts": [{
+          "storage": "syaro_b04.txt",
+          "type": 0
+        }],
+      "spCount": 51,
+      "texts": [["シャロ",null,"フルール・ド・ラパンで～す！\\nよろしくお願いしま～す！",[{
+              "labels": [0,"vlstart",261,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 4355,
+              "type": 0,
+              "voice": "CRD13020",
+              "vols": [28,33,33,35,34,34,36,36,36,36,38,37,35,36,36,35,37,37,54,55,64,82,95,108,115,115,113,109,112,120,120,121,114,109,106,109,110,113,116,115,114,111,113,116,112,115,122,122,120,115,114,103,101,111,115,116,121,109,47,24,19,21,80,123,126,117,112,113,114,113,109,89,62,60,58,56,56,56,98,127,134,136,132,128,123,119,118,117,117,115,116,113,115,116,115,115,116,120,116,112,115,118,113,113,118,121,123,122,119,113,104,98,78,42,40,41,66,56,55,59,55,51,49,46,45,45,44,40,36,33,35,33,34,33,41,33,54,65,44,88,121,127,126,122,108,107,119,121,121,118,114,115,120,120,114,53,69,113,127,119,127,126,128,126,125,123,108,72,95,109,111,110,111,108,97,102,113,118,119,118,114,113,117,116,110,110,107,112,117,119,116,110,101,71,68,76,97,117,118,117,117,112,115,113,114,110,110,111,114,114,117,117,116,117,118,119,121,123,124,125,123,113,114,119,114,116,119,117,111,104,92,70,31,21,21,20,21,23,23,24,25,26,26,26,27,26,29,28,28,29,30,30,31,31,18,0,0,0,0,0,0]
+            }],1616,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.52272103030487993
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"ううっ！\\nうう……寒い……。",[{
+              "labels": [0,"vlstart",246,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 4108,
+              "type": 0,
+              "voice": "CRD13001",
+              "vols": [25,30,29,30,30,30,32,30,30,30,31,32,34,71,111,127,121,117,112,108,108,109,110,111,113,113,112,113,111,104,99,91,89,86,83,80,77,75,71,64,60,49,36,31,31,30,30,33,37,46,57,60,78,88,97,106,113,118,117,117,116,111,110,106,102,97,94,90,87,81,76,71,67,60,55,51,47,43,39,36,34,33,32,30,30,30,30,30,30,29,30,31,32,31,33,36,43,56,68,77,84,88,91,93,92,90,91,94,97,98,98,97,96,95,93,90,88,86,82,81,78,78,76,74,72,70,72,68,65,62,63,62,60,59,59,69,81,89,94,93,93,95,97,98,98,100,100,102,103,100,83,88,91,94,97,100,100,98,91,78,69,65,61,60,62,63,66,70,72,72,74,71,73,73,77,80,81,83,81,76,73,80,81,82,84,85,88,89,92,93,93,93,92,92,89,87,85,85,83,82,83,83,84,83,83,82,82,83,85,83,79,74,64,57,52,48,44,42,38,35,32,32,38,34,40,34,38,31,30,30,30,30,29,30,30,29,32,34,36,36,36,38,40,41,43,43]
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.68156987212744524
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（上着を着てくるべきだったかしら。\\n　お店の中が暑かったから、油断した）",[{
+              "labels": [0,"vlstart",421,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 7020,
+              "type": 0,
+              "voice": "CRD13002"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.76522110660115361
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（はあ……。\\n　急にチラシ配りを頼まれるなんて、ついてない）",[{
+              "labels": [0,"vlstart",378,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 6308,
+              "type": 0,
+              "voice": "CRD13003"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.39762565996276744
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（それにしても、\\n　色々なところで飾りつけが進んで、\\n　もう街中どこもクリスマスムードね）",[{
+              "labels": [0,"vlstart",484,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 8069,
+              "type": 0,
+              "voice": "CRD13004"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.65834528641621148
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（……あのお店の飾り、かわいい。\\n　あっちの飾りはミリタリーっぽくて\\n　リゼ先輩が喜びそう）",[{
+              "labels": [0,"vlstart",581,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 9699,
+              "type": 0,
+              "voice": "CRD13005"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.478102969450972
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（そうよね……。\\n　パーティーの飾りつけも、そろそろ考えないと）",[{
+              "labels": [0,"vlstart",386,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 6439,
+              "type": 0,
+              "voice": "CRD13006"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.4860072634052553
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（ううん。\\n　それよりもっと大事な問題が……）",[{
+              "labels": [0,"vlstart",262,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 4376,
+              "type": 0,
+              "voice": "CRD13007"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.74193548387096775
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（クリスマスプレゼントかぁ。\\n　マヤちゃんとメグちゃんの話を聞くまで、\\n　すっかり忘れてた）",[{
+              "labels": [0,"vlstart",488,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 8135,
+              "type": 0,
+              "voice": "CRD13008"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.5917538987395855
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（パーティーの準備だけじゃなくて、\\n　プレゼントの用意もしないといけないわね）",[{
+              "labels": [0,"vlstart",326,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 5445,
+              "type": 0,
+              "voice": "CRD13009"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.31992553483687858
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目通常:口通常"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（みんなには、いつもお世話になってるし、\\n　今回のことでいっぱい心配させちゃったし）",[{
+              "labels": [0,"vlstart",459,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 7661,
+              "type": 0,
+              "voice": "CRD13010"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.41132847071749018
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目ときめき:口ときめき"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（でも、みんなの分のプレゼントを\\n　用意するにしても、そのための予算が……）",[{
+              "labels": [0,"vlstart",478,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 7970,
+              "type": 0,
+              "voice": "CRD13011"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.48280281991027557
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（バイトで忙しいっていっても、\\n　すぐにお給料が入ってくるわけじゃないし、\\n　そもそも家計のための貯えだし）",[{
+              "labels": [0,"vlstart",609,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 10165,
+              "type": 0,
+              "voice": "CRD13012"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.21118808557390056
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（パーティーだけじゃなくて、こんなことにまで\\n　頭を悩ませることになるなんて\\n　思いもしなかったわ）",[{
+              "labels": [0,"vlstart",444,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 7416,
+              "type": 0,
+              "voice": "CRD13013"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.7576525162511063
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（……そういえば、私が\\n　クリスマスプレゼントをもらえたのって\\n　いつ頃までだったかしら）",[{
+              "labels": [0,"vlstart",441,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 7354,
+              "type": 0,
+              "voice": "CRD13014"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.74330881679738758
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目目そらし:口目そらし"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（なんだかもう、思い出せないくらい\\n　昔のような気が――）",[{
+              "labels": [0,"vlstart",338,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 5649,
+              "type": 0,
+              "voice": "CRD13015"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.95193334757530446
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"くしゅんっ！",[{
+              "labels": [0,"vlstart",141,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 2352,
+              "type": 0,
+              "voice": "CRD13016",
+              "vols": [25,29,30,30,29,29,30,30,30,30,30,33,30,31,31,29,30,29,93,107,72,90,104,123,131,132,131,127,113,75,81,78,63,40,41,38,38,36,39,48,39,84,76,126,142,142,143,138,126,104,73,49,73,44,31,32,40,40,32,29,29,28,30,44,66,70,32,30,32,64,89,80,97,110,111,115,115,114,112,110,106,100,97,93,92,92,92,91,88,86,83,80,76,72,67,64,58,51,45,40,40,37,36,36,32,33,32,32,31,30,29,30,29,30,29,31,31,29,29,29,30,30,29,30,31,31,31,35,32,31,31,30,29,31,30,30,30,29,29,29,25]
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.2077089754936369
+                        }]],["xpos",[{
+                          "handler": "wait"
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_9618653cb51b8f20b8aa3f811194b91a",
+                      "options": {
+                        "face": "目悲しい:口悲しい"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（さすがに、体が冷えてきちゃった）",[{
+              "labels": [0,"vlstart",193,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 3220,
+              "type": 0,
+              "voice": "CRD13017"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.15997802667317729
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目あきれ:口あきれ"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（ここで考えていても仕方ないわ。\\n　このままじゃチラシ配りが終わらない）",[{
+              "labels": [0,"vlstart",336,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 5609,
+              "type": 0,
+              "voice": "CRD13018"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.55012665181432541
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目怒り:口怒り"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"（仕事に集中しないと。\\n　よしっ！）",[{
+              "labels": [0,"vlstart",201,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 3362,
+              "type": 0,
+              "voice": "CRD13019"
+            }],1600,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.92162846766563922
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目怒り:口怒り"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }],["シャロ",null,"フルール・ド・ラパンで～す！\\nよろしくお願いしま～す！",[{
+              "labels": [0,"vlstart",261,"vlstop"],
+              "name": "シャロ",
+              "pan": 0,
+              "time": 4355,
+              "type": 0,
+              "voice": "CRD13020",
+              "vols": [28,33,33,35,34,34,36,36,36,36,38,37,35,36,36,35,37,37,54,55,64,82,95,108,115,115,113,109,112,120,120,121,114,109,106,109,110,113,116,115,114,111,113,116,112,115,122,122,120,115,114,103,101,111,115,116,121,109,47,24,19,21,80,123,126,117,112,113,114,113,109,89,62,60,58,56,56,56,98,127,134,136,132,128,123,119,118,117,117,115,116,113,115,116,115,115,116,120,116,112,115,118,113,113,118,121,123,122,119,113,104,98,78,42,40,41,66,56,55,59,55,51,49,46,45,45,44,40,36,33,35,33,34,33,41,33,54,65,44,88,121,127,126,122,108,107,119,121,121,118,114,115,120,120,114,53,69,113,127,119,127,126,128,126,125,123,108,72,95,109,111,110,111,108,97,102,113,118,119,118,114,113,117,116,110,110,107,112,117,119,116,110,101,71,68,76,97,117,118,117,117,112,115,113,114,110,110,111,114,114,117,117,116,117,118,119,121,123,124,125,123,113,114,119,114,116,119,117,111,104,92,70,31,21,21,20,21,23,23,24,25,26,26,26,27,26,29,28,28,29,30,30,31,31,18,0,0,0,0,0,0]
+            }],64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": "bgm_06",
+                    "loop": 1,
+                    "start": null,
+                    "state": 1,
+                    "volume": 100.0
+                  },
+                  "update": {
+                    "state": 1
+                  }
+                }],["event","event",{
+                  "action": [["zpos",-60.0]],
+                  "class": "event",
+                  "name": "event",
+                  "showmode": 0,
+                  "type": null
+                }],["se","se",{
+                  "name": "se"
+                }],["stage","stage",{
+                  "action": [["zpos",233.33333333333337]],
+                  "class": "stage",
+                  "name": "stage",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "bg19e"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }],["シャロ","character",{
+                  "action": [["$lip","$lipシャロ"],["zpos",0.0],["xpos",[{
+                          "handler": "wait"
+                        }]],["$eye",[{
+                          "disable": "eyeflipdisable",
+                          "flipfreq": 0.5,
+                          "handler": "RandomFlipAction",
+                          "nofast": 1,
+                          "nowait": 1,
+                          "pattern": "eye",
+                          "seed": 0.83315530869472332
+                        }]]],
+                  "class": "character",
+                  "name": "シャロ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "syaro_a288579b0132fbdbd5c5c4008a1da82f",
+                      "options": {
+                        "face": "目笑い:口笑い"
+                      }
+                    },
+                    "posName": "バスト"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "SYARO_B03"
+    }]
+}

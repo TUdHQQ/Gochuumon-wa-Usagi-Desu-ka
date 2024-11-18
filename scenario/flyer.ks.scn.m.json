@@ -1,0 +1,4608 @@
+{
+  "hash": "4cf9fde8747e62c3436bb9b8bf65e99a",
+  "name": "flyer.ks",
+  "outlines": [],
+  "scenes": [{
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
+              "action": [null],
+              "name": "env"
+            }],"wait",{
+            "list": [{
+                "mode": 0,
+                "name": "env"
+              }]
+          }],[2,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": null,
+                    "start": null,
+                    "state": null,
+                    "volume": null
+                  },
+                  "update": {
+                    "state": null
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,20]],
+      "nexts": [{
+          "eval": "f.flyer==1",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino",
+          "type": 0
+        },{
+          "eval": "f.flyer==2",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya",
+          "type": 0
+        },{
+          "eval": "f.flyer==3",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize",
+          "type": 0
+        },{
+          "eval": "f.flyer==4",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino",
+          "type": 0
+        }],
+      "spCount": 3,
+      "title": "flyer"
+    },{
+      "firstLine": 20,
+      "label": "*day_flyer_chino",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,37]],
+      "nexts": [{
+          "eval": "f.dress==1",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_A",
+          "type": 0
+        },{
+          "eval": "f.dress==2",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_B",
+          "type": 0
+        },{
+          "eval": "f.dress==3",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_C",
+          "type": 0
+        },{
+          "eval": "f.dress==4",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_D",
+          "type": 0
+        },{
+          "eval": "f.dress==5",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_E",
+          "type": 0
+        },{
+          "eval": "f.dress==6",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_F",
+          "type": 0
+        },{
+          "eval": "f.dress==7",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_G",
+          "type": 0
+        },{
+          "eval": "f.dress==8",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_H",
+          "type": 0
+        },{
+          "eval": "f.dress==9",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_I",
+          "type": 0
+        },{
+          "eval": "f.dress==10",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_J",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chino_A",
+          "type": 0
+        }],
+      "preevals": ["f.flyer_chino=f.dress"],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ"
+    },{
+      "firstLine": 37,
+      "label": "*day_flyer_chino_A",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,47]],
+      "nexts": [{
+          "eval": "f.flyer_chino_A==1",
+          "storage": "flyer_chino_a0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_A==2",
+          "storage": "flyer_chino_a1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_A==3",
+          "storage": "flyer_chino_a2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_A==4",
+          "storage": "flyer_chino_a3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_A==5",
+          "storage": "flyerhap_chino_a.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_A>=6",
+          "storage": "flyer_chino_a4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy1",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿制服"
+    },{
+      "firstLine": 47,
+      "label": "*dummy1",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,53,64],1,[2,1,null,null,53]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿制服"
+    },{
+      "firstLine": 55,
+      "label": "*day_flyer_chino_B",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,65]],
+      "nexts": [{
+          "eval": "f.flyer_chino_B==1",
+          "storage": "flyer_chino_b0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_B==2",
+          "storage": "flyer_chino_b1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_B==3",
+          "storage": "flyer_chino_b2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_B==4",
+          "storage": "flyer_chino_b3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_B==5",
+          "storage": "flyerhap_chino_b.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_B>=6",
+          "storage": "flyer_chino_b4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy2",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿ラビットハウス"
+    },{
+      "firstLine": 65,
+      "label": "*dummy2",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,71,64],1,[2,1,null,null,71]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿ラビットハウス"
+    },{
+      "firstLine": 73,
+      "label": "*day_flyer_chino_C",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,83]],
+      "nexts": [{
+          "eval": "f.flyer_chino_C==1",
+          "storage": "flyer_chino_c0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_C==2",
+          "storage": "flyer_chino_c1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_C==3",
+          "storage": "flyer_chino_c2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_C==4",
+          "storage": "flyer_chino_c3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_C==5",
+          "storage": "flyerhap_chino_c.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_C>=6",
+          "storage": "flyer_chino_c4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy3",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿甘兎庵"
+    },{
+      "firstLine": 83,
+      "label": "*dummy3",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,89,64],1,[2,1,null,null,89]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿甘兎庵"
+    },{
+      "firstLine": 91,
+      "label": "*day_flyer_chino_D",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,101]],
+      "nexts": [{
+          "eval": "f.flyer_chino_D==1",
+          "storage": "flyer_chino_d0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_D==2",
+          "storage": "flyer_chino_d1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_D==3",
+          "storage": "flyer_chino_d2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_D==4",
+          "storage": "flyer_chino_d3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_D==5",
+          "storage": "flyerhap_chino_d.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_D>=6",
+          "storage": "flyer_chino_d4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy4",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿ラパン"
+    },{
+      "firstLine": 101,
+      "label": "*dummy4",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,107,64],1,[2,1,null,null,107]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿ラパン"
+    },{
+      "firstLine": 109,
+      "label": "*day_flyer_chino_E",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,119]],
+      "nexts": [{
+          "eval": "f.flyer_chino_E==1",
+          "storage": "flyer_chino_e0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_E==2",
+          "storage": "flyer_chino_e1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_E==3",
+          "storage": "flyer_chino_e2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_E==4",
+          "storage": "flyer_chino_e3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_E==5",
+          "storage": "flyerhap_chino_e.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_E>=6",
+          "storage": "flyer_chino_e4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy5",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿軍服"
+    },{
+      "firstLine": 119,
+      "label": "*dummy5",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,125,64],1,[2,1,null,null,125]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿軍服"
+    },{
+      "firstLine": 127,
+      "label": "*day_flyer_chino_F",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,137]],
+      "nexts": [{
+          "eval": "f.flyer_chino_F==1",
+          "storage": "flyer_chino_f0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_F==2",
+          "storage": "flyer_chino_f1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_F==3",
+          "storage": "flyer_chino_f2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_F==4",
+          "storage": "flyer_chino_f3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_F==5",
+          "storage": "flyerhap_chino_f.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_F>=6",
+          "storage": "flyer_chino_f4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy6",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿サンタ"
+    },{
+      "firstLine": 137,
+      "label": "*dummy6",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,143,64],1,[2,1,null,null,143]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿サンタ"
+    },{
+      "firstLine": 145,
+      "label": "*day_flyer_chino_G",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,155]],
+      "nexts": [{
+          "eval": "f.flyer_chino_G==1",
+          "storage": "flyer_chino_g0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_G==2",
+          "storage": "flyer_chino_g1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_G==3",
+          "storage": "flyer_chino_g2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_G==4",
+          "storage": "flyer_chino_g3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_G==5",
+          "storage": "flyerhap_chino_g.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_G>=6",
+          "storage": "flyer_chino_g4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy7",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿ハロウィン"
+    },{
+      "firstLine": 155,
+      "label": "*dummy7",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,161,64],1,[2,1,null,null,161]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿ハロウィン"
+    },{
+      "firstLine": 163,
+      "label": "*day_flyer_chino_H",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,173]],
+      "nexts": [{
+          "eval": "f.flyer_chino_H==1",
+          "storage": "flyer_chino_h0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_H==2",
+          "storage": "flyer_chino_h1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_H==3",
+          "storage": "flyer_chino_h2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_H==4",
+          "storage": "flyer_chino_h3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_H==5",
+          "storage": "flyerhap_chino_h.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_H>=6",
+          "storage": "flyer_chino_h4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy8",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿怪盗"
+    },{
+      "firstLine": 173,
+      "label": "*dummy8",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,179,64],1,[2,1,null,null,179]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿怪盗"
+    },{
+      "firstLine": 181,
+      "label": "*day_flyer_chino_I",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,191]],
+      "nexts": [{
+          "eval": "f.flyer_chino_I==1",
+          "storage": "flyer_chino_i0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_I==2",
+          "storage": "flyer_chino_i1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_I==3",
+          "storage": "flyer_chino_i2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_I==4",
+          "storage": "flyer_chino_i3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_I==5",
+          "storage": "flyerhap_chino_i.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_I>=6",
+          "storage": "flyer_chino_i4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy9",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿バニー"
+    },{
+      "firstLine": 191,
+      "label": "*dummy9",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,197,64],1,[2,1,null,null,197]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿バニー"
+    },{
+      "firstLine": 199,
+      "label": "*day_flyer_chino_J",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,209]],
+      "nexts": [{
+          "eval": "f.flyer_chino_J==1",
+          "storage": "flyer_chino_j0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_J==2",
+          "storage": "flyer_chino_j1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_J==3",
+          "storage": "flyer_chino_j2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_J==4",
+          "storage": "flyer_chino_j3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_J==5",
+          "storage": "flyerhap_chino_j.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chino_J>=6",
+          "storage": "flyer_chino_j4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy10",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿チノ＿バレンタイン"
+    },{
+      "firstLine": 209,
+      "label": "*dummy10",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,215,64],1,[2,1,null,null,215]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿チノ＿バレンタイン"
+    },{
+      "firstLine": 222,
+      "label": "*day_flyer_chiya",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,239]],
+      "nexts": [{
+          "eval": "f.dress==1",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_A",
+          "type": 0
+        },{
+          "eval": "f.dress==2",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_B",
+          "type": 0
+        },{
+          "eval": "f.dress==3",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_C",
+          "type": 0
+        },{
+          "eval": "f.dress==4",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_D",
+          "type": 0
+        },{
+          "eval": "f.dress==5",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_E",
+          "type": 0
+        },{
+          "eval": "f.dress==6",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_F",
+          "type": 0
+        },{
+          "eval": "f.dress==7",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_G",
+          "type": 0
+        },{
+          "eval": "f.dress==8",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_H",
+          "type": 0
+        },{
+          "eval": "f.dress==9",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_I",
+          "type": 0
+        },{
+          "eval": "f.dress==10",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_J",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*day_flyer_chiya_A",
+          "type": 0
+        }],
+      "preevals": ["f.flyer_chiya=f.dress"],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜"
+    },{
+      "firstLine": 239,
+      "label": "*day_flyer_chiya_A",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,249]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_A==1",
+          "storage": "flyer_chiya_a0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_A==2",
+          "storage": "flyer_chiya_a1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_A==3",
+          "storage": "flyer_chiya_a2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_A==4",
+          "storage": "flyer_chiya_a3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_A==5",
+          "storage": "flyerhap_chiya_a.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_A>=6",
+          "storage": "flyer_chiya_a4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy11",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿制服"
+    },{
+      "firstLine": 249,
+      "label": "*dummy11",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,255,64],1,[2,1,null,null,255]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿制服"
+    },{
+      "firstLine": 257,
+      "label": "*day_flyer_chiya_B",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,267]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_B==1",
+          "storage": "flyer_chiya_b0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_B==2",
+          "storage": "flyer_chiya_b1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_B==3",
+          "storage": "flyer_chiya_b2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_B==4",
+          "storage": "flyer_chiya_b3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_B==5",
+          "storage": "flyerhap_chiya_b.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_B>=6",
+          "storage": "flyer_chiya_b4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy12",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿ラビットハウス"
+    },{
+      "firstLine": 267,
+      "label": "*dummy12",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,273,64],1,[2,1,null,null,273]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿ラビットハウス"
+    },{
+      "firstLine": 275,
+      "label": "*day_flyer_chiya_C",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,285]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_C==1",
+          "storage": "flyer_chiya_c0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_C==2",
+          "storage": "flyer_chiya_c1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_C==3",
+          "storage": "flyer_chiya_c2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_C==4",
+          "storage": "flyer_chiya_c3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_C==5",
+          "storage": "flyerhap_chiya_c.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_C>=6",
+          "storage": "flyer_chiya_c4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy13",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿甘兎庵"
+    },{
+      "firstLine": 285,
+      "label": "*dummy13",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,291,64],1,[2,1,null,null,291]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿甘兎庵"
+    },{
+      "firstLine": 293,
+      "label": "*day_flyer_chiya_D",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,303]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_D==1",
+          "storage": "flyer_chiya_d0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_D==2",
+          "storage": "flyer_chiya_d1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_D==3",
+          "storage": "flyer_chiya_d2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_D==4",
+          "storage": "flyer_chiya_d3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_D==5",
+          "storage": "flyerhap_chiya_d.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_D>=6",
+          "storage": "flyer_chiya_d4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy14",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿ラパン"
+    },{
+      "firstLine": 303,
+      "label": "*dummy14",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,309,64],1,[2,1,null,null,309]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿ラパン"
+    },{
+      "firstLine": 311,
+      "label": "*day_flyer_chiya_E",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,321]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_E==1",
+          "storage": "flyer_chiya_e0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_E==2",
+          "storage": "flyer_chiya_e1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_E==3",
+          "storage": "flyer_chiya_e2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_E==4",
+          "storage": "flyer_chiya_e3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_E==5",
+          "storage": "flyerhap_chiya_e.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_E>=6",
+          "storage": "flyer_chiya_e4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy15",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿軍服"
+    },{
+      "firstLine": 321,
+      "label": "*dummy15",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,327,64],1,[2,1,null,null,327]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿軍服"
+    },{
+      "firstLine": 329,
+      "label": "*day_flyer_chiya_F",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,339]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_F==1",
+          "storage": "flyer_chiya_f0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_F==2",
+          "storage": "flyer_chiya_f1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_F==3",
+          "storage": "flyer_chiya_f2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_F==4",
+          "storage": "flyer_chiya_f3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_F==5",
+          "storage": "flyerhap_chiya_f.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_F>=6",
+          "storage": "flyer_chiya_f4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy16",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿サンタ"
+    },{
+      "firstLine": 339,
+      "label": "*dummy16",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,345,64],1,[2,1,null,null,345]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿サンタ"
+    },{
+      "firstLine": 347,
+      "label": "*day_flyer_chiya_G",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,357]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_G==1",
+          "storage": "flyer_chiya_g0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_G==2",
+          "storage": "flyer_chiya_g1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_G==3",
+          "storage": "flyer_chiya_g2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_G==4",
+          "storage": "flyer_chiya_g3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_G==5",
+          "storage": "flyerhap_chiya_g.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_G>=6",
+          "storage": "flyer_chiya_g4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy17",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿ハロウィン"
+    },{
+      "firstLine": 357,
+      "label": "*dummy17",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,363,64],1,[2,1,null,null,363]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿ハロウィン"
+    },{
+      "firstLine": 365,
+      "label": "*day_flyer_chiya_H",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,375]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_H==1",
+          "storage": "flyer_chiya_h0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_H==2",
+          "storage": "flyer_chiya_h1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_H==3",
+          "storage": "flyer_chiya_h2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_H==4",
+          "storage": "flyer_chiya_h3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_H==5",
+          "storage": "flyerhap_chiya_h.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_H>=6",
+          "storage": "flyer_chiya_h4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy18",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿怪盗"
+    },{
+      "firstLine": 375,
+      "label": "*dummy18",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,381,64],1,[2,1,null,null,381]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿怪盗"
+    },{
+      "firstLine": 383,
+      "label": "*day_flyer_chiya_I",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,393]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_I==1",
+          "storage": "flyer_chiya_i0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_I==2",
+          "storage": "flyer_chiya_i1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_I==3",
+          "storage": "flyer_chiya_i2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_I==4",
+          "storage": "flyer_chiya_i3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_I==5",
+          "storage": "flyerhap_chiya_i.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_I>=6",
+          "storage": "flyer_chiya_i4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy19",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿バニー"
+    },{
+      "firstLine": 393,
+      "label": "*dummy19",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,399,64],1,[2,1,null,null,399]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿バニー"
+    },{
+      "firstLine": 401,
+      "label": "*day_flyer_chiya_J",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,411]],
+      "nexts": [{
+          "eval": "f.flyer_chiya_J==1",
+          "storage": "flyer_chiya_j0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_J==2",
+          "storage": "flyer_chiya_j1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_J==3",
+          "storage": "flyer_chiya_j2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_J==4",
+          "storage": "flyer_chiya_j3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_J==5",
+          "storage": "flyerhap_chiya_j.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_chiya_J>=6",
+          "storage": "flyer_chiya_j4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy20",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿千夜＿バレンタイン"
+    },{
+      "firstLine": 411,
+      "label": "*dummy20",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,417,64],1,[2,1,null,null,417]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿千夜＿バレンタイン"
+    },{
+      "firstLine": 423,
+      "label": "*day_flyer_rize",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,440]],
+      "nexts": [{
+          "eval": "f.dress==1",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_A",
+          "type": 0
+        },{
+          "eval": "f.dress==2",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_B",
+          "type": 0
+        },{
+          "eval": "f.dress==3",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_C",
+          "type": 0
+        },{
+          "eval": "f.dress==4",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_D",
+          "type": 0
+        },{
+          "eval": "f.dress==5",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_E",
+          "type": 0
+        },{
+          "eval": "f.dress==6",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_F",
+          "type": 0
+        },{
+          "eval": "f.dress==7",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_G",
+          "type": 0
+        },{
+          "eval": "f.dress==8",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_H",
+          "type": 0
+        },{
+          "eval": "f.dress==9",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_I",
+          "type": 0
+        },{
+          "eval": "f.dress==10",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_J",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*day_flyer_rize_A",
+          "type": 0
+        }],
+      "preevals": ["f.flyer_rize=f.dress"],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ"
+    },{
+      "firstLine": 440,
+      "label": "*day_flyer_rize_A",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,450]],
+      "nexts": [{
+          "eval": "f.flyer_rize_A==1",
+          "storage": "flyer_rize_a0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_A==2",
+          "storage": "flyer_rize_a1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_A==3",
+          "storage": "flyer_rize_a2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_A==4",
+          "storage": "flyer_rize_a3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_A==5",
+          "storage": "flyerhap_rize_a.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_A>=6",
+          "storage": "flyer_rize_a4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy21",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿制服"
+    },{
+      "firstLine": 450,
+      "label": "*dummy21",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,456,64],1,[2,1,null,null,456]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿制服"
+    },{
+      "firstLine": 458,
+      "label": "*day_flyer_rize_B",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,468]],
+      "nexts": [{
+          "eval": "f.flyer_rize_B==1",
+          "storage": "flyer_rize_b0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_B==2",
+          "storage": "flyer_rize_b1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_B==3",
+          "storage": "flyer_rize_b2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_B==4",
+          "storage": "flyer_rize_b3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_B==5",
+          "storage": "flyerhap_rize_b.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_B>=6",
+          "storage": "flyer_rize_b4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy22",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿ラビットハウス"
+    },{
+      "firstLine": 468,
+      "label": "*dummy22",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,474,64],1,[2,1,null,null,474]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿ラビットハウス"
+    },{
+      "firstLine": 476,
+      "label": "*day_flyer_rize_C",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,486]],
+      "nexts": [{
+          "eval": "f.flyer_rize_C==1",
+          "storage": "flyer_rize_c0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_C==2",
+          "storage": "flyer_rize_c1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_C==3",
+          "storage": "flyer_rize_c2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_C==4",
+          "storage": "flyer_rize_c3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_C==5",
+          "storage": "flyerhap_rize_c.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_C>=6",
+          "storage": "flyer_rize_c4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy23",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿甘兎庵"
+    },{
+      "firstLine": 486,
+      "label": "*dummy23",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,492,64],1,[2,1,null,null,492]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿甘兎庵"
+    },{
+      "firstLine": 494,
+      "label": "*day_flyer_rize_D",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,504]],
+      "nexts": [{
+          "eval": "f.flyer_rize_D==1",
+          "storage": "flyer_rize_d0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_D==2",
+          "storage": "flyer_rize_d1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_D==3",
+          "storage": "flyer_rize_d2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_D==4",
+          "storage": "flyer_rize_d3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_D==5",
+          "storage": "flyerhap_rize_d.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_D>=6",
+          "storage": "flyer_rize_d4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy24",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿ラパン"
+    },{
+      "firstLine": 504,
+      "label": "*dummy24",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,510,64],1,[2,1,null,null,510]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿ラパン"
+    },{
+      "firstLine": 512,
+      "label": "*day_flyer_rize_E",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,522]],
+      "nexts": [{
+          "eval": "f.flyer_rize_E==1",
+          "storage": "flyer_rize_e0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_E==2",
+          "storage": "flyer_rize_e1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_E==3",
+          "storage": "flyer_rize_e2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_E==4",
+          "storage": "flyer_rize_e3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_E==5",
+          "storage": "flyerhap_rize_e.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_E>=6",
+          "storage": "flyer_rize_e4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy25",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿軍服"
+    },{
+      "firstLine": 522,
+      "label": "*dummy25",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,528,64],1,[2,1,null,null,528]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿軍服"
+    },{
+      "firstLine": 530,
+      "label": "*day_flyer_rize_F",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,540]],
+      "nexts": [{
+          "eval": "f.flyer_rize_F==1",
+          "storage": "flyer_rize_f0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_F==2",
+          "storage": "flyer_rize_f1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_F==3",
+          "storage": "flyer_rize_f2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_F==4",
+          "storage": "flyer_rize_f3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_F==5",
+          "storage": "flyerhap_rize_f.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_F>=6",
+          "storage": "flyer_rize_f4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy26",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿サンタ"
+    },{
+      "firstLine": 540,
+      "label": "*dummy26",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,546,64],1,[2,1,null,null,546]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿サンタ"
+    },{
+      "firstLine": 548,
+      "label": "*day_flyer_rize_G",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,558]],
+      "nexts": [{
+          "eval": "f.flyer_rize_G==1",
+          "storage": "flyer_rize_g0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_G==2",
+          "storage": "flyer_rize_g1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_G==3",
+          "storage": "flyer_rize_g2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_G==4",
+          "storage": "flyer_rize_g3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_G==5",
+          "storage": "flyerhap_rize_g.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_G>=6",
+          "storage": "flyer_rize_g4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy27",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿ハロウィン"
+    },{
+      "firstLine": 558,
+      "label": "*dummy27",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,564,64],1,[2,1,null,null,564]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿ハロウィン"
+    },{
+      "firstLine": 566,
+      "label": "*day_flyer_rize_H",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,576]],
+      "nexts": [{
+          "eval": "f.flyer_rize_H==1",
+          "storage": "flyer_rize_h0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_H==2",
+          "storage": "flyer_rize_h1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_H==3",
+          "storage": "flyer_rize_h2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_H==4",
+          "storage": "flyer_rize_h3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_H==5",
+          "storage": "flyerhap_rize_h.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_H>=6",
+          "storage": "flyer_rize_h4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy28",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿怪盗"
+    },{
+      "firstLine": 576,
+      "label": "*dummy28",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,582,64],1,[2,1,null,null,582]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿怪盗"
+    },{
+      "firstLine": 584,
+      "label": "*day_flyer_rize_I",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,594]],
+      "nexts": [{
+          "eval": "f.flyer_rize_I==1",
+          "storage": "flyer_rize_i0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_I==2",
+          "storage": "flyer_rize_i1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_I==3",
+          "storage": "flyer_rize_i2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_I==4",
+          "storage": "flyer_rize_i3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_I==5",
+          "storage": "flyerhap_rize_i.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_I>=6",
+          "storage": "flyer_rize_i4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy29",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿バニー"
+    },{
+      "firstLine": 594,
+      "label": "*dummy29",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,600,64],1,[2,1,null,null,600]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿バニー"
+    },{
+      "firstLine": 602,
+      "label": "*day_flyer_rize_J",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,612]],
+      "nexts": [{
+          "eval": "f.flyer_rize_J==1",
+          "storage": "flyer_rize_j0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_J==2",
+          "storage": "flyer_rize_j1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_J==3",
+          "storage": "flyer_rize_j2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_J==4",
+          "storage": "flyer_rize_j3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_J==5",
+          "storage": "flyerhap_rize_j.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_rize_J>=6",
+          "storage": "flyer_rize_j4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy30",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿リゼ＿バレンタイン"
+    },{
+      "firstLine": 612,
+      "label": "*dummy30",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,618,64],1,[2,1,null,null,618]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿リゼ＿バレンタイン"
+    },{
+      "firstLine": 625,
+      "label": "*day_flyer_syaro",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,642]],
+      "nexts": [{
+          "eval": "f.dress==1",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_A",
+          "type": 0
+        },{
+          "eval": "f.dress==2",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_B",
+          "type": 0
+        },{
+          "eval": "f.dress==3",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_C",
+          "type": 0
+        },{
+          "eval": "f.dress==4",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_D",
+          "type": 0
+        },{
+          "eval": "f.dress==5",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_E",
+          "type": 0
+        },{
+          "eval": "f.dress==6",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_F",
+          "type": 0
+        },{
+          "eval": "f.dress==7",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_G",
+          "type": 0
+        },{
+          "eval": "f.dress==8",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_H",
+          "type": 0
+        },{
+          "eval": "f.dress==9",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_I",
+          "type": 0
+        },{
+          "eval": "f.dress==10",
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_J",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*day_flyer_syaro_A",
+          "type": 0
+        }],
+      "preevals": ["f.flyer_syaro=f.dress"],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ"
+    },{
+      "firstLine": 642,
+      "label": "*day_flyer_syaro_A",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,652]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_A==1",
+          "storage": "flyer_syaro_a0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_A==2",
+          "storage": "flyer_syaro_a1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_A==3",
+          "storage": "flyer_syaro_a2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_A==4",
+          "storage": "flyer_syaro_a3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_A==5",
+          "storage": "flyerhap_syaro_a.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_A>=6",
+          "storage": "flyer_syaro_a4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy31",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿制服"
+    },{
+      "firstLine": 652,
+      "label": "*dummy31",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,658,64],1,[2,1,null,null,658]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿制服"
+    },{
+      "firstLine": 660,
+      "label": "*day_flyer_syaro_B",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,670]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_B==1",
+          "storage": "flyer_syaro_b0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_B==2",
+          "storage": "flyer_syaro_b1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_B==3",
+          "storage": "flyer_syaro_b2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_B==4",
+          "storage": "flyer_syaro_b3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_B==5",
+          "storage": "flyerhap_syaro_b.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_B>=6",
+          "storage": "flyer_syaro_b4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy32",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿ラビットハウス"
+    },{
+      "firstLine": 670,
+      "label": "*dummy32",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,676,64],1,[2,1,null,null,676]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿ラビットハウス"
+    },{
+      "firstLine": 678,
+      "label": "*day_flyer_syaro_C",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,688]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_C==1",
+          "storage": "flyer_syaro_c0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_C==2",
+          "storage": "flyer_syaro_c1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_C==3",
+          "storage": "flyer_syaro_c2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_C==4",
+          "storage": "flyer_syaro_c3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_C==5",
+          "storage": "flyerhap_syaro_c.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_C>=6",
+          "storage": "flyer_syaro_c4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy33",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿甘兎庵"
+    },{
+      "firstLine": 688,
+      "label": "*dummy33",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,694,64],1,[2,1,null,null,694]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿甘兎庵"
+    },{
+      "firstLine": 696,
+      "label": "*day_flyer_syaro_D",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,706]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_D==1",
+          "storage": "flyer_syaro_d0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_D==2",
+          "storage": "flyer_syaro_d1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_D==3",
+          "storage": "flyer_syaro_d2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_D==4",
+          "storage": "flyer_syaro_d3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_D==5",
+          "storage": "flyerhap_syaro_d.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_D>=6",
+          "storage": "flyer_syaro_d4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy34",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿ラパン"
+    },{
+      "firstLine": 706,
+      "label": "*dummy34",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,712,64],1,[2,1,null,null,712]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿ラパン"
+    },{
+      "firstLine": 714,
+      "label": "*day_flyer_syaro_E",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,724]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_E==1",
+          "storage": "flyer_syaro_e0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_E==2",
+          "storage": "flyer_syaro_e1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_E==3",
+          "storage": "flyer_syaro_e2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_E==4",
+          "storage": "flyer_syaro_e3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_E==5",
+          "storage": "flyerhap_syaro_e.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_E>=6",
+          "storage": "flyer_syaro_e4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy35",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿軍服"
+    },{
+      "firstLine": 724,
+      "label": "*dummy35",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,730,64],1,[2,1,null,null,730]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿軍服"
+    },{
+      "firstLine": 732,
+      "label": "*day_flyer_syaro_F",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,742]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_F==1",
+          "storage": "flyer_syaro_f0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_F==2",
+          "storage": "flyer_syaro_f1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_F==3",
+          "storage": "flyer_syaro_f2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_F==4",
+          "storage": "flyer_syaro_f3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_F==5",
+          "storage": "flyerhap_syaro_f.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_F>=6",
+          "storage": "flyer_syaro_f4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy36",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿サンタ"
+    },{
+      "firstLine": 742,
+      "label": "*dummy36",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,748,64],1,[2,1,null,null,748]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿サンタ"
+    },{
+      "firstLine": 750,
+      "label": "*day_flyer_syaro_G",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,760]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_G==1",
+          "storage": "flyer_syaro_g0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_G==2",
+          "storage": "flyer_syaro_g1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_G==3",
+          "storage": "flyer_syaro_g2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_G==4",
+          "storage": "flyer_syaro_g3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_G==5",
+          "storage": "flyerhap_syaro_g.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_G>=6",
+          "storage": "flyer_syaro_g4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy37",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿ハロウィン"
+    },{
+      "firstLine": 760,
+      "label": "*dummy37",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,766,64],1,[2,1,null,null,766]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿ハロウィン"
+    },{
+      "firstLine": 768,
+      "label": "*day_flyer_syaro_H",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,778]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_H==1",
+          "storage": "flyer_syaro_h0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_H==2",
+          "storage": "flyer_syaro_h1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_H==3",
+          "storage": "flyer_syaro_h2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_H==4",
+          "storage": "flyer_syaro_h3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_H==5",
+          "storage": "flyerhap_syaro_h.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_H>=6",
+          "storage": "flyer_syaro_h4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy38",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿怪盗"
+    },{
+      "firstLine": 778,
+      "label": "*dummy38",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,784,64],1,[2,1,null,null,784]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿怪盗"
+    },{
+      "firstLine": 786,
+      "label": "*day_flyer_syaro_I",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,796]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_I==1",
+          "storage": "flyer_syaro_i0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_I==2",
+          "storage": "flyer_syaro_i1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_I==3",
+          "storage": "flyer_syaro_i2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_I==4",
+          "storage": "flyer_syaro_i3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_I==5",
+          "storage": "flyerhap_syaro_i.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_I>=6",
+          "storage": "flyer_syaro_i4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy39",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿バニー"
+    },{
+      "firstLine": 796,
+      "label": "*dummy39",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,802,64],1,[2,1,null,null,802]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿バニー"
+    },{
+      "firstLine": 804,
+      "label": "*day_flyer_syaro_J",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,814]],
+      "nexts": [{
+          "eval": "f.flyer_syaro_J==1",
+          "storage": "flyer_syaro_j0.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_J==2",
+          "storage": "flyer_syaro_j1.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_J==3",
+          "storage": "flyer_syaro_j2.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_J==4",
+          "storage": "flyer_syaro_j3.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_J==5",
+          "storage": "flyerhap_syaro_j.txt",
+          "type": 0
+        },{
+          "eval": "f.flyer_syaro_J>=6",
+          "storage": "flyer_syaro_j4.txt",
+          "type": 0
+        },{
+          "storage": "flyer.ks",
+          "target": "*dummy40",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "チラシ配りイベント＿シャロ＿バレンタイン"
+    },{
+      "firstLine": 814,
+      "label": "*dummy40",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },1,1,820,64],1,[2,1,null,null,820]],
+      "nexts": [{
+          "storage": "flyer.ks",
+          "target": "*end",
+          "type": 0
+        }],
+      "spCount": 2,
+      "texts": [["エラー",null,"初めてのチラシ配り？\\nハプニングイベント後？",null,64,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          }]],
+      "title": "チラシ配りイベント＿シャロ＿バレンタイン"
+    },{
+      "firstLine": 823,
+      "label": "*end",
+      "lines": [[1,{
+            "backbase": 1,
+            "data": [["bgm","bgm",{
+                  "name": "bgm",
+                  "replay": {
+                    "filename": null,
+                    "loop": 1,
+                    "start": null,
+                    "state": 0,
+                    "volume": 100
+                  },
+                  "update": {
+                    "state": 0
+                  }
+                }]],
+            "env": {
+              "name": "env"
+            },
+            "msgwin": 0
+          },null,1,827]],
+      "nexts": [{
+          "eval": "f.happening==1",
+          "storage": "day.ks*day_end",
+          "type": 0
+        },{
+          "storage": "day.ks*day_visit",
+          "type": 0
+        }],
+      "spCount": 1,
+      "title": "終了"
+    }]
+}
