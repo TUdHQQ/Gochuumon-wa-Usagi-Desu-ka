@@ -1,16 +1,24 @@
 # 这是什么
 
-ご注文はうさぎですか?? Wonderful party! ai翻译
+ご注文はうさぎですか?? Wonderful party! ai翻译 (Windows)
 
-[官网](https://game.mages.co.jp/gochiusa) [VNDB](https://vndb.org/v18457) [ymgal](https://www.ymgal.games/ga21816) [kungal](https://www.kungal.com/zh-cn/galgame/1106)
+[官网](https://game.mages.co.jp/gochiusa) 
+[VNDB](https://vndb.org/v18457) 
+[ymgal](https://www.ymgal.games/ga21816) 
+[kungal](https://www.kungal.com/zh-cn/galgame/1106)
 
 注意! 这是ai翻译!!!
 
+本项目基于Windows移植版制作, 不保证PSV平台兼容!!!
+
 项目尚未完成, 如果你对本项目有兴趣并且想要帮忙的话, 我们欢迎你提交pr或issue
 
-游戏下载: 
+游戏(生肉)下载: 
 
-过几天上传 Google Drive ()
+[One Drive](https://driver.listder.xyz/?file=/galgame/生肉/Gochuumon%20wa%20Usagi%20Desu%20ka%20Wonderful%20Party!.7z)
+[Google Drive](https://drive.google.com/file/d/1uZftDmstMKKSYju34tqih8U0ri2sboAc/view?usp=sharing(无汉化)/Gochuumon%20wa%20Usagi%20Desu%20ka%20Wonderful%20Party!.7z)
+
+顺带欢迎新增下载地址, QWQ
 
 # 进度
 
