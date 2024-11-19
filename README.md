@@ -25,8 +25,8 @@
 ## 字体
 
 使用 [KaleidoADV_FontConverter](https://github.com/PlaMemo-VIE-FanTrans/KaleidoADV_FontConverter) 
-修改 convert_font_to_bitmap.py 的第5行来添加字
-修改 67 行来调整字体大小
+修改 convert_font_to_bitmap.py 的第33行来添加字
+修改 94 行来调整字体大小
 
 ## 剧本
 
