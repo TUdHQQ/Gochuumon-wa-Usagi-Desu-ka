@@ -25,8 +25,8 @@
 ## 字体
 
 使用 [KaleidoADV_FontConverter](https://github.com/PlaMemo-VIE-FanTrans/KaleidoADV_FontConverter) 
-修改 convert_font_to_bitmap.py 的第33行来添加字
-修改 94 行来调整字体大小
+修改 convert_font_to_bitmap.py 的第 50 行来添加字
+修改 112 行来调整字体大小
 
 请将翻译好后的所有文本扔进text.txt内, 然后使用char.cpp去重
 
