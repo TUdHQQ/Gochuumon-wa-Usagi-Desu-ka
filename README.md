@@ -32,7 +32,7 @@
 
 ## 剧本
 
-**未完成 - 总进度: 0%**
+**未完成 - 总进度: 0.1%**
 
 all_a01.txt.scn.m.json - 0%
 
@@ -688,7 +688,7 @@ flyerhap_syaro_j.txt.scn.m.json - 0%
 
 main_a01.txt.scn.m.json - 100%
 
-main_a02.txt.scn.m.json - 0%
+main_a02.txt.scn.m.json - 100%
 
 main_a03.txt.scn.m.json - 0%
 
