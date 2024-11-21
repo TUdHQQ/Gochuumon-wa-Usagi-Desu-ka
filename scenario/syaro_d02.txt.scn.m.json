@@ -560,7 +560,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.029389324625385297
+                      "seed": 0.0293893255
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -592,7 +592,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.10638752403332621
+                      "seed": 0.106387526
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -667,7 +667,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10638752403332621
+                          "seed": 0.106387526
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -692,7 +692,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.029389324625385297
+                          "seed": 0.0293893255
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -722,7 +722,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.85137485885189368
+                      "seed": 0.851374865
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -795,7 +795,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10638752403332621
+                          "seed": 0.106387526
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -820,7 +820,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -850,7 +850,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.47138889736625261
+                      "seed": 0.4713889
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -923,7 +923,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.47138889736625261
+                          "seed": 0.4713889
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -948,7 +948,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -1002,7 +1002,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.19837031159398175
+                      "seed": 0.198370308
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -1075,7 +1075,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -1100,7 +1100,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -1143,7 +1143,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.30060731833857235
+                      "seed": 0.300607324
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -1216,7 +1216,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -1243,7 +1243,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30060731833857235
+                          "seed": 0.300607324
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -1331,7 +1331,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -1404,7 +1404,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -2290,7 +2290,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.35642567217017118
+                      "seed": 0.356425673
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -2370,7 +2370,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.35642567217017118
+                          "seed": 0.356425673
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -2481,7 +2481,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.35642567217017118
+                          "seed": 0.356425673
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -2729,7 +2729,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.34162419507431258
+                      "seed": 0.3416242
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -2804,7 +2804,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.34162419507431258
+                          "seed": 0.3416242
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -2859,7 +2859,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.67976928006836146
+                      "seed": 0.6797693
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -2932,7 +2932,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3073,7 +3073,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -3130,7 +3130,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.19302957243568225
+                      "seed": 0.193029568
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -3205,7 +3205,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19302957243568225
+                          "seed": 0.193029568
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3260,7 +3260,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.12033448286385692
+                      "seed": 0.120334484
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -3335,7 +3335,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19302957243568225
+                          "seed": 0.193029568
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3360,7 +3360,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -3490,7 +3490,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -3520,7 +3520,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.089968565935239719
+                      "seed": 0.08996857
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -3595,7 +3595,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.089968565935239719
+                          "seed": 0.08996857
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3620,7 +3620,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -3725,7 +3725,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.089968565935239719
+                          "seed": 0.08996857
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3780,7 +3780,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.17316202276680806
+                      "seed": 0.173162028
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -3855,7 +3855,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.17316202276680806
+                          "seed": 0.173162028
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -4785,7 +4785,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.576097903378399
+                      "seed": 0.5760979
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -4817,7 +4817,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.63505966368602562
+                      "seed": 0.635059655
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -4892,7 +4892,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.63505966368602562
+                          "seed": 0.635059655
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -4917,7 +4917,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.576097903378399
+                          "seed": 0.5760979
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -4947,7 +4947,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.85723441267128508
+                      "seed": 0.8572344
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -5020,7 +5020,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.63505966368602562
+                          "seed": 0.635059655
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5045,7 +5045,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5173,7 +5173,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5306,7 +5306,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5336,7 +5336,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.554765465254677
+                      "seed": 0.554765463
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -5409,7 +5409,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5434,7 +5434,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5588,7 +5588,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10638752403332621
+                          "seed": 0.106387526
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5613,7 +5613,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.029389324625385297
+                          "seed": 0.0293893255
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5686,7 +5686,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10638752403332621
+                          "seed": 0.106387526
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5711,7 +5711,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5784,7 +5784,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.47138889736625261
+                          "seed": 0.4713889
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5809,7 +5809,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5882,7 +5882,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -5909,7 +5909,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85137485885189368
+                          "seed": 0.851374865
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5982,7 +5982,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19837031159398175
+                          "seed": 0.198370308
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -6009,7 +6009,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30060731833857235
+                          "seed": 0.300607324
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -6317,7 +6317,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.35642567217017118
+                          "seed": 0.356425673
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -6477,7 +6477,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.34162419507431258
+                          "seed": 0.3416242
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -6575,7 +6575,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -6675,7 +6675,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -6777,7 +6777,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19302957243568225
+                          "seed": 0.193029568
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -6877,7 +6877,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.19302957243568225
+                          "seed": 0.193029568
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -6902,7 +6902,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7002,7 +7002,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7077,7 +7077,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.089968565935239719
+                          "seed": 0.08996857
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7102,7 +7102,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12033448286385692
+                          "seed": 0.120334484
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7177,7 +7177,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.089968565935239719
+                          "seed": 0.08996857
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7275,7 +7275,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.17316202276680806
+                          "seed": 0.173162028
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -7549,7 +7549,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.63505966368602562
+                          "seed": 0.635059655
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7574,7 +7574,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.576097903378399
+                          "seed": 0.5760979
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7647,7 +7647,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.63505966368602562
+                          "seed": 0.635059655
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7672,7 +7672,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7770,7 +7770,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7842,7 +7842,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7867,7 +7867,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -7937,7 +7937,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7962,7 +7962,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8079,7 +8079,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]],["$lip","$lipシャロ"],["order",1],["xpos",300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -8087,7 +8087,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -8112,7 +8112,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]],["$lip","$lipリゼ"],["xpos",-300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -8120,7 +8120,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8248,7 +8248,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8291,7 +8291,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.24927518539994506
+                      "seed": 0.2492752
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -8391,7 +8391,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.24927518539994506
+                          "seed": 0.2492752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8521,7 +8521,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.24927518539994506
+                          "seed": 0.2492752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8551,7 +8551,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.44059572130497149
+                      "seed": 0.440595716
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -8651,7 +8651,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.44059572130497149
+                          "seed": 0.440595716
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8681,7 +8681,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.11828974272896511
+                      "seed": 0.118289746
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -8781,7 +8781,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -8911,7 +8911,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9016,7 +9016,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9108,7 +9108,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9230,7 +9230,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9260,7 +9260,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.032837916196172982
+                      "seed": 0.0328379162
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -9360,7 +9360,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9468,7 +9468,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9568,7 +9568,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.24927518539994506
+                          "seed": 0.2492752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9668,7 +9668,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.24927518539994506
+                          "seed": 0.2492752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9768,7 +9768,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.44059572130497149
+                          "seed": 0.440595716
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9868,7 +9868,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9968,7 +9968,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11828974272896511
+                          "seed": 0.118289746
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10068,7 +10068,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10165,7 +10165,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10257,7 +10257,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10374,7 +10374,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10506,7 +10506,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10636,7 +10636,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10737,7 +10737,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10829,7 +10829,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.032837916196172982
+                          "seed": 0.0328379162
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -10992,7 +10992,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.85757011627552115
+                      "seed": 0.8575701
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -11067,7 +11067,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85757011627552115
+                          "seed": 0.8575701
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -11122,7 +11122,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.11642811365092928
+                      "seed": 0.116428114
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -11148,7 +11148,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.019287697988830226
+                      "seed": 0.019287698
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -11219,7 +11219,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.019287697988830226
+                          "seed": 0.019287698
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -11244,7 +11244,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11642811365092928
+                          "seed": 0.116428114
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -11426,7 +11426,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85757011627552115
+                          "seed": 0.8575701
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -11521,7 +11521,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]],["$lip","$lipシャロ"],["order",1],["xpos",300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -11529,7 +11529,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -11554,7 +11554,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]],["$lip","$lipリゼ"],["xpos",-300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -11562,7 +11562,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -11690,7 +11690,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -11848,7 +11848,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.2989288003173925
+                      "seed": 0.2989288
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -11921,7 +11921,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2989288003173925
+                          "seed": 0.2989288
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -12037,7 +12037,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2989288003173925
+                          "seed": 0.2989288
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -12129,7 +12129,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2989288003173925
+                          "seed": 0.2989288
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -12251,7 +12251,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2989288003173925
+                          "seed": 0.2989288
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -12308,7 +12308,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.40937528611102636
+                      "seed": 0.40937528
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -12383,7 +12383,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40937528611102636
+                          "seed": 0.40937528
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -12438,7 +12438,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.71462141788995026
+                      "seed": 0.7146214
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -12464,7 +12464,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.74407177953428749
+                      "seed": 0.7440718
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -12535,7 +12535,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.74407177953428749
+                          "seed": 0.7440718
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -12560,7 +12560,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.71462141788995026
+                          "seed": 0.7146214
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12665,7 +12665,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12836,7 +12836,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2989288003173925
+                          "seed": 0.2989288
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -12937,7 +12937,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40937528611102636
+                          "seed": 0.40937528
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13032,7 +13032,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]],["$lip","$lipシャロ"],["order",1],["xpos",300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -13040,7 +13040,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.554765465254677
+                          "seed": 0.554765463
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13065,7 +13065,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]],["$lip","$lipリゼ"],["xpos",-300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -13073,7 +13073,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13201,7 +13201,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13231,7 +13231,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.11728263191625721
+                      "seed": 0.117282629
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -13329,7 +13329,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13359,7 +13359,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.25946836756492814
+                      "seed": 0.259468377
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -13432,7 +13432,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13457,7 +13457,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13563,7 +13563,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.85723441267128508
+                          "seed": 0.8572344
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13661,7 +13661,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13734,7 +13734,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13759,7 +13759,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13829,7 +13829,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13854,7 +13854,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13919,7 +13919,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13944,7 +13944,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14034,7 +14034,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14059,7 +14059,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14164,7 +14164,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14189,7 +14189,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14292,7 +14292,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14317,7 +14317,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14391,7 +14391,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14416,7 +14416,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14481,7 +14481,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14506,7 +14506,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11728263191625721
+                          "seed": 0.117282629
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14539,7 +14539,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.40247810296945097
+                      "seed": 0.4024781
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -14612,7 +14612,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14637,7 +14637,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14667,7 +14667,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.0044862208929715873
+                      "seed": 0.004486221
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -14740,7 +14740,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14765,7 +14765,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14843,7 +14843,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14868,7 +14868,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14933,7 +14933,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14958,7 +14958,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15053,7 +15053,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15078,7 +15078,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15181,7 +15181,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15236,7 +15236,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.33570360423596912
+                      "seed": 0.3357036
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -15309,7 +15309,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.33570360423596912
+                          "seed": 0.3357036
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15364,7 +15364,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.73033845027008881
+                      "seed": 0.730338454
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -15390,7 +15390,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.73622852259895621
+                      "seed": 0.7362285
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -15459,7 +15459,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.73622852259895621
+                          "seed": 0.7362285
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15484,7 +15484,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.73033845027008881
+                          "seed": 0.730338454
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15564,7 +15564,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.25946836756492814
+                          "seed": 0.259468377
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15589,7 +15589,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15662,7 +15662,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15687,7 +15687,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.40247810296945097
+                          "seed": 0.4024781
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15760,7 +15760,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0044862208929715873
+                          "seed": 0.004486221
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15858,7 +15858,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.33570360423596912
+                          "seed": 0.3357036
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15955,7 +15955,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.019287697988830226
+                          "seed": 0.019287698
                         }]],["$lip","$lipシャロ"],["order",1],["xpos",300],["zpos",47.058823529411768],["xpos",[{
                           "handler": "wait"
                         }]],["$eye",[{
@@ -15965,7 +15965,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.019287697988830226
+                          "seed": 0.019287698
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15990,7 +15990,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11642811365092928
+                          "seed": 0.116428114
                         }]],["$lip","$lipリゼ"],["xpos",-300],["zpos",47.058823529411768],["$eye",[{
                           "disable": "eyeflipdisable",
                           "flipfreq": 0.5,
@@ -15998,7 +15998,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.11642811365092928
+                          "seed": 0.116428114
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -16028,7 +16028,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.89089632862331
+                      "seed": 0.8908963
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -16103,7 +16103,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.019287697988830226
+                          "seed": 0.019287698
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16128,7 +16128,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.89089632862331
+                          "seed": 0.8908963
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -16158,7 +16158,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.18485061189611499
+                      "seed": 0.184850618
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -16233,7 +16233,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.18485061189611499
+                          "seed": 0.184850618
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16258,7 +16258,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.89089632862331
+                          "seed": 0.8908963
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -16363,7 +16363,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.18485061189611499
+                          "seed": 0.184850618
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16418,7 +16418,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.41483809930722981
+                      "seed": 0.4148381
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -16493,7 +16493,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.41483809930722981
+                          "seed": 0.4148381
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16634,7 +16634,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.41483809930722981
+                          "seed": 0.4148381
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -16691,7 +16691,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.59587389751884523
+                      "seed": 0.5958739
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -16766,7 +16766,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.59587389751884523
+                          "seed": 0.5958739
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -17069,7 +17069,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.019287697988830226
+                          "seed": 0.019287698
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -17094,7 +17094,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.89089632862331
+                          "seed": 0.8908963
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -17169,7 +17169,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.18485061189611499
+                          "seed": 0.184850618
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -17194,7 +17194,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.89089632862331
+                          "seed": 0.8908963
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -17269,7 +17269,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.18485061189611499
+                          "seed": 0.184850618
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -17367,7 +17367,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.41483809930722981
+                          "seed": 0.4148381
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -17467,7 +17467,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.41483809930722981
+                          "seed": 0.4148381
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -17569,7 +17569,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.59587389751884523
+                          "seed": 0.5958739
                         }]]],
                   "class": "character",
                   "name": "シャロ",

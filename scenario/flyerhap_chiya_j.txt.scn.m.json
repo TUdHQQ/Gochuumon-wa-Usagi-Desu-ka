@@ -344,7 +344,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.67976928006836146
+                      "seed": 0.6797693
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -442,7 +442,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -472,7 +472,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.50398266548661763
+                      "seed": 0.503982663
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -568,7 +568,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50398266548661763
+                          "seed": 0.503982663
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -694,7 +694,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50398266548661763
+                          "seed": 0.503982663
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -800,7 +800,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50398266548661763
+                          "seed": 0.503982663
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -1859,7 +1859,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.44337290566728721
+                      "seed": 0.4433729
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -1891,7 +1891,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.12768944364757226
+                      "seed": 0.127689451
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -1966,7 +1966,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.44337290566728721
+                          "seed": 0.4433729
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -1991,7 +1991,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12768944364757226
+                          "seed": 0.127689451
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -2125,7 +2125,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12768944364757226
+                          "seed": 0.127689451
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -2261,7 +2261,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.23227637562181463
+                      "seed": 0.23227638
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -2367,7 +2367,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.23227637562181463
+                          "seed": 0.23227638
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -2409,7 +2409,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.3171178319650868
+                      "seed": 0.31711784
                     }]],["$lip","$lipココア"]],
               "class": "character",
               "link": null,
@@ -2482,7 +2482,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -2507,7 +2507,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.23227637562181463
+                          "seed": 0.23227638
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -2620,7 +2620,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -2670,7 +2670,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.2304147465437788
+                      "seed": 0.230414748
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -2751,7 +2751,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -2790,7 +2790,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2304147465437788
+                          "seed": 0.230414748
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -2884,7 +2884,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -2940,7 +2940,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.39271217993713187
+                      "seed": 0.392712176
                     }]],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -3021,7 +3021,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -3066,7 +3066,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -3170,7 +3170,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.67976928006836146
+                          "seed": 0.6797693
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -3266,7 +3266,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50398266548661763
+                          "seed": 0.503982663
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -3362,7 +3362,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50398266548661763
+                          "seed": 0.503982663
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -3513,7 +3513,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.44337290566728721
+                          "seed": 0.4433729
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -3538,7 +3538,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12768944364757226
+                          "seed": 0.127689451
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -3642,7 +3642,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12768944364757226
+                          "seed": 0.127689451
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -3746,7 +3746,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.23227637562181463
+                          "seed": 0.23227638
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3831,7 +3831,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -3858,7 +3858,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.23227637562181463
+                          "seed": 0.23227638
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -3943,7 +3943,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -3982,7 +3982,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.2304147465437788
+                          "seed": 0.230414748
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -4058,7 +4058,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4103,7 +4103,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4168,7 +4168,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4213,7 +4213,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4312,7 +4312,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4357,7 +4357,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4462,7 +4462,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4507,7 +4507,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4610,7 +4610,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4655,7 +4655,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4729,7 +4729,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4774,7 +4774,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4839,7 +4839,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -4884,7 +4884,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39271217993713187
+                          "seed": 0.392712176
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -4990,7 +4990,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -5215,7 +5215,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.069338053529465621
+                      "seed": 0.06933805
                     }]],["order",8],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -5247,7 +5247,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.13769951475569933
+                      "seed": 0.137699515
                     }]],["order",6],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -5347,7 +5347,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5384,7 +5384,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.13769951475569933
+                          "seed": 0.137699515
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -5528,7 +5528,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5659,7 +5659,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5726,7 +5726,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.29502243110446486
+                      "seed": 0.295022428
                     }]],["order",9],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -5813,7 +5813,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -5844,7 +5844,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -5899,7 +5899,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.37000640888698993
+                      "seed": 0.3700064
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -5978,7 +5978,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.37000640888698993
+                          "seed": 0.3700064
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -6009,7 +6009,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -6064,7 +6064,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.10174871059297463
+                      "seed": 0.101748712
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -6143,7 +6143,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.37000640888698993
+                          "seed": 0.3700064
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -6174,7 +6174,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -6199,7 +6199,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -6305,7 +6305,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -6330,7 +6330,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -6478,7 +6478,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -6503,7 +6503,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -6634,7 +6634,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -6664,7 +6664,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.206732383190405
+                      "seed": 0.206732377
                     }]],["order",11],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -6745,7 +6745,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.206732383190405
+                          "seed": 0.206732377
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -6807,7 +6807,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -6837,7 +6837,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.51963866084780419
+                      "seed": 0.519638658
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -6863,7 +6863,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.12582781456953643
+                      "seed": 0.125827819
                     }]],["$lip","$lipチノ"]],
               "class": "character",
               "link": null,
@@ -6932,7 +6932,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.206732383190405
+                          "seed": 0.206732377
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -6963,7 +6963,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12582781456953643
+                          "seed": 0.125827819
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -6994,7 +6994,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7024,7 +7024,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.14429151280251473
+                      "seed": 0.14429152
                     }]],["$lip","$lipココア"]],
               "class": "character",
               "link": null,
@@ -7097,7 +7097,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -7128,7 +7128,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12582781456953643
+                          "seed": 0.125827819
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -7159,7 +7159,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7247,7 +7247,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -7290,7 +7290,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7320,7 +7320,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.57432782982879116
+                      "seed": 0.5743278
                     }]],["order",12],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -7401,7 +7401,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -7426,7 +7426,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.57432782982879116
+                          "seed": 0.5743278
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -7463,7 +7463,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7551,7 +7551,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -7594,7 +7594,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7705,7 +7705,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -7767,7 +7767,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -7823,7 +7823,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.31720938749351479
+                      "seed": 0.3172094
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -7954,7 +7954,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.31720938749351479
+                          "seed": 0.3172094
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -8085,7 +8085,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.31720938749351479
+                          "seed": 0.3172094
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -8285,7 +8285,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.31720938749351479
+                          "seed": 0.3172094
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -8619,7 +8619,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.15564439832758567
+                      "seed": 0.1556444
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -8717,7 +8717,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.15564439832758567
+                          "seed": 0.1556444
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -8882,7 +8882,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.15564439832758567
+                          "seed": 0.1556444
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -9080,7 +9080,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.43733024079103977
+                      "seed": 0.437330246
                     }]],["order",16],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -9217,7 +9217,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.43733024079103977
+                          "seed": 0.437330246
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9279,7 +9279,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.39649647511215552
+                      "seed": 0.396496475
                     }]],["$lip","$lipチノ"]],
               "class": "character",
               "link": null,
@@ -9379,7 +9379,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -9404,7 +9404,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.43733024079103977
+                          "seed": 0.437330246
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9440,7 +9440,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.20807519760734886
+                      "seed": 0.2080752
                     }]],["$lip","$lipリゼ"]],
               "class": "character",
               "link": null,
@@ -9544,7 +9544,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -9569,7 +9569,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.20807519760734886
+                          "seed": 0.2080752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -9694,7 +9694,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -9736,7 +9736,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.50614947965941348
+                      "seed": 0.5061495
                     }]],["order",17],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -9842,7 +9842,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -9867,7 +9867,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -9933,7 +9933,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.4209723197119053
+                      "seed": 0.420972317
                     }]],["$lip","$lipココア"]],
               "class": "character",
               "link": null,
@@ -10006,7 +10006,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10031,7 +10031,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -10056,7 +10056,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -10156,7 +10156,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10181,7 +10181,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -10310,7 +10310,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10335,7 +10335,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -10402,7 +10402,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.72099978637043372
+                      "seed": 0.7209998
                     }]],["$lip","$lipシャロ"]],
               "class": "character",
               "link": null,
@@ -10475,7 +10475,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10500,7 +10500,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.72099978637043372
+                          "seed": 0.7209998
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -10625,7 +10625,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10698,7 +10698,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.30387279885250407
+                      "seed": 0.3038728
                     }]],["$lip","$lipココア"]],
               "class": "character",
               "link": null,
@@ -10728,7 +10728,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.45786919766838585
+                      "seed": 0.4578692
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -10758,7 +10758,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.0082094790490432456
+                      "seed": 0.008209479
                     }]],["order",19],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -10836,7 +10836,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30387279885250407
+                          "seed": 0.3038728
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -10867,7 +10867,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -10898,7 +10898,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.45786919766838585
+                          "seed": 0.4578692
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -11001,7 +11001,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30387279885250407
+                          "seed": 0.3038728
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -11032,7 +11032,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -11197,7 +11197,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -11362,7 +11362,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -11554,7 +11554,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.6972258674886318
+                      "seed": 0.697225869
                     }]],["order",20],["xpos",[{
                       "accel": -1,
                       "handler": "MoveAction",
@@ -11672,7 +11672,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -11753,7 +11753,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.22641682180242317
+                      "seed": 0.226416826
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -11859,7 +11859,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -11884,7 +11884,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.22641682180242317
+                          "seed": 0.226416826
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -11927,7 +11927,7 @@
                       "nofast": 1,
                       "nowait": 1,
                       "pattern": "eye",
-                      "seed": 0.6700949125644704
+                      "seed": 0.6700949
                     }]],["$lip","$lip千夜"]],
               "class": "character",
               "link": null,
@@ -12037,7 +12037,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12064,7 +12064,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12166,7 +12166,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12193,7 +12193,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12329,7 +12329,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12356,7 +12356,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12498,7 +12498,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12525,7 +12525,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12665,7 +12665,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12692,7 +12692,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12803,7 +12803,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12830,7 +12830,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -12932,7 +12932,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -12959,7 +12959,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -13296,7 +13296,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.3171178319650868
+                          "seed": 0.31711784
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -13439,7 +13439,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13476,7 +13476,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.13769951475569933
+                          "seed": 0.137699515
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -13574,7 +13574,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13690,7 +13690,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.069338053529465621
+                          "seed": 0.06933805
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13721,7 +13721,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13825,7 +13825,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.37000640888698993
+                          "seed": 0.3700064
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13856,7 +13856,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -13960,7 +13960,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.37000640888698993
+                          "seed": 0.3700064
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -13991,7 +13991,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14016,7 +14016,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14126,7 +14126,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.29502243110446486
+                          "seed": 0.295022428
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -14151,7 +14151,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14224,7 +14224,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.206732383190405
+                          "seed": 0.206732377
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -14286,7 +14286,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.10174871059297463
+                          "seed": 0.101748712
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14359,7 +14359,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.206732383190405
+                          "seed": 0.206732377
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -14390,7 +14390,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12582781456953643
+                          "seed": 0.125827819
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -14421,7 +14421,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14494,7 +14494,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -14525,7 +14525,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.12582781456953643
+                          "seed": 0.125827819
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -14556,7 +14556,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14629,7 +14629,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -14654,7 +14654,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.57432782982879116
+                          "seed": 0.5743278
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -14691,7 +14691,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14764,7 +14764,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.14429151280251473
+                          "seed": 0.14429152
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -14826,7 +14826,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.51963866084780419
+                          "seed": 0.519638658
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -14961,7 +14961,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.31720938749351479
+                          "seed": 0.3172094
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -15096,7 +15096,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.31720938749351479
+                          "seed": 0.3172094
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -15329,7 +15329,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.15564439832758567
+                          "seed": 0.1556444
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15464,7 +15464,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.15564439832758567
+                          "seed": 0.1556444
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -15630,7 +15630,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.43733024079103977
+                          "seed": 0.437330246
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15740,7 +15740,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -15765,7 +15765,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.43733024079103977
+                          "seed": 0.437330246
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -15875,7 +15875,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -15900,7 +15900,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.20807519760734886
+                          "seed": 0.2080752
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -16004,7 +16004,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16029,7 +16029,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -16114,7 +16114,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -16139,7 +16139,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16164,7 +16164,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.39649647511215552
+                          "seed": 0.396496475
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -16249,7 +16249,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -16274,7 +16274,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.50614947965941348
+                          "seed": 0.5061495
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16384,7 +16384,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.4209723197119053
+                          "seed": 0.420972317
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -16409,7 +16409,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.72099978637043372
+                          "seed": 0.7209998
                         }]]],
                   "class": "character",
                   "name": "シャロ",
@@ -16519,7 +16519,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30387279885250407
+                          "seed": 0.3038728
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -16550,7 +16550,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -16581,7 +16581,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.45786919766838585
+                          "seed": 0.4578692
                         }]]],
                   "class": "character",
                   "name": "千夜",
@@ -16654,7 +16654,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.30387279885250407
+                          "seed": 0.3038728
                         }]]],
                   "class": "character",
                   "name": "ココア",
@@ -16685,7 +16685,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -16820,7 +16820,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -16955,7 +16955,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.0082094790490432456
+                          "seed": 0.008209479
                         }]]],
                   "class": "character",
                   "name": "チノ",
@@ -17096,7 +17096,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -17231,7 +17231,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -17256,7 +17256,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.22641682180242317
+                          "seed": 0.226416826
                         }]],["xpos",[{
                           "handler": "wait"
                         }]]],
@@ -17368,7 +17368,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6972258674886318
+                          "seed": 0.697225869
                         }]]],
                   "class": "character",
                   "name": "リゼ",
@@ -17395,7 +17395,7 @@
                           "nofast": 1,
                           "nowait": 1,
                           "pattern": "eye",
-                          "seed": 0.6700949125644704
+                          "seed": 0.6700949
                         }]]],
                   "class": "character",
                   "name": "千夜",
