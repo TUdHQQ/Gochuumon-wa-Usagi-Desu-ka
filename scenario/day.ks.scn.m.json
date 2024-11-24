@@ -1,2388 +1,4656 @@
 {
-  "hash": "a81fe613138830c7b2465f8f15aa0b63",
-  "name": "day.ks",
-  "outlines": [],
-  "scenes": [{
-      "firstLine": 0,
-      "label": "*start",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [],
-            "env": {
-              "action": [null,null],
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
-              "action": [null],
-              "name": "env"
-            }],"wait",{
-            "list": [{
-                "mode": 0,
-                "name": "env"
-              }]
-          }],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": null,
-                    "start": null,
-                    "state": null,
-                    "volume": null
-                  },
-                  "update": {
-                    "state": null
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": null,
-                    "start": null,
-                    "state": null,
-                    "volume": null
-                  },
-                  "update": {
-                    "state": null
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,10]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_effect",
-          "type": 0
-        }],
-      "spCount": 3,
-      "title": "day"
-    },{
-      "firstLine": 10,
-      "label": "*day_effect",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,14]],
-      "nexts": [{
-          "storage": "date.ks",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "日付演出"
-    },{
-      "firstLine": 14,
-      "label": "*day_event",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,29]],
-      "nexts": [{
-          "eval": "f.day==1",
-          "storage": "tutorial_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==4",
-          "storage": "main_b02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==8",
-          "storage": "main_b03.txt",
-          "type": 0
-        },{
-          "eval": "f.day==11",
-          "storage": "main_b04.txt",
-          "type": 0
-        },{
-          "eval": "f.day==15",
-          "storage": "main_b05.txt",
-          "type": 0
-        },{
-          "eval": "f.day==19",
-          "storage": "main_b06.txt",
-          "type": 0
-        },{
-          "storage": "day.ks",
-          "target": "*dummy1",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "固定イベント"
-    },{
-      "firstLine": 29,
-      "label": "*dummy1",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,38]],
-      "nexts": [{
-          "eval": "f.everyday==0",
-          "storage": "main_e01.txt",
-          "type": 0
-        },{
-          "eval": "f.everyday==1",
-          "storage": "main_e02.txt",
-          "type": 0
-        },{
-          "eval": "f.everyday==2",
-          "storage": "main_e03.txt",
-          "type": 0
-        },{
-          "eval": "f.everyday==3",
-          "storage": "main_e04.txt",
-          "type": 0
-        },{
-          "eval": "f.everyday==4",
-          "storage": "main_e05.txt",
-          "type": 0
-        },{
-          "storage": "main_e05.txt",
-          "type": 0
-        }],
-      "preevals": ["FunctionEverydayChk()"],
-      "spCount": 1,
-      "title": "固定イベント"
-    },{
-      "firstLine": 38,
-      "label": "*day_coffee",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,49]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_flyer_chara",
-          "type": 0
-        }],
-      "selectInfo": {
-        "message": "喫茶店イベント",
-        "select": [{
-            "exp": "FunctionCaffeePopularityCalc(45)",
-            "render": 1,
-            "runLine": 40,
-            "runLineStr": "[seladd text=\"Ａ判定\" exp=\"FunctionCaffeePopularityCalc(45)\"]",
-            "tagname": "seladd",
-            "text": "Ａ判定"
-          },{
-            "exp": "FunctionCaffeePopularityCalc(35)",
-            "render": 1,
-            "runLine": 41,
-            "runLineStr": "[seladd text=\"Ｂ判定\" exp=\"FunctionCaffeePopularityCalc(35)\"]",
-            "tagname": "seladd",
-            "text": "Ｂ判定"
-          },{
-            "exp": "FunctionCaffeePopularityCalc(25)",
-            "render": 1,
-            "runLine": 42,
-            "runLineStr": "[seladd text=\"Ｃ判定\" exp=\"FunctionCaffeePopularityCalc(25)\"]",
-            "tagname": "seladd",
-            "text": "Ｃ判定"
-          },{
-            "exp": "FunctionCaffeePopularityCalc(15)",
-            "render": 1,
-            "runLine": 43,
-            "runLineStr": "[seladd text=\"Ｄ判定\" exp=\"FunctionCaffeePopularityCalc(15)\"]",
-            "tagname": "seladd",
-            "text": "Ｄ判定"
-          },{
-            "exp": "FunctionCaffeePopularityCalc(-5)",
-            "render": 1,
-            "runLine": 44,
-            "runLineStr": "[seladd text=\"Ｅ判定\" exp=\"FunctionCaffeePopularityCalc(-5)\" target=\"*day_flyer_popularity_down\"]",
-            "tagname": "seladd",
-            "target": "*day_flyer_popularity_down",
-            "text": "Ｅ判定"
-          },{
-            "exp": "FunctionCaffeePopularityCalc(-5)",
-            "render": 1,
-            "runLine": 46,
-            "runLineStr": "[seladd text=\"ゲームオーバー\" exp=\"FunctionCaffeePopularityCalc(-5)\" target=\"*day_end_noflyer\"]",
-            "tagname": "seladd",
-            "target": "*day_end_noflyer",
-            "text": "ゲームオーバー"
-          }],
-        "type": "shop"
-      },
-      "selects": [{
-          "exp": "FunctionCaffeePopularityCalc(45)",
-          "render": 1,
-          "selidx": 0,
-          "text": "Ａ判定"
-        },{
-          "exp": "FunctionCaffeePopularityCalc(35)",
-          "render": 1,
-          "selidx": 1,
-          "text": "Ｂ判定"
-        },{
-          "exp": "FunctionCaffeePopularityCalc(25)",
-          "render": 1,
-          "selidx": 2,
-          "text": "Ｃ判定"
-        },{
-          "exp": "FunctionCaffeePopularityCalc(15)",
-          "render": 1,
-          "selidx": 3,
-          "text": "Ｄ判定"
-        },{
-          "exp": "FunctionCaffeePopularityCalc(-5)",
-          "render": 1,
-          "selidx": 4,
-          "storage": "day.ks",
-          "target": "*day_flyer_popularity_down",
-          "text": "Ｅ判定"
-        },{
-          "exp": "FunctionCaffeePopularityCalc(-5)",
-          "render": 1,
-          "selidx": 5,
-          "storage": "day.ks",
-          "target": "*day_end_noflyer",
-          "text": "ゲームオーバー"
-        }],
-      "spCount": 1,
-      "title": "喫茶店イベント"
-    },{
-      "firstLine": 49,
-      "label": "*day_flyer_chara",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,55]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_flyer_chara_start",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "チラシ配りイベント＿キャラ選択"
-    },{
-      "firstLine": 55,
-      "label": "*day_flyer_popularity_down",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,61]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_flyer_chara_start",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "知名度ダウン"
-    },{
-      "firstLine": 61,
-      "label": "*day_flyer_chara_start",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,65]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_flyer_dress",
-          "type": 0
-        }],
-      "preevals": ["f.happening=0"],
-      "spCount": 1,
-      "title": "チラシ配りイベント＿キャラ選択＿開始"
-    },{
-      "firstLine": 65,
-      "label": "*day_flyer_dress",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,65],["msgoff"],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["beginskip"],["envupdate","update",[["new","scnchange","layer"],{
-              "action": [null,["zpos",-57.805907172995781],["order",0]],
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "chara": "SCENECHANGE",
-                    "motion": "show"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],"cg_scenechange.mtn",[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["envupdate","update",[["new","stage","stage"],{
-              "action": [null,["zpos",233.33333333333337],null,["visvalue",0],["visvalue",[{
-                      "delay": null,
-                      "handler": "MoveAction",
-                      "start": 0,
-                      "time": 1000,
-                      "value": 100
-                    }]]],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "trans": {
-                "method": "",
-                "sync": 1,
-                "time": 1000
-              },
-              "type": null
-            }],"wait",{
-            "canskip": 0,
-            "list": [{
-                "mode": 1,
-                "name": "stage"
-              }]
-          }],[4,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["envupdate","update",[["new","event","event"]]],[5,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["wait","time","1000"],[6,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["envupdate","update",[{
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "motion": "hide"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],[7,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "hide"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,67],["envupdate","update",[{
-              "name": "scnchange",
-              "showmode": 2
-            }]],["endskip"],["stopvoice"],[8,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,71],["envupdate","update",[["tag",{
-                "backbase": "1",
-                "runLineStr": "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
-                "taglist": ["tagname","backbase"],
-                "tagname": "msgwin"
-              }]],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "200"
-          },"msgchange",0],["envupdate","update",[["del","scnchange"]]],[9,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,71],["envupdate","update",[{
-              "action": [null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "1000"
-          }],[10,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,71],["envupdate","update",[{
-              "action": [null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg01ba"
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "1000"
-          }],[11,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg01ba"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,71],["envupdate","update",[{
-              "name": "bgm",
-              "replay": {
-                "filename": "bgm_15",
-                "loop": 1,
-                "start": null,
-                "state": 1,
-                "volume": 100.0
-              },
-              "trans": {
-                "method": "",
-                "time": "1"
-              }
-            }],"wait",{
-            "list": [{
-                "mode": 0,
-                "name": "stage"
-              },{
-                "mode": 0,
-                "name": "event"
-              },{
-                "mode": 0,
-                "name": "env"
-              }]
-          }],"bgm_BGM_15",[12,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg01ba"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,72],["envupdate","update",[["new","ココア","character"],{
-              "action": [null,null,["ypos",0],["zpos",0.0],["order",0],["xpos",0],["$lip","$lipココア"],["$eye",[{
-                      "disable": "eyeflipdisable",
-                      "flipfreq": 0.5,
-                      "handler": "RandomFlipAction",
-                      "nofast": 1,
-                      "nowait": 1,
-                      "pattern": "eye",
-                      "seed": 0.8222297
-                    }]],["xpos",[{
-                      "accel": -1,
-                      "handler": "MoveAction",
-                      "start": "@+10",
-                      "time": 300,
-                      "value": "@"
-                    }]],["visvalue",0],["visvalue",[{
-                      "delay": null,
-                      "handler": "MoveAction",
-                      "start": 0,
-                      "time": 300,
-                      "value": 100
-                    }]]],
-              "class": "character",
-              "link": null,
-              "name": "ココア",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "cocoa_4e69564876edf9ff699fbfffafc75daf",
-                  "options": {
-                    "face": "目通常:口通常"
-                  }
-                },
-                "posName": "出"
-              },
-              "showmode": 1,
-              "trans": {
-                "time": 300
-              },
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "ココア"
-              }]
-          }],"cg_cocoa.stand",[13,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg01ba"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0],["$eye",[{
-                          "disable": "eyeflipdisable",
-                          "flipfreq": 0.5,
-                          "handler": "RandomFlipAction",
-                          "nofast": 1,
-                          "nowait": 1,
-                          "pattern": "eye",
-                          "seed": 0.8222297
-                        }]]],
-                  "class": "character",
-                  "name": "ココア",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "cocoa_4e69564876edf9ff699fbfffafc75daf",
-                      "options": {
-                        "face": "目通常:口通常"
-                      }
-                    },
-                    "posName": "出"
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },1,null,78,80],1,[14,1,null,null,78],["stopvoice"],["msgoff"],["envupdate","update",[{
-              "action": [null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            },{
-              "name": "ココア",
-              "showmode": 2
-            }],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "1000"
-          }],[15,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,78]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*dummyselect1",
-          "type": 0
-        }],
-      "spCount": 15,
-      "texts": [["ココア",null,"（今日は誰と一緒にチラシ配りをしよう？）",null,80,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg01ba"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0],["$eye",[{
-                          "disable": "eyeflipdisable",
-                          "flipfreq": 0.5,
-                          "handler": "RandomFlipAction",
-                          "nofast": 1,
-                          "nowait": 1,
-                          "pattern": "eye",
-                          "seed": 0.8222297
-                        }]]],
-                  "class": "character",
-                  "name": "ココア",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "cocoa_4e69564876edf9ff699fbfffafc75daf",
-                      "options": {
-                        "face": "目通常:口通常"
-                      }
-                    },
-                    "posName": "出"
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          }]],
-      "title": "チラシ配りイベント＿衣装選択"
-    },{
-      "firstLine": 80,
-      "label": "*dummyselect1",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,80]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*dummyselect2",
-          "type": 0
-        }],
-      "selectInfo": {
-        "message": "チラシ配りイベント\\nキャラ選択",
-        "select": [{
-            "exp": "setFlyer(1)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "チノ"
-          },{
-            "exp": "setFlyer(2)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "千夜"
-          },{
-            "exp": "setFlyer(3)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "リゼ"
-          },{
-            "exp": "setFlyer(4)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "シャロ"
-          }],
-        "type": "flyer"
-      },
-      "selects": [{
-          "exp": "setFlyer(1)",
-          "render": 1,
-          "selidx": 0,
-          "text": "チノ"
-        },{
-          "exp": "setFlyer(2)",
-          "render": 1,
-          "selidx": 1,
-          "text": "千夜"
-        },{
-          "exp": "setFlyer(3)",
-          "render": 1,
-          "selidx": 2,
-          "text": "リゼ"
-        },{
-          "exp": "setFlyer(4)",
-          "render": 1,
-          "selidx": 3,
-          "text": "シャロ"
-        }],
-      "spCount": 1,
-      "title": "チラシ配りイベント＿衣装選択"
-    },{
-      "firstLine": 80,
-      "label": "*dummyselect2",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,82]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*day_flyer_event",
-          "type": 0
-        }],
-      "selectInfo": {
-        "select": [{
-            "eval": "evalDress(1)",
-            "exp": "selDress(1)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "学校制服"
-          },{
-            "eval": "evalDress(2)",
-            "exp": "selDress(2)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "ラビットハウス"
-          },{
-            "eval": "evalDress(3)",
-            "exp": "selDress(3)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "甘兎庵"
-          },{
-            "eval": "evalDress(4)",
-            "exp": "selDress(4)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "ラパン"
-          },{
-            "eval": "evalDress(5)",
-            "exp": "selDress(5)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "軍服"
-          },{
-            "eval": "evalDress(6)",
-            "exp": "selDress(6)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "サンタ風"
-          },{
-            "eval": "evalDress(7)",
-            "exp": "selDress(7)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "ハロウィン風"
-          },{
-            "eval": "evalDress(8)",
-            "exp": "selDress(8)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "怪盗ラパン"
-          },{
-            "eval": "evalDress(9)",
-            "exp": "selDress(9)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "バニー"
-          },{
-            "eval": "evalDress(10)",
-            "exp": "selDress(10)",
-            "render": 1,
-            "runLine": 80,
-            "runLineStr": "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
-            "tagname": "seladd",
-            "text": "バレンタイン"
-          }],
-        "type": "kigae"
-      },
-      "selects": [{
-          "eval": "evalDress(1)",
-          "exp": "selDress(1)",
-          "render": 1,
-          "selidx": 0,
-          "text": "学校制服"
-        },{
-          "eval": "evalDress(2)",
-          "exp": "selDress(2)",
-          "render": 1,
-          "selidx": 1,
-          "text": "ラビットハウス"
-        },{
-          "eval": "evalDress(3)",
-          "exp": "selDress(3)",
-          "render": 1,
-          "selidx": 2,
-          "text": "甘兎庵"
-        },{
-          "eval": "evalDress(4)",
-          "exp": "selDress(4)",
-          "render": 1,
-          "selidx": 3,
-          "text": "ラパン"
-        },{
-          "eval": "evalDress(5)",
-          "exp": "selDress(5)",
-          "render": 1,
-          "selidx": 4,
-          "text": "軍服"
-        },{
-          "eval": "evalDress(6)",
-          "exp": "selDress(6)",
-          "render": 1,
-          "selidx": 5,
-          "text": "サンタ風"
-        },{
-          "eval": "evalDress(7)",
-          "exp": "selDress(7)",
-          "render": 1,
-          "selidx": 6,
-          "text": "ハロウィン風"
-        },{
-          "eval": "evalDress(8)",
-          "exp": "selDress(8)",
-          "render": 1,
-          "selidx": 7,
-          "text": "怪盗ラパン"
-        },{
-          "eval": "evalDress(9)",
-          "exp": "selDress(9)",
-          "render": 1,
-          "selidx": 8,
-          "text": "バニー"
-        },{
-          "eval": "evalDress(10)",
-          "exp": "selDress(10)",
-          "render": 1,
-          "selidx": 9,
-          "text": "バレンタイン"
-        }],
-      "spCount": 1,
-      "title": "チラシ配りイベント＿衣装選択"
-    },{
-      "firstLine": 82,
-      "label": "*day_flyer_event",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,86]],
-      "nexts": [{
-          "storage": "flyer.ks",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "チラシ配りイベント＿開始"
-    },{
-      "firstLine": 86,
-      "label": "*day_visit",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["$lip","$lipココア"],["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,92]],
-      "nexts": [{
-          "eval": "f.visit==0",
-          "storage": "day.ks",
-          "target": "*day_end",
-          "type": 0
-        },{
-          "storage": "visit.ks",
-          "type": 0
-        }],
-      "preevals": ["FunctionVisitChk()"],
-      "spCount": 1,
-      "title": "訪問イベント"
-    },{
-      "firstLine": 92,
-      "label": "*day_end",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_15",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }],["ココア","character",{
-                  "action": [["zpos",0.0]],
-                  "class": "character",
-                  "name": "ココア",
-                  "showmode": 0,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,96]],
-      "nexts": [{
-          "storage": "main_d02.txt",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "平日終了挨拶（チラシ配り有）"
-    },{
-      "firstLine": 96,
-      "label": "*day_end_noflyer",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,102]],
-      "nexts": [{
-          "storage": "main_d03.txt",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "平日終了挨拶（チラシ配り無）"
-    },{
-      "firstLine": 102,
-      "label": "*end",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,102],["stopvoice"],["msgoff"],["envupdate","update",[["new","stage","stage"],["new","event","event"],{
-              "action": [null,["zpos",233.33333333333337],null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "1000"
-          }],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,104],["wait","time","100"],[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,104]],
-      "nexts": [{
-          "storage": "day.ks",
-          "target": "*coffee_break",
-          "type": 0
-        }],
-      "spCount": 3,
-      "title": "終了"
-    },{
-      "firstLine": 106,
-      "label": "*coffee_break",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,106],["msgoff"],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,108],["beginskip"],["envupdate","update",[["new","scnchange","layer"],{
-              "action": [null,["zpos",-57.805907172995781],["order",0]],
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "chara": "SCENECHANGE",
-                    "motion": "show"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],"cg_scenechange.mtn",[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,108],["envupdate","update",[{
-              "action": [null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "trans": {
-                "method": "crossfade",
-                "sync": 1,
-                "time": 1000
-              },
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 1,
-                "name": "stage"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": 1000
-          }],[4,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,108],["wait","time","1000"],[5,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,108],["envupdate","update",[{
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "motion": "hide"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],[6,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "hide"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,108],["envupdate","update",[{
-              "name": "scnchange",
-              "showmode": 2
-            }]],["endskip"],[7,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "showmode": 2,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,110]],
-      "nexts": [{
-          "storage": "mainloop.ks*day_chk",
-          "type": 0
-        }],
-      "spCount": 7,
-      "title": "コーヒーブレイク"
-    }]
+	"hash" : "a81fe613138830c7b2465f8f15aa0b63",
+	"name" : "day.ks",
+	"outlines" : [],
+	"scenes" : 
+	[
+		{
+			"firstLine" : 0,
+			"label" : "*start",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : [],
+						"env" : 
+						{
+							"action" : 
+							[
+								null,
+								null
+							],
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					1
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"init",
+							0
+						],
+						[
+							"new",
+							"bgm",
+							"bgm"
+						],
+						{
+							"action" : 
+							[
+								null
+							],
+							"name" : "env"
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					}
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : null,
+										"start" : null,
+										"state" : null,
+										"volume" : null
+									},
+									"update" : 
+									{
+										"state" : null
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					1
+				],
+				[
+					"msgwin",
+					"type",
+					"0",
+					"backbase",
+					"true"
+				],
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : null,
+										"start" : null,
+										"state" : null,
+										"volume" : null
+									},
+									"update" : 
+									{
+										"state" : null
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					10
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_effect",
+					"type" : 0
+				}
+			],
+			"spCount" : 3,
+			"title" : "day"
+		},
+		{
+			"firstLine" : 10,
+			"label" : "*day_effect",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					14
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "date.ks",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "日付演出"
+		},
+		{
+			"firstLine" : 14,
+			"label" : "*day_event",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					29
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==1",
+					"storage" : "tutorial_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==4",
+					"storage" : "main_b02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==8",
+					"storage" : "main_b03.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==11",
+					"storage" : "main_b04.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==15",
+					"storage" : "main_b05.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==19",
+					"storage" : "main_b06.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "day.ks",
+					"target" : "*dummy1",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "固定イベント"
+		},
+		{
+			"firstLine" : 29,
+			"label" : "*dummy1",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					38
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.everyday==0",
+					"storage" : "main_e01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.everyday==1",
+					"storage" : "main_e02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.everyday==2",
+					"storage" : "main_e03.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.everyday==3",
+					"storage" : "main_e04.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.everyday==4",
+					"storage" : "main_e05.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "main_e05.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"FunctionEverydayChk()"
+			],
+			"spCount" : 1,
+			"title" : "固定イベント"
+		},
+		{
+			"firstLine" : 38,
+			"label" : "*day_coffee",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					49
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_flyer_chara",
+					"type" : 0
+				}
+			],
+			"selectInfo" : 
+			{
+				"message" : "喫茶店イベント",
+				"select" : 
+				[
+					{
+						"exp" : "FunctionCaffeePopularityCalc(45)",
+						"render" : 1,
+						"runLine" : 40,
+						"runLineStr" : "[seladd text=\"Ａ判定\" exp=\"FunctionCaffeePopularityCalc(45)\"]",
+						"tagname" : "seladd",
+						"text" : "Ａ判定"
+					},
+					{
+						"exp" : "FunctionCaffeePopularityCalc(35)",
+						"render" : 1,
+						"runLine" : 41,
+						"runLineStr" : "[seladd text=\"Ｂ判定\" exp=\"FunctionCaffeePopularityCalc(35)\"]",
+						"tagname" : "seladd",
+						"text" : "Ｂ判定"
+					},
+					{
+						"exp" : "FunctionCaffeePopularityCalc(25)",
+						"render" : 1,
+						"runLine" : 42,
+						"runLineStr" : "[seladd text=\"Ｃ判定\" exp=\"FunctionCaffeePopularityCalc(25)\"]",
+						"tagname" : "seladd",
+						"text" : "Ｃ判定"
+					},
+					{
+						"exp" : "FunctionCaffeePopularityCalc(15)",
+						"render" : 1,
+						"runLine" : 43,
+						"runLineStr" : "[seladd text=\"Ｄ判定\" exp=\"FunctionCaffeePopularityCalc(15)\"]",
+						"tagname" : "seladd",
+						"text" : "Ｄ判定"
+					},
+					{
+						"exp" : "FunctionCaffeePopularityCalc(-5)",
+						"render" : 1,
+						"runLine" : 44,
+						"runLineStr" : "[seladd text=\"Ｅ判定\" exp=\"FunctionCaffeePopularityCalc(-5)\" target=\"*day_flyer_popularity_down\"]",
+						"tagname" : "seladd",
+						"target" : "*day_flyer_popularity_down",
+						"text" : "Ｅ判定"
+					},
+					{
+						"exp" : "FunctionCaffeePopularityCalc(-5)",
+						"render" : 1,
+						"runLine" : 46,
+						"runLineStr" : "[seladd text=\"ゲームオーバー\" exp=\"FunctionCaffeePopularityCalc(-5)\" target=\"*day_end_noflyer\"]",
+						"tagname" : "seladd",
+						"target" : "*day_end_noflyer",
+						"text" : "ゲームオーバー"
+					}
+				],
+				"type" : "shop"
+			},
+			"selects" : 
+			[
+				{
+					"exp" : "FunctionCaffeePopularityCalc(45)",
+					"render" : 1,
+					"selidx" : 0,
+					"text" : "Ａ判定"
+				},
+				{
+					"exp" : "FunctionCaffeePopularityCalc(35)",
+					"render" : 1,
+					"selidx" : 1,
+					"text" : "Ｂ判定"
+				},
+				{
+					"exp" : "FunctionCaffeePopularityCalc(25)",
+					"render" : 1,
+					"selidx" : 2,
+					"text" : "Ｃ判定"
+				},
+				{
+					"exp" : "FunctionCaffeePopularityCalc(15)",
+					"render" : 1,
+					"selidx" : 3,
+					"text" : "Ｄ判定"
+				},
+				{
+					"exp" : "FunctionCaffeePopularityCalc(-5)",
+					"render" : 1,
+					"selidx" : 4,
+					"storage" : "day.ks",
+					"target" : "*day_flyer_popularity_down",
+					"text" : "Ｅ判定"
+				},
+				{
+					"exp" : "FunctionCaffeePopularityCalc(-5)",
+					"render" : 1,
+					"selidx" : 5,
+					"storage" : "day.ks",
+					"target" : "*day_end_noflyer",
+					"text" : "ゲームオーバー"
+				}
+			],
+			"spCount" : 1,
+			"title" : "喫茶店イベント"
+		},
+		{
+			"firstLine" : 49,
+			"label" : "*day_flyer_chara",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					55
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_flyer_chara_start",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "チラシ配りイベント＿キャラ選択"
+		},
+		{
+			"firstLine" : 55,
+			"label" : "*day_flyer_popularity_down",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					61
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_flyer_chara_start",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "知名度ダウン"
+		},
+		{
+			"firstLine" : 61,
+			"label" : "*day_flyer_chara_start",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					65
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_flyer_dress",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.happening=0"
+			],
+			"spCount" : 1,
+			"title" : "チラシ配りイベント＿キャラ選択＿開始"
+		},
+		{
+			"firstLine" : 65,
+			"label" : "*day_flyer_dress",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					65
+				],
+				[
+					"msgoff"
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"beginskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"scnchange",
+							"layer"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									-57.805907172995781
+								],
+								[
+									"order",
+									0
+								]
+							],
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"chara" : "SCENECHANGE",
+										"motion" : "show"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				"cg_scenechange.mtn",
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"stage",
+							"stage"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									233.33333333333337
+								],
+								null,
+								[
+									"visvalue",
+									0
+								],
+								[
+									"visvalue",
+									[
+										{
+											"delay" : null,
+											"handler" : "MoveAction",
+											"start" : 0,
+											"time" : 1000,
+											"value" : 100
+										}
+									]
+								]
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"trans" : 
+							{
+								"method" : "",
+								"sync" : 1,
+								"time" : 1000
+							},
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"canskip" : 0,
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "stage"
+							}
+						]
+					}
+				],
+				[
+					4,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"event",
+							"event"
+						]
+					]
+				],
+				[
+					5,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"wait",
+					"time",
+					"1000"
+				],
+				[
+					6,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"motion" : "hide"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				[
+					7,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "hide"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					67
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "scnchange",
+							"showmode" : 2
+						}
+					]
+				],
+				[
+					"endskip"
+				],
+				[
+					"stopvoice"
+				],
+				[
+					8,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					71
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"tag",
+							{
+								"backbase" : "1",
+								"runLineStr" : "[stopvoice][begintrans][msgwin backbase=1][clearname][msgoff][allchar hide][endtrans trans=crossfade time=200 sync][begintrans][event hide][stage 背景黒 xpos=%xpos|0 ypos=%ypos|0 zoom=%zoom|100][endtrans trans=%trans|crossfade time=%time|1000 sync][begintrans][stage * opacity=%opacity|255 zoom=%zoom|100][endtrans  trans=%trans|crossfade time=%time|1000 sync][macropop]",
+								"taglist" : 
+								[
+									"tagname",
+									"backbase"
+								],
+								"tagname" : "msgwin"
+							}
+						]
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "200"
+					},
+					"msgchange",
+					0
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"del",
+							"scnchange"
+						]
+					]
+				],
+				[
+					9,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					71
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"action" : 
+							[
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "1000"
+					}
+				],
+				[
+					10,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					71
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"action" : 
+							[
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg01ba"
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "1000"
+					}
+				],
+				[
+					11,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg01ba"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					71
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "bgm",
+							"replay" : 
+							{
+								"filename" : "bgm_15",
+								"loop" : 1,
+								"start" : null,
+								"state" : 1,
+								"volume" : 100.0
+							},
+							"trans" : 
+							{
+								"method" : "",
+								"time" : "1"
+							}
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 0,
+								"name" : "stage"
+							},
+							{
+								"mode" : 0,
+								"name" : "event"
+							},
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					}
+				],
+				"bgm_BGM_15",
+				[
+					12,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg01ba"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					72
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"ココア",
+							"character"
+						],
+						{
+							"action" : 
+							[
+								null,
+								null,
+								[
+									"ypos",
+									0
+								],
+								[
+									"zpos",
+									0.0
+								],
+								[
+									"order",
+									0
+								],
+								[
+									"xpos",
+									0
+								],
+								[
+									"$lip",
+									"$lipココア"
+								],
+								[
+									"$eye",
+									[
+										{
+											"disable" : "eyeflipdisable",
+											"flipfreq" : 0.5,
+											"handler" : "RandomFlipAction",
+											"nofast" : 1,
+											"nowait" : 1,
+											"pattern" : "eye",
+											"seed" : 0.82222969999999995
+										}
+									]
+								],
+								[
+									"xpos",
+									[
+										{
+											"accel" : -1,
+											"handler" : "MoveAction",
+											"start" : "@+10",
+											"time" : 300,
+											"value" : "@"
+										}
+									]
+								],
+								[
+									"visvalue",
+									0
+								],
+								[
+									"visvalue",
+									[
+										{
+											"delay" : null,
+											"handler" : "MoveAction",
+											"start" : 0,
+											"time" : 300,
+											"value" : 100
+										}
+									]
+								]
+							],
+							"class" : "character",
+							"link" : null,
+							"name" : "ココア",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "cocoa_4e69564876edf9ff699fbfffafc75daf",
+									"options" : 
+									{
+										"face" : "目通常:口通常"
+									}
+								},
+								"posName" : "出"
+							},
+							"showmode" : 1,
+							"trans" : 
+							{
+								"time" : 300
+							},
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "ココア"
+							}
+						]
+					}
+				],
+				"cg_cocoa.stand",
+				[
+					13,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg01ba"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										],
+										[
+											"$eye",
+											[
+												{
+													"disable" : "eyeflipdisable",
+													"flipfreq" : 0.5,
+													"handler" : "RandomFlipAction",
+													"nofast" : 1,
+													"nowait" : 1,
+													"pattern" : "eye",
+													"seed" : 0.82222969999999995
+												}
+											]
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "cocoa_4e69564876edf9ff699fbfffafc75daf",
+											"options" : 
+											{
+												"face" : "目通常:口通常"
+											}
+										},
+										"posName" : "出"
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					1,
+					null,
+					78,
+					80
+				],
+				1,
+				[
+					14,
+					1,
+					null,
+					null,
+					78
+				],
+				[
+					"stopvoice"
+				],
+				[
+					"msgoff"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"action" : 
+							[
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						},
+						{
+							"name" : "ココア",
+							"showmode" : 2
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "1000"
+					}
+				],
+				[
+					15,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					78
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*dummyselect1",
+					"type" : 0
+				}
+			],
+			"spCount" : 15,
+			"texts" : 
+			[
+				[
+					"心爱",
+					null,
+					"（今天和谁一起去发传单呢？）",
+					null,
+					80,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg01ba"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										],
+										[
+											"$eye",
+											[
+												{
+													"disable" : "eyeflipdisable",
+													"flipfreq" : 0.5,
+													"handler" : "RandomFlipAction",
+													"nofast" : 1,
+													"nowait" : 1,
+													"pattern" : "eye",
+													"seed" : 0.82222969999999995
+												}
+											]
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "cocoa_4e69564876edf9ff699fbfffafc75daf",
+											"options" : 
+											{
+												"face" : "目通常:口通常"
+											}
+										},
+										"posName" : "出"
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					}
+				]
+			],
+			"title" : "チラシ配りイベント＿衣装選択"
+		},
+		{
+			"firstLine" : 80,
+			"label" : "*dummyselect1",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					80
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*dummyselect2",
+					"type" : 0
+				}
+			],
+			"selectInfo" : 
+			{
+				"message" : "チラシ配りイベント\\nキャラ選択",
+				"select" : 
+				[
+					{
+						"exp" : "setFlyer(1)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "チノ"
+					},
+					{
+						"exp" : "setFlyer(2)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "千夜"
+					},
+					{
+						"exp" : "setFlyer(3)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "リゼ"
+					},
+					{
+						"exp" : "setFlyer(4)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "シャロ"
+					}
+				],
+				"type" : "flyer"
+			},
+			"selects" : 
+			[
+				{
+					"exp" : "setFlyer(1)",
+					"render" : 1,
+					"selidx" : 0,
+					"text" : "チノ"
+				},
+				{
+					"exp" : "setFlyer(2)",
+					"render" : 1,
+					"selidx" : 1,
+					"text" : "千夜"
+				},
+				{
+					"exp" : "setFlyer(3)",
+					"render" : 1,
+					"selidx" : 2,
+					"text" : "リゼ"
+				},
+				{
+					"exp" : "setFlyer(4)",
+					"render" : 1,
+					"selidx" : 3,
+					"text" : "シャロ"
+				}
+			],
+			"spCount" : 1,
+			"title" : "チラシ配りイベント＿衣装選択"
+		},
+		{
+			"firstLine" : 80,
+			"label" : "*dummyselect2",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					82
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*day_flyer_event",
+					"type" : 0
+				}
+			],
+			"selectInfo" : 
+			{
+				"select" : 
+				[
+					{
+						"eval" : "evalDress(1)",
+						"exp" : "selDress(1)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "学校制服"
+					},
+					{
+						"eval" : "evalDress(2)",
+						"exp" : "selDress(2)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "ラビットハウス"
+					},
+					{
+						"eval" : "evalDress(3)",
+						"exp" : "selDress(3)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "甘兎庵"
+					},
+					{
+						"eval" : "evalDress(4)",
+						"exp" : "selDress(4)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "ラパン"
+					},
+					{
+						"eval" : "evalDress(5)",
+						"exp" : "selDress(5)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "軍服"
+					},
+					{
+						"eval" : "evalDress(6)",
+						"exp" : "selDress(6)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "サンタ風"
+					},
+					{
+						"eval" : "evalDress(7)",
+						"exp" : "selDress(7)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "ハロウィン風"
+					},
+					{
+						"eval" : "evalDress(8)",
+						"exp" : "selDress(8)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "怪盗ラパン"
+					},
+					{
+						"eval" : "evalDress(9)",
+						"exp" : "selDress(9)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "バニー"
+					},
+					{
+						"eval" : "evalDress(10)",
+						"exp" : "selDress(10)",
+						"render" : 1,
+						"runLine" : 80,
+						"runLineStr" : "[seladd text=\"チノ\"   exp=setFlyer(1)][seladd text=\"千夜\"   exp=setFlyer(2)][seladd text=\"リゼ\"   exp=setFlyer(3)][seladd text=\"シャロ\" exp=setFlyer(4)][select type=flyer message=\"チラシ配りイベント\\nキャラ選択\"][seladd text=学校制服       exp=selDress(1) eval=evalDress(1)][seladd text=ラビットハウス exp=selDress(2) eval=evalDress(2)][seladd text=甘兎庵         exp=selDress(3) eval=evalDress(3)][seladd text=ラパン         exp=selDress(4) eval=evalDress(4)][seladd text=軍服           exp=selDress(5) eval=evalDress(5)][seladd text=サンタ風       exp=selDress(6) eval=evalDress(6)][seladd text=ハロウィン風   exp=selDress(7) eval=evalDress(7)][seladd text=怪盗ラパン     exp=selDress(8) eval=evalDress(8)][seladd text=バニー         exp=selDress(9) eval=evalDress(9)][seladd text=バレンタイン   exp=selDress(10) eval=evalDress(10)][select type=kigae][macropop]",
+						"tagname" : "seladd",
+						"text" : "バレンタイン"
+					}
+				],
+				"type" : "kigae"
+			},
+			"selects" : 
+			[
+				{
+					"eval" : "evalDress(1)",
+					"exp" : "selDress(1)",
+					"render" : 1,
+					"selidx" : 0,
+					"text" : "学校制服"
+				},
+				{
+					"eval" : "evalDress(2)",
+					"exp" : "selDress(2)",
+					"render" : 1,
+					"selidx" : 1,
+					"text" : "ラビットハウス"
+				},
+				{
+					"eval" : "evalDress(3)",
+					"exp" : "selDress(3)",
+					"render" : 1,
+					"selidx" : 2,
+					"text" : "甘兎庵"
+				},
+				{
+					"eval" : "evalDress(4)",
+					"exp" : "selDress(4)",
+					"render" : 1,
+					"selidx" : 3,
+					"text" : "ラパン"
+				},
+				{
+					"eval" : "evalDress(5)",
+					"exp" : "selDress(5)",
+					"render" : 1,
+					"selidx" : 4,
+					"text" : "軍服"
+				},
+				{
+					"eval" : "evalDress(6)",
+					"exp" : "selDress(6)",
+					"render" : 1,
+					"selidx" : 5,
+					"text" : "サンタ風"
+				},
+				{
+					"eval" : "evalDress(7)",
+					"exp" : "selDress(7)",
+					"render" : 1,
+					"selidx" : 6,
+					"text" : "ハロウィン風"
+				},
+				{
+					"eval" : "evalDress(8)",
+					"exp" : "selDress(8)",
+					"render" : 1,
+					"selidx" : 7,
+					"text" : "怪盗ラパン"
+				},
+				{
+					"eval" : "evalDress(9)",
+					"exp" : "selDress(9)",
+					"render" : 1,
+					"selidx" : 8,
+					"text" : "バニー"
+				},
+				{
+					"eval" : "evalDress(10)",
+					"exp" : "selDress(10)",
+					"render" : 1,
+					"selidx" : 9,
+					"text" : "バレンタイン"
+				}
+			],
+			"spCount" : 1,
+			"title" : "チラシ配りイベント＿衣装選択"
+		},
+		{
+			"firstLine" : 82,
+			"label" : "*day_flyer_event",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					86
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "flyer.ks",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "チラシ配りイベント＿開始"
+		},
+		{
+			"firstLine" : 86,
+			"label" : "*day_visit",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"$lip",
+											"$lipココア"
+										],
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					92
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.visit==0",
+					"storage" : "day.ks",
+					"target" : "*day_end",
+					"type" : 0
+				},
+				{
+					"storage" : "visit.ks",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"FunctionVisitChk()"
+			],
+			"spCount" : 1,
+			"title" : "訪問イベント"
+		},
+		{
+			"firstLine" : 92,
+			"label" : "*day_end",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_15",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							],
+							[
+								"ココア",
+								"character",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											0.0
+										]
+									],
+									"class" : "character",
+									"name" : "ココア",
+									"showmode" : 0,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					96
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "main_d02.txt",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "平日終了挨拶（チラシ配り有）"
+		},
+		{
+			"firstLine" : 96,
+			"label" : "*day_end_noflyer",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					102
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "main_d03.txt",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "平日終了挨拶（チラシ配り無）"
+		},
+		{
+			"firstLine" : 102,
+			"label" : "*end",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					102
+				],
+				[
+					"stopvoice"
+				],
+				[
+					"msgoff"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"stage",
+							"stage"
+						],
+						[
+							"new",
+							"event",
+							"event"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									233.33333333333337
+								],
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "1000"
+					}
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					104
+				],
+				[
+					"wait",
+					"time",
+					"100"
+				],
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					104
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "day.ks",
+					"target" : "*coffee_break",
+					"type" : 0
+				}
+			],
+			"spCount" : 3,
+			"title" : "終了"
+		},
+		{
+			"firstLine" : 106,
+			"label" : "*coffee_break",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					106
+				],
+				[
+					"msgoff"
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					108
+				],
+				[
+					"beginskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"scnchange",
+							"layer"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									-57.805907172995781
+								],
+								[
+									"order",
+									0
+								]
+							],
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"chara" : "SCENECHANGE",
+										"motion" : "show"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				"cg_scenechange.mtn",
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					108
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"action" : 
+							[
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"trans" : 
+							{
+								"method" : "crossfade",
+								"sync" : 1,
+								"time" : 1000
+							},
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 1,
+								"name" : "stage"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : 1000
+					}
+				],
+				[
+					4,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					108
+				],
+				[
+					"wait",
+					"time",
+					"1000"
+				],
+				[
+					5,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					108
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"motion" : "hide"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				[
+					6,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "hide"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					108
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "scnchange",
+							"showmode" : 2
+						}
+					]
+				],
+				[
+					"endskip"
+				],
+				[
+					7,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"showmode" : 2,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					110
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "mainloop.ks*day_chk",
+					"type" : 0
+				}
+			],
+			"spCount" : 7,
+			"title" : "コーヒーブレイク"
+		}
+	]
 }
