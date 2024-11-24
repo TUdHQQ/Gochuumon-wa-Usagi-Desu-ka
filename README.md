@@ -59,3 +59,10 @@ QWQ
  ```
  PsBuild info-psb -k 38757621acf82 {name}_info.psb.m.json
  ```
+ 
+ 
+# 奇怪的链接
+ 
+ ```
+ echo aHR0cHM6Ly9xbS5xcS5jb20vcS95U0k5Z3c1cUNj | base64 -d
+ ```
