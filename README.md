@@ -29,8 +29,11 @@
 4. 本补丁仅兼容windows移植版本，不适配原PSV游戏
 
 翻译： grok (感谢马斯克提供的25刀额度）
+
 校对： listder
+
 吉祥物/花瓶： 神山月々鳥ちゃん～
+
 特别感谢： "Ken Block"（帮忙完成了部分文本），"exbiner"（解决了字体问题），"luohua"（帮忙测试程序）以及 MGGA Project 的所有成员
 
 
