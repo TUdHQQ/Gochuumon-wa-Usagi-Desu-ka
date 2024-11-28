@@ -1,0 +1,43 @@
+{
+  "archives": {
+    "font": "font",
+    "image": "image",
+    "motion": "motion",
+    "scenario": "scenario",
+    "sound": "sound",
+    "voice": "voice"
+  },
+  "constant": {
+    "DEBUG_FONTSIZE": 15,
+    "RESTRICTED_AGE": 15,
+    "SCHEIGHT": 544,
+    "SCWIDTH": 960,
+    "TARGET_SYSTEM": "VITA"
+  },
+  "fontList": ["textfont12","textfont28","textfont32","textfont36"],
+  "saveSystem": {
+    "BACKUP_COMMENT": "セーブデータ",
+    "BACKUP_DETAIL": "ご注文はうさぎですか？？ Wonderful party！のセーブデータです",
+    "BACKUP_DIALOG": "ご注文はうさぎですか？？ Wonderful party！　システムデータ",
+    "BACKUP_GAMECOMMENT": "セーブデータ",
+    "BACKUP_GAMEDETAIL": "ご注文はうさぎですか？？ Wonderful party！のセーブデータです",
+    "BACKUP_GAMEDIALOG": "ご注文はうさぎですか？？ Wonderful party！　セーブデータ",
+    "ETCVOICE": "MALE",
+    "GAMETITLE": "ご注文はうさぎですか？？ Wonderful party！",
+    "SAVEDATA_AUTO_PAGE_COUNT": 0,
+    "SAVEDATA_CROSS_PAGE_COUNT": 0,
+    "SAVEDATA_PACKMODE": 1,
+    "SAVEDATA_PAGESIZE": 8,
+    "SAVEDATA_PAGE_COUNT": 10,
+    "THUMBNAIL_HEIGHT": 135,
+    "THUMBNAIL_WIDTH": 160
+  },
+  "screenShot": {
+    "gameComment": "ご注文はうさぎですか？？ Wonderful party！　スクリーンショット",
+    "gameTitle": "ご注文はうさぎですか？？ Wonderful party！",
+    "imagePath": "overlay.png",
+    "offsetX": 480,
+    "offsetY": 272,
+    "photoTitle": "ご注文はうさぎですか？？ Wonderful party！　スクリーンショット"
+  }
+}
