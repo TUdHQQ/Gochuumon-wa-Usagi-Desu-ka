@@ -1179,15 +1179,15 @@
 				"select" : 
 				[
 					{
-						"ch" : "智乃",
+						"ch" : "チノ",
 						"eval" : "!(f.move&0x01)",
 						"exp" : "f.move=f.move|0x01",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A01.txt",
 						"tagname" : "seladd",
-						"text" : "Rabbit House"
+						"text" : "Rabbit-House"
 					},
 					{
 						"ch" : "千夜",
@@ -1195,40 +1195,40 @@
 						"exp" : "f.move=f.move|0x02",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A02.txt",
 						"tagname" : "seladd",
 						"text" : "甘兎庵"
 					},
 					{
-						"ch" : "纱路",
+						"ch" : "シャロ",
 						"eval" : "!(f.move&0x04)",
 						"exp" : "f.move=f.move|0x04",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A03.txt",
 						"tagname" : "seladd",
-						"text" : "Fleur de Lapin"
+						"text" : "Fleur-de-Lapin"
 					},
 					{
-						"ch" : "麻耶&惠",
+						"ch" : "マヤ＆メグ",
 						"eval" : "!(f.move&0x08)",
 						"exp" : "f.move=f.move|0x08",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A04.txt",
 						"tagname" : "seladd",
-						"text" : "自然公园"
+						"text" : "自然公園"
 					},
 					{
-						"ch" : "理世",
+						"ch" : "リゼ",
 						"eval" : "!(f.move&0x10)",
 						"exp" : "f.move=f.move|0x10",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A05.txt",
 						"tagname" : "seladd",
 						"text" : "街角"
@@ -1239,10 +1239,10 @@
 						"exp" : "f.move=f.move|0x20",
 						"render" : 1,
 						"runLine" : 21,
-						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=ラビットハウス       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=フルール・ド・ラパン ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
+						"runLineStr" : "[eval exp=\"f.move_cnt--\"][next storage=\"holiday.ks*holiday_move_end\" eval=\"f.move_cnt<1\"][seladd text=Rabbit-House       ch=チノ       storage=\"MOVE_A01.txt\" eval=!(f.move&0x01) exp=f.move=f.move|0x01][seladd text=甘兎庵               ch=千夜       storage=\"MOVE_A02.txt\" eval=!(f.move&0x02) exp=f.move=f.move|0x02][seladd text=Fleur-de-Lapin ch=シャロ     storage=\"MOVE_A03.txt\" eval=!(f.move&0x04) exp=f.move=f.move|0x04][seladd text=自然公園             ch=マヤ＆メグ storage=\"MOVE_A04.txt\" eval=!(f.move&0x08) exp=f.move=f.move|0x08][seladd text=街角                 ch=リゼ       storage=\"MOVE_A05.txt\" eval=!(f.move&0x10) exp=f.move=f.move|0x10][seladd text=市場                 ch=青山       storage=\"MOVE_A06.txt\" eval=!(f.move&0x20) exp=f.move=f.move|0x20][select type=move force bgm=%bgm|bgm_01 bg=%bg|背景黒][macropop]",
 						"storage" : "MOVE_A06.txt",
 						"tagname" : "seladd",
-						"text" : "市场"
+						"text" : "市場"
 					}
 				],
 				"type" : "move"
@@ -1250,13 +1250,13 @@
 			"selects" : 
 			[
 				{
-					"ch" : "智乃",
+					"ch" : "チノ",
 					"eval" : "!(f.move&0x01)",
 					"exp" : "f.move=f.move|0x01",
 					"render" : 1,
 					"selidx" : 0,
 					"storage" : "move_a01.txt",
-					"text" : "Rabbit House"
+					"text" : "Rabbit-House"
 				},
 				{
 					"ch" : "千夜",
@@ -1268,25 +1268,25 @@
 					"text" : "甘兎庵"
 				},
 				{
-					"ch" : "纱路",
+					"ch" : "シャロ",
 					"eval" : "!(f.move&0x04)",
 					"exp" : "f.move=f.move|0x04",
 					"render" : 1,
 					"selidx" : 2,
 					"storage" : "move_a03.txt",
-					"text" : "Fleur de Lapin"
+					"text" : "Fleur-de-Lapin"
 				},
 				{
-					"ch" : "麻耶&惠",
+					"ch" : "マヤ＆メグ",
 					"eval" : "!(f.move&0x08)",
 					"exp" : "f.move=f.move|0x08",
 					"render" : 1,
 					"selidx" : 3,
 					"storage" : "move_a04.txt",
-					"text" : "自然公园"
+					"text" : "自然公園"
 				},
 				{
-					"ch" : "理世",
+					"ch" : "リゼ",
 					"eval" : "!(f.move&0x10)",
 					"exp" : "f.move=f.move|0x10",
 					"render" : 1,
@@ -1301,7 +1301,7 @@
 					"render" : 1,
 					"selidx" : 5,
 					"storage" : "move_a06.txt",
-					"text" : "市场"
+					"text" : "市場"
 				}
 			],
 			"spCount" : 1,
