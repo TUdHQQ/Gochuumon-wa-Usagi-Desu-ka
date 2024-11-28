@@ -11,7 +11,7 @@
 
 本项目基于Windows移植版制作, 不保证PSV平台兼容!!!
 
-项目尚未完成, 如果你对本项目有兴趣并且想要帮忙的话, 我们欢迎你提交pr或issue
+欢迎提交issue，pr
 
 游戏(生肉)下载: 
 
@@ -20,27 +20,19 @@
 
 顺带欢迎新增下载地址, QWQ
 
-# 进度
+# QWQ？
 
-## 字体
+使用须知：
+1. 本补丁完全免费，如果发现倒卖行为，请动手帮忙举报，谢谢。
+2. 本补丁仅供学习交流，严禁用于商业用途，造成的一切后果自行承担。
+3. 请转区运行！！！
+4. 本补丁仅兼容windows移植版本，不适配原PSV游戏
 
-使用 [KaleidoADV_FontConverter](https://github.com/PlaMemo-VIE-FanTrans/KaleidoADV_FontConverter) 
-修改 convert_font_to_bitmap.py 的第 50 行来添加字
-修改 112 行来调整字体大小
+翻译： grok (感谢马斯克提供的25刀额度）
+校对： listder
+吉祥物/花瓶： 神山月々鳥ちゃん～
+特别感谢： "Ken Block"（帮忙完成了部分文本），"exbiner"（解决了字体问题），"luohua"（帮忙测试程序）以及 MGGA Project 的所有成员
 
-请将翻译好后的所有文本扔进text.txt内, 然后使用char.cpp去重
-
-## 剧本
-
-已完成
-
-## 嵌字和界面UI
-
-之后再说（
-
-## 其他
-
-想好再写（
 
 ## 解包及封包
 
