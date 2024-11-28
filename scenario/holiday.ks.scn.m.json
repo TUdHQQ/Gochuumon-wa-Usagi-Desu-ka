@@ -1,2305 +1,4582 @@
 {
-  "hash": "3653dc0f11587558eb21c3411f4be96c",
-  "name": "holiday.ks",
-  "outlines": [],
-  "scenes": [{
-      "firstLine": 0,
-      "label": "*start",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [],
-            "env": {
-              "action": [null,null],
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,1],["envupdate","update",[["init",0],["new","bgm","bgm"],{
-              "action": [null],
-              "name": "env"
-            }],"wait",{
-            "list": [{
-                "mode": 0,
-                "name": "env"
-              }]
-          }],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": null,
-                    "start": null,
-                    "state": null,
-                    "volume": null
-                  },
-                  "update": {
-                    "state": null
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,1],["msgwin","type","0","backbase","true"],[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": null,
-                    "start": null,
-                    "state": null,
-                    "volume": null
-                  },
-                  "update": {
-                    "state": null
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,10]],
-      "nexts": [{
-          "storage": "holiday.ks",
-          "target": "*day_effect",
-          "type": 0
-        }],
-      "spCount": 3,
-      "title": "holiday"
-    },{
-      "firstLine": 10,
-      "label": "*day_effect",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,14]],
-      "nexts": [{
-          "storage": "date.ks",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "日付演出"
-    },{
-      "firstLine": 14,
-      "label": "*holiday_move01",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,23]],
-      "nexts": [{
-          "eval": "f.day==2",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1114",
-          "type": 0
-        },{
-          "eval": "f.day==3",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1115",
-          "type": 0
-        },{
-          "eval": "f.day==9",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1121",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1122",
-          "type": 0
-        },{
-          "eval": "f.day==16",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1128",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "holiday.ks",
-          "target": "*holiday_move1129",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*holiday_move1114",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "移動イベント"
-    },{
-      "firstLine": 23,
-      "label": "*holiday_move1114",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,28]],
-      "nexts": [{
-          "storage": "move_a00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月１４日"
-    },{
-      "firstLine": 28,
-      "label": "*holiday_move1115",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,33]],
-      "nexts": [{
-          "storage": "move_b00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月１５日"
-    },{
-      "firstLine": 33,
-      "label": "*holiday_move1121",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,38]],
-      "nexts": [{
-          "storage": "move_c00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月２１日"
-    },{
-      "firstLine": 38,
-      "label": "*holiday_move1122",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,43]],
-      "nexts": [{
-          "storage": "move_d00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月２２日"
-    },{
-      "firstLine": 43,
-      "label": "*holiday_move1128",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,48]],
-      "nexts": [{
-          "storage": "move_e00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月２８日"
-    },{
-      "firstLine": 48,
-      "label": "*holiday_move1129",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,53]],
-      "nexts": [{
-          "storage": "move_f00.txt",
-          "type": 0
-        }],
-      "preevals": ["f.move=0","f.move_check=0","f.move_cnt=3"],
-      "spCount": 1,
-      "title": "１１月２９日"
-    },{
-      "firstLine": 53,
-      "label": "*holiday_move_end",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,55]],
-      "nexts": [{
-          "storage": "holiday.ks",
-          "target": "*pajama",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "移動イベント終了"
-    },{
-      "firstLine": 55,
-      "label": "*pajama",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,60]],
-      "nexts": [{
-          "eval": "f.day==2",
-          "storage": "holiday.ks",
-          "target": "*end",
-          "type": 0
-        },{
-          "eval": "f.day==9",
-          "storage": "holiday.ks",
-          "target": "*end",
-          "type": 0
-        },{
-          "eval": "f.day==16",
-          "storage": "holiday.ks",
-          "target": "*end",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*dummy1",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ"
-    },{
-      "firstLine": 60,
-      "label": "*dummy1",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,60],["msgoff"],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["beginskip"],["envupdate","update",[["new","scnchange","layer"],{
-              "action": [null,["zpos",-57.805907172995781],["order",0]],
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "chara": "SCENECHANGE",
-                    "motion": "show"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],"cg_scenechange.mtn",[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["envupdate","update",[["new","stage","stage"],{
-              "action": [null,["zpos",233.33333333333337],null,["visvalue",0],["visvalue",[{
-                      "delay": null,
-                      "handler": "MoveAction",
-                      "start": 0,
-                      "time": 1000,
-                      "value": 100
-                    }]]],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "trans": {
-                "method": "",
-                "sync": 1,
-                "time": 1000
-              },
-              "type": null
-            }],"wait",{
-            "canskip": 0,
-            "list": [{
-                "mode": 1,
-                "name": "stage"
-              }]
-          }],[4,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["envupdate","update",[["new","event","event"]]],[5,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["wait","time","1000"],[6,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["envupdate","update",[{
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "motion": "hide"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],[7,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "hide"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,62],["envupdate","update",[{
-              "name": "scnchange",
-              "showmode": 2
-            }]],["endskip"],["msgoff"],[8,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["pajama","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "pajama",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "partystart.mtn",
-                      "options": {
-                        "chara": "PAJAMA",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,64],["beginskip"],["envupdate","update",[["new","pajama","layer"],{
-              "action": [null,["zpos",-57.805907172995781],["order",0]],
-              "class": "layer",
-              "link": null,
-              "name": "pajama",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "partystart.mtn",
-                  "options": {
-                    "chara": "PAJAMA",
-                    "motion": "show"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "pajama"
-              }]
-          }],["envupdate","update",[["del","scnchange"]]],"cg_partystart.mtn",[9,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["pajama","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "pajama",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "partystart.mtn",
-                      "options": {
-                        "chara": "PAJAMA",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,64],["envupdate","update",[["new","se","se"],{
-              "name": "se",
-              "replay": {
-                "filename": "jingle_04",
-                "start": null,
-                "time": 0,
-                "volume": 100.0
-              }
-            }],"wait",{
-            "list": [{
-                "mode": 0,
-                "name": "stage"
-              },{
-                "mode": 0,
-                "name": "pajama"
-              },{
-                "mode": 0,
-                "name": "event"
-              },{
-                "mode": 0,
-                "name": "env"
-              }]
-          }],[10,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["pajama","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "pajama",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "partystart.mtn",
-                      "options": {
-                        "chara": "PAJAMA",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,64],["wait","time","3000"],[11,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["pajama","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "pajama",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "partystart.mtn",
-                      "options": {
-                        "chara": "PAJAMA",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,64],["envupdate","update",[{
-              "class": "layer",
-              "link": null,
-              "name": "pajama",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "partystart.mtn",
-                  "options": {
-                    "motion": "hide"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "pajama"
-              }]
-          }],[12,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["pajama","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "pajama",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "partystart.mtn",
-                      "options": {
-                        "chara": "PAJAMA",
-                        "motion": "hide"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,64],["envupdate","update",[{
-              "name": "pajama",
-              "showmode": 2
-            }]],["endskip"],["envupdate","update",[{
-              "name": "se",
-              "stop": 0
-            }]],[13,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,71]],
-      "nexts": [{
-          "eval": "f.day==3",
-          "storage": "pajamas_main_01.txt",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "pajamas_main_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "pajamas_main_03.txt",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*pajama_selecl",
-          "type": 0
-        }],
-      "spCount": 13,
-      "title": "パジャマパーティ"
-    },{
-      "firstLine": 71,
-      "label": "*pajama_selecl",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,71],["envupdate","update",[{
-              "name": "bgm",
-              "replay": {
-                "filename": "bgm_20",
-                "loop": 1,
-                "start": null,
-                "state": 1,
-                "volume": 100.0
-              },
-              "trans": {
-                "method": "",
-                "time": "1"
-              }
-            }],"wait",{
-            "list": [{
-                "mode": 0,
-                "name": "stage"
-              },{
-                "mode": 0,
-                "name": "event"
-              },{
-                "mode": 0,
-                "name": "env"
-              }]
-          }],"bgm_BGM_20",[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,74]],
-      "nexts": [{
-          "storage": "holiday.ks",
-          "target": "*dummyselect1",
-          "type": 0
-        }],
-      "spCount": 2,
-      "title": "パジャマパーティ＿キャラ選択"
-    },{
-      "firstLine": 80,
-      "label": "*dummyselect1",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100.0
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,91]],
-      "selectInfo": {
-        "message": "パジャマパーティー\\nキャラ選択",
-        "select": [{
-            "render": 1,
-            "runLine": 76,
-            "runLineStr": "[seladd text=\"チノ\"   target=\"*pajama_chara_chino\"]",
-            "tagname": "seladd",
-            "target": "*pajama_chara_chino",
-            "text": "チノ"
-          },{
-            "render": 1,
-            "runLine": 77,
-            "runLineStr": "[seladd text=\"千夜\"   target=\"*pajama_chara_chiya\"]",
-            "tagname": "seladd",
-            "target": "*pajama_chara_chiya",
-            "text": "千夜"
-          },{
-            "render": 1,
-            "runLine": 78,
-            "runLineStr": "[seladd text=\"リゼ\"   target=\"*pajama_chara_rize\"]",
-            "tagname": "seladd",
-            "target": "*pajama_chara_rize",
-            "text": "リゼ"
-          },{
-            "render": 1,
-            "runLine": 79,
-            "runLineStr": "[seladd text=\"シャロ\" target=\"*pajama_chara_syaro\"]",
-            "tagname": "seladd",
-            "target": "*pajama_chara_syaro",
-            "text": "シャロ"
-          }],
-        "type": "party"
-      },
-      "selects": [{
-          "render": 1,
-          "selidx": 0,
-          "storage": "holiday.ks",
-          "target": "*pajama_chara_chino",
-          "text": "チノ"
-        },{
-          "render": 1,
-          "selidx": 1,
-          "storage": "holiday.ks",
-          "target": "*pajama_chara_chiya",
-          "text": "千夜"
-        },{
-          "render": 1,
-          "selidx": 2,
-          "storage": "holiday.ks",
-          "target": "*pajama_chara_rize",
-          "text": "リゼ"
-        },{
-          "render": 1,
-          "selidx": 3,
-          "storage": "holiday.ks",
-          "target": "*pajama_chara_syaro",
-          "text": "シャロ"
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ選択"
-    },{
-      "firstLine": 91,
-      "label": "*pajama_chara_chino",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,91],"pajamas_chino"],
-      "nexts": [{
-          "eval": "f.day==3",
-          "storage": "pajamas_chino_01.txt",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "pajamas_chino_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "pajamas_chino_03.txt",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*pajama_chara",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ別＿チノ"
-    },{
-      "firstLine": 100,
-      "label": "*pajama_chara_chiya",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,100],"pajamas_chiya"],
-      "nexts": [{
-          "eval": "f.day==3",
-          "storage": "pajamas_chiya_01.txt",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "pajamas_chiya_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "pajamas_chiya_03.txt",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*pajama_chara",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ別＿千夜"
-    },{
-      "firstLine": 109,
-      "label": "*pajama_chara_rize",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,109],"pajamas_rize"],
-      "nexts": [{
-          "eval": "f.day==3",
-          "storage": "pajamas_rize_01.txt",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "pajamas_rize_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "pajamas_rize_03.txt",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*pajama_chara",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ別＿リゼ"
-    },{
-      "firstLine": 118,
-      "label": "*pajama_chara_syaro",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,118],"pajamas_syaro"],
-      "nexts": [{
-          "eval": "f.day==3",
-          "storage": "pajamas_syaro_01.txt",
-          "type": 0
-        },{
-          "eval": "f.day==10",
-          "storage": "pajamas_syaro_02.txt",
-          "type": 0
-        },{
-          "eval": "f.day==17",
-          "storage": "pajamas_syaro_03.txt",
-          "type": 0
-        },{
-          "storage": "holiday.ks",
-          "target": "*pajama_chara",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ別＿シャロ"
-    },{
-      "firstLine": 127,
-      "label": "*pajama_chara",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": "bgm_20",
-                    "loop": 1,
-                    "start": null,
-                    "state": 1,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 1
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["se","se",{
-                  "name": "se"
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,129]],
-      "nexts": [{
-          "storage": "holiday.ks",
-          "target": "*end",
-          "type": 0
-        }],
-      "spCount": 1,
-      "title": "パジャマパーティ＿キャラ別"
-    },{
-      "firstLine": 129,
-      "label": "*end",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,129],["stopvoice"],["msgoff"],["envupdate","update",[["new","stage","stage"],["new","event","event"],{
-              "action": [null,["zpos",233.33333333333337],null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 0,
-                "name": "env"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": "1000"
-          }],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,131],["wait","time","100"],[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,131]],
-      "nexts": [{
-          "storage": "holiday.ks",
-          "target": "*coffee_break",
-          "type": 0
-        }],
-      "spCount": 3,
-      "title": "終了"
-    },{
-      "firstLine": 133,
-      "label": "*coffee_break",
-      "lines": [[1,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 1,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,133],["msgoff"],[2,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,136],["beginskip"],["envupdate","update",[["new","scnchange","layer"],{
-              "action": [null,["zpos",-57.805907172995781],["order",0]],
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "chara": "SCENECHANGE",
-                    "motion": "show"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 1,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],"cg_scenechange.mtn",[3,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,136],["envupdate","update",[{
-              "action": [null],
-              "class": "stage",
-              "link": null,
-              "name": "stage",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "bg_c_black"
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "trans": {
-                "method": "crossfade",
-                "sync": 1,
-                "time": 1000
-              },
-              "type": null
-            }],"wait",{
-            "list": [null,{
-                "mode": 1,
-                "name": "stage"
-              }]
-          },"trans",{
-            "method": "crossfade",
-            "time": 1000
-          }],[4,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,136],["wait","time","1000"],[5,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "show"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,136],["envupdate","update",[{
-              "class": "layer",
-              "link": null,
-              "name": "scnchange",
-              "redraw": {
-                "disp": 2,
-                "imageFile": {
-                  "file": "scenechange.mtn",
-                  "options": {
-                    "motion": "hide"
-                  }
-                },
-                "posName": null
-              },
-              "showmode": 3,
-              "type": null
-            }],"wait",{
-            "list": [{
-                "mode": 1,
-                "name": "scnchange"
-              }]
-          }],[6,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "scenechange.mtn",
-                      "options": {
-                        "chara": "SCENECHANGE",
-                        "motion": "hide"
-                      }
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,null,136],["envupdate","update",[{
-              "name": "scnchange",
-              "showmode": 2
-            }]],["endskip"],[7,{
-            "backbase": 1,
-            "data": [["bgm","bgm",{
-                  "name": "bgm",
-                  "replay": {
-                    "filename": null,
-                    "loop": 1,
-                    "start": null,
-                    "state": 0,
-                    "volume": 100
-                  },
-                  "update": {
-                    "state": 0
-                  }
-                }],["event","event",{
-                  "action": [["zpos",-60.0]],
-                  "class": "event",
-                  "name": "event",
-                  "showmode": 0,
-                  "type": null
-                }],["scnchange","layer",{
-                  "action": [["zpos",-57.805907172995781]],
-                  "class": "layer",
-                  "name": "scnchange",
-                  "showmode": 2,
-                  "type": null
-                }],["stage","stage",{
-                  "action": [["zpos",233.33333333333337]],
-                  "class": "stage",
-                  "name": "stage",
-                  "redraw": {
-                    "disp": 2,
-                    "imageFile": {
-                      "file": "bg_c_black"
-                    },
-                    "posName": null
-                  },
-                  "showmode": 3,
-                  "type": null
-                }]],
-            "env": {
-              "name": "env"
-            },
-            "msgwin": 0
-          },null,1,140]],
-      "nexts": [{
-          "storage": "mainloop.ks*day_chk",
-          "type": 0
-        }],
-      "spCount": 7,
-      "title": "コーヒーブレイク"
-    }]
+	"hash" : "3653dc0f11587558eb21c3411f4be96c",
+	"name" : "holiday.ks",
+	"outlines" : [],
+	"scenes" : 
+	[
+		{
+			"firstLine" : 0,
+			"label" : "*start",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : [],
+						"env" : 
+						{
+							"action" : 
+							[
+								null,
+								null
+							],
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					1
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"init",
+							0
+						],
+						[
+							"new",
+							"bgm",
+							"bgm"
+						],
+						{
+							"action" : 
+							[
+								null
+							],
+							"name" : "env"
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					}
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : null,
+										"start" : null,
+										"state" : null,
+										"volume" : null
+									},
+									"update" : 
+									{
+										"state" : null
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					1
+				],
+				[
+					"msgwin",
+					"type",
+					"0",
+					"backbase",
+					"true"
+				],
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : null,
+										"start" : null,
+										"state" : null,
+										"volume" : null
+									},
+									"update" : 
+									{
+										"state" : null
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					10
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "holiday.ks",
+					"target" : "*day_effect",
+					"type" : 0
+				}
+			],
+			"spCount" : 3,
+			"title" : "holiday"
+		},
+		{
+			"firstLine" : 10,
+			"label" : "*day_effect",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					14
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "date.ks",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "日付演出"
+		},
+		{
+			"firstLine" : 14,
+			"label" : "*holiday_move01",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					23
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==2",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1114",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==3",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1115",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==9",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1121",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1122",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==16",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1128",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1129",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*holiday_move1114",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "移動イベント"
+		},
+		{
+			"firstLine" : 23,
+			"label" : "*holiday_move1114",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					28
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_a00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月１４日"
+		},
+		{
+			"firstLine" : 28,
+			"label" : "*holiday_move1115",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					33
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_b00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月１５日"
+		},
+		{
+			"firstLine" : 33,
+			"label" : "*holiday_move1121",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					38
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_c00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月２１日"
+		},
+		{
+			"firstLine" : 38,
+			"label" : "*holiday_move1122",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					43
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_d00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月２２日"
+		},
+		{
+			"firstLine" : 43,
+			"label" : "*holiday_move1128",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					48
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_e00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月２８日"
+		},
+		{
+			"firstLine" : 48,
+			"label" : "*holiday_move1129",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					53
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "move_f00.txt",
+					"type" : 0
+				}
+			],
+			"preevals" : 
+			[
+				"f.move=0",
+				"f.move_check=0",
+				"f.move_cnt=3"
+			],
+			"spCount" : 1,
+			"title" : "１１月２９日"
+		},
+		{
+			"firstLine" : 53,
+			"label" : "*holiday_move_end",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					55
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "移動イベント終了"
+		},
+		{
+			"firstLine" : 55,
+			"label" : "*pajama",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					60
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==2",
+					"storage" : "holiday.ks",
+					"target" : "*end",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==9",
+					"storage" : "holiday.ks",
+					"target" : "*end",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==16",
+					"storage" : "holiday.ks",
+					"target" : "*end",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*dummy1",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ"
+		},
+		{
+			"firstLine" : 60,
+			"label" : "*dummy1",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					60
+				],
+				[
+					"msgoff"
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"beginskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"scnchange",
+							"layer"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									-57.805907172995781
+								],
+								[
+									"order",
+									0
+								]
+							],
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"chara" : "SCENECHANGE",
+										"motion" : "show"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				"cg_scenechange.mtn",
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"stage",
+							"stage"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									233.33333333333337
+								],
+								null,
+								[
+									"visvalue",
+									0
+								],
+								[
+									"visvalue",
+									[
+										{
+											"delay" : null,
+											"handler" : "MoveAction",
+											"start" : 0,
+											"time" : 1000,
+											"value" : 100
+										}
+									]
+								]
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"trans" : 
+							{
+								"method" : "",
+								"sync" : 1,
+								"time" : 1000
+							},
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"canskip" : 0,
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "stage"
+							}
+						]
+					}
+				],
+				[
+					4,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"event",
+							"event"
+						]
+					]
+				],
+				[
+					5,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"wait",
+					"time",
+					"1000"
+				],
+				[
+					6,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"motion" : "hide"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				[
+					7,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "hide"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					62
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "scnchange",
+							"showmode" : 2
+						}
+					]
+				],
+				[
+					"endskip"
+				],
+				[
+					"msgoff"
+				],
+				[
+					8,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"pajama",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "pajama",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "partystart.mtn",
+											"options" : 
+											{
+												"chara" : "PAJAMA",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					64
+				],
+				[
+					"beginskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"pajama",
+							"layer"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									-57.805907172995781
+								],
+								[
+									"order",
+									0
+								]
+							],
+							"class" : "layer",
+							"link" : null,
+							"name" : "pajama",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "partystart.mtn",
+									"options" : 
+									{
+										"chara" : "PAJAMA",
+										"motion" : "show"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "pajama"
+							}
+						]
+					}
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"del",
+							"scnchange"
+						]
+					]
+				],
+				"cg_partystart.mtn",
+				[
+					9,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"pajama",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "pajama",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "partystart.mtn",
+											"options" : 
+											{
+												"chara" : "PAJAMA",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					64
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"se",
+							"se"
+						],
+						{
+							"name" : "se",
+							"replay" : 
+							{
+								"filename" : "jingle_04",
+								"start" : null,
+								"time" : 0,
+								"volume" : 100.0
+							}
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 0,
+								"name" : "stage"
+							},
+							{
+								"mode" : 0,
+								"name" : "pajama"
+							},
+							{
+								"mode" : 0,
+								"name" : "event"
+							},
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					}
+				],
+				[
+					10,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"pajama",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "pajama",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "partystart.mtn",
+											"options" : 
+											{
+												"chara" : "PAJAMA",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					64
+				],
+				[
+					"wait",
+					"time",
+					"3000"
+				],
+				[
+					11,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"pajama",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "pajama",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "partystart.mtn",
+											"options" : 
+											{
+												"chara" : "PAJAMA",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					64
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"class" : "layer",
+							"link" : null,
+							"name" : "pajama",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "partystart.mtn",
+									"options" : 
+									{
+										"motion" : "hide"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "pajama"
+							}
+						]
+					}
+				],
+				[
+					12,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"pajama",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "pajama",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "partystart.mtn",
+											"options" : 
+											{
+												"chara" : "PAJAMA",
+												"motion" : "hide"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					64
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "pajama",
+							"showmode" : 2
+						}
+					]
+				],
+				[
+					"endskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "se",
+							"stop" : 0
+						}
+					]
+				],
+				[
+					13,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					71
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==3",
+					"storage" : "pajamas_main_01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "pajamas_main_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "pajamas_main_03.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama_selecl",
+					"type" : 0
+				}
+			],
+			"spCount" : 13,
+			"title" : "パジャマパーティ"
+		},
+		{
+			"firstLine" : 71,
+			"label" : "*pajama_selecl",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					71
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "bgm",
+							"replay" : 
+							{
+								"filename" : "bgm_20",
+								"loop" : 1,
+								"start" : null,
+								"state" : 1,
+								"volume" : 100.0
+							},
+							"trans" : 
+							{
+								"method" : "",
+								"time" : "1"
+							}
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 0,
+								"name" : "stage"
+							},
+							{
+								"mode" : 0,
+								"name" : "event"
+							},
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					}
+				],
+				"bgm_BGM_20",
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					74
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "holiday.ks",
+					"target" : "*dummyselect1",
+					"type" : 0
+				}
+			],
+			"spCount" : 2,
+			"title" : "パジャマパーティ＿キャラ選択"
+		},
+		{
+			"firstLine" : 80,
+			"label" : "*dummyselect1",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100.0
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					91
+				]
+			],
+			"selectInfo" : 
+			{
+				"message" : "パジャマパーティー\\nキャラ選択",
+				"select" : 
+				[
+					{
+						"render" : 1,
+						"runLine" : 76,
+						"runLineStr" : "[seladd text=\"チノ\"   target=\"*pajama_chara_chino\"]",
+						"tagname" : "seladd",
+						"target" : "*pajama_chara_chino",
+						"text" : "チノ"
+					},
+					{
+						"render" : 1,
+						"runLine" : 77,
+						"runLineStr" : "[seladd text=\"千夜\"   target=\"*pajama_chara_chiya\"]",
+						"tagname" : "seladd",
+						"target" : "*pajama_chara_chiya",
+						"text" : "千夜"
+					},
+					{
+						"render" : 1,
+						"runLine" : 78,
+						"runLineStr" : "[seladd text=\"リゼ\"   target=\"*pajama_chara_rize\"]",
+						"tagname" : "seladd",
+						"target" : "*pajama_chara_rize",
+						"text" : "リゼ"
+					},
+					{
+						"render" : 1,
+						"runLine" : 79,
+						"runLineStr" : "[seladd text=\"シャロ\" target=\"*pajama_chara_syaro\"]",
+						"tagname" : "seladd",
+						"target" : "*pajama_chara_syaro",
+						"text" : "シャロ"
+					}
+				],
+				"type" : "party"
+			},
+			"selects" : 
+			[
+				{
+					"render" : 1,
+					"selidx" : 0,
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara_chino",
+					"text" : "チノ"
+				},
+				{
+					"render" : 1,
+					"selidx" : 1,
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara_chiya",
+					"text" : "千夜"
+				},
+				{
+					"render" : 1,
+					"selidx" : 2,
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara_rize",
+					"text" : "リゼ"
+				},
+				{
+					"render" : 1,
+					"selidx" : 3,
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara_syaro",
+					"text" : "シャロ"
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ選択"
+		},
+		{
+			"firstLine" : 91,
+			"label" : "*pajama_chara_chino",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					91
+				],
+				"pajamas_chino"
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==3",
+					"storage" : "pajamas_chino_01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "pajamas_chino_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "pajamas_chino_03.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ別＿チノ"
+		},
+		{
+			"firstLine" : 100,
+			"label" : "*pajama_chara_chiya",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					100
+				],
+				"pajamas_chiya"
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==3",
+					"storage" : "pajamas_chiya_01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "pajamas_chiya_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "pajamas_chiya_03.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ別＿千夜"
+		},
+		{
+			"firstLine" : 109,
+			"label" : "*pajama_chara_rize",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					109
+				],
+				"pajamas_rize"
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==3",
+					"storage" : "pajamas_rize_01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "pajamas_rize_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "pajamas_rize_03.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ別＿リゼ"
+		},
+		{
+			"firstLine" : 118,
+			"label" : "*pajama_chara_syaro",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					118
+				],
+				"pajamas_syaro"
+			],
+			"nexts" : 
+			[
+				{
+					"eval" : "f.day==3",
+					"storage" : "pajamas_syaro_01.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==10",
+					"storage" : "pajamas_syaro_02.txt",
+					"type" : 0
+				},
+				{
+					"eval" : "f.day==17",
+					"storage" : "pajamas_syaro_03.txt",
+					"type" : 0
+				},
+				{
+					"storage" : "holiday.ks",
+					"target" : "*pajama_chara",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ別＿シャロ"
+		},
+		{
+			"firstLine" : 127,
+			"label" : "*pajama_chara",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : "bgm_20",
+										"loop" : 1,
+										"start" : null,
+										"state" : 1,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 1
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"se",
+								"se",
+								{
+									"name" : "se"
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					129
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "holiday.ks",
+					"target" : "*end",
+					"type" : 0
+				}
+			],
+			"spCount" : 1,
+			"title" : "パジャマパーティ＿キャラ別"
+		},
+		{
+			"firstLine" : 129,
+			"label" : "*end",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					129
+				],
+				[
+					"stopvoice"
+				],
+				[
+					"msgoff"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"stage",
+							"stage"
+						],
+						[
+							"new",
+							"event",
+							"event"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									233.33333333333337
+								],
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 0,
+								"name" : "env"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : "1000"
+					}
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					131
+				],
+				[
+					"wait",
+					"time",
+					"100"
+				],
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					131
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "holiday.ks",
+					"target" : "*coffee_break",
+					"type" : 0
+				}
+			],
+			"spCount" : 3,
+			"title" : "終了"
+		},
+		{
+			"firstLine" : 133,
+			"label" : "*coffee_break",
+			"lines" : 
+			[
+				[
+					1,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 1,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					133
+				],
+				[
+					"msgoff"
+				],
+				[
+					2,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					136
+				],
+				[
+					"beginskip"
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						[
+							"new",
+							"scnchange",
+							"layer"
+						],
+						{
+							"action" : 
+							[
+								null,
+								[
+									"zpos",
+									-57.805907172995781
+								],
+								[
+									"order",
+									0
+								]
+							],
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"chara" : "SCENECHANGE",
+										"motion" : "show"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 1,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				"cg_scenechange.mtn",
+				[
+					3,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					136
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"action" : 
+							[
+								null
+							],
+							"class" : "stage",
+							"link" : null,
+							"name" : "stage",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "bg_c_black"
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"trans" : 
+							{
+								"method" : "crossfade",
+								"sync" : 1,
+								"time" : 1000
+							},
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							null,
+							{
+								"mode" : 1,
+								"name" : "stage"
+							}
+						]
+					},
+					"trans",
+					{
+						"method" : "crossfade",
+						"time" : 1000
+					}
+				],
+				[
+					4,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					136
+				],
+				[
+					"wait",
+					"time",
+					"1000"
+				],
+				[
+					5,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "show"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					136
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"class" : "layer",
+							"link" : null,
+							"name" : "scnchange",
+							"redraw" : 
+							{
+								"disp" : 2,
+								"imageFile" : 
+								{
+									"file" : "scenechange.mtn",
+									"options" : 
+									{
+										"motion" : "hide"
+									}
+								},
+								"posName" : null
+							},
+							"showmode" : 3,
+							"type" : null
+						}
+					],
+					"wait",
+					{
+						"list" : 
+						[
+							{
+								"mode" : 1,
+								"name" : "scnchange"
+							}
+						]
+					}
+				],
+				[
+					6,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "scenechange.mtn",
+											"options" : 
+											{
+												"chara" : "SCENECHANGE",
+												"motion" : "hide"
+											}
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					null,
+					136
+				],
+				[
+					"envupdate",
+					"update",
+					[
+						{
+							"name" : "scnchange",
+							"showmode" : 2
+						}
+					]
+				],
+				[
+					"endskip"
+				],
+				[
+					7,
+					{
+						"backbase" : 1,
+						"data" : 
+						[
+							[
+								"bgm",
+								"bgm",
+								{
+									"name" : "bgm",
+									"replay" : 
+									{
+										"filename" : null,
+										"loop" : 1,
+										"start" : null,
+										"state" : 0,
+										"volume" : 100
+									},
+									"update" : 
+									{
+										"state" : 0
+									}
+								}
+							],
+							[
+								"event",
+								"event",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-60.0
+										]
+									],
+									"class" : "event",
+									"name" : "event",
+									"showmode" : 0,
+									"type" : null
+								}
+							],
+							[
+								"scnchange",
+								"layer",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											-57.805907172995781
+										]
+									],
+									"class" : "layer",
+									"name" : "scnchange",
+									"showmode" : 2,
+									"type" : null
+								}
+							],
+							[
+								"stage",
+								"stage",
+								{
+									"action" : 
+									[
+										[
+											"zpos",
+											233.33333333333337
+										]
+									],
+									"class" : "stage",
+									"name" : "stage",
+									"redraw" : 
+									{
+										"disp" : 2,
+										"imageFile" : 
+										{
+											"file" : "bg_c_black"
+										},
+										"posName" : null
+									},
+									"showmode" : 3,
+									"type" : null
+								}
+							]
+						],
+						"env" : 
+						{
+							"name" : "env"
+						},
+						"msgwin" : 0
+					},
+					null,
+					1,
+					140
+				]
+			],
+			"nexts" : 
+			[
+				{
+					"storage" : "mainloop.ks*day_chk",
+					"type" : 0
+				}
+			],
+			"spCount" : 7,
+			"title" : "コーヒーブレイク"
+		}
+	]
 }

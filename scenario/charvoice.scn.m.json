@@ -1,235 +1,354 @@
 {
-  "list": [{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "",
-      "file": "",
-      "level": [10,44],
-      "name": "default",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "COCOA",
-      "file": "CC",
-      "level": [10,44],
-      "name": "ココア",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "CHINO",
-      "file": "CN",
-      "level": [10,44],
-      "name": "チノ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "CHIYA",
-      "file": "CY",
-      "level": [10,44],
-      "name": "千夜",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "RIZE",
-      "file": "RZ",
-      "level": [10,44],
-      "name": "リゼ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "CYARO",
-      "file": "CR",
-      "level": [10,44],
-      "name": "シャロ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "MAYA",
-      "file": "MY",
-      "level": [10,44],
-      "name": "マヤ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "MEGU",
-      "file": "MG",
-      "level": [10,44],
-      "name": "メグ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "AOYAMA",
-      "file": "AY",
-      "level": [10,44],
-      "name": "青山",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "TAKAHIRO",
-      "file": "TA",
-      "level": [10,44],
-      "name": "タカヒロ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "TIPPY",
-      "file": "TP",
-      "level": [10,44],
-      "name": "ティッピー",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "ZZ",
-      "level": [10,44],
-      "name": "みんな",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z0",
-      "level": [10,44],
-      "name": "フルール店員",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z1",
-      "level": [10,44],
-      "name": "女の子Ａ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z2",
-      "level": [10,44],
-      "name": "女の子Ｂ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z3",
-      "level": [10,44],
-      "name": "女の子Ｃ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z4",
-      "level": [10,44],
-      "name": "女の子Ｄ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z5",
-      "level": [10,44],
-      "name": "女の子Ｅ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z6",
-      "level": [10,44],
-      "name": "女性Ａ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z7",
-      "level": [10,44],
-      "name": "女性Ｂ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z8",
-      "level": [10,44],
-      "name": "女性客Ａ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "Z9",
-      "level": [10,44],
-      "name": "女性客Ｂ",
-      "per": 100
-    },{
-      "10": 44,
-      "alias": "",
-      "color": null,
-      "config": "ETC",
-      "file": "ZA",
-      "level": [10,44],
-      "name": "野良ウサギ",
-      "per": 100
-    }],
-  "map": {
-    "default": 0,
-    "みんな": 11,
-    "ココア": 1,
-    "シャロ": 5,
-    "タカヒロ": 9,
-    "チノ": 2,
-    "ティッピー": 10,
-    "フルール店員": 12,
-    "マヤ": 6,
-    "メグ": 7,
-    "リゼ": 4,
-    "千夜": 3,
-    "女の子Ａ": 13,
-    "女の子Ｂ": 14,
-    "女の子Ｃ": 15,
-    "女の子Ｄ": 16,
-    "女の子Ｅ": 17,
-    "女性客Ａ": 20,
-    "女性客Ｂ": 21,
-    "女性Ａ": 18,
-    "女性Ｂ": 19,
-    "野良ウサギ": 22,
-    "青山": 8
-  }
+	"list" : 
+	[
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "",
+			"file" : "",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "default",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "COCOA",
+			"file" : "CC",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "ココア",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "CHINO",
+			"file" : "CN",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "チノ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "CHIYA",
+			"file" : "CY",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "千夜",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "RIZE",
+			"file" : "RZ",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "リゼ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "CYARO",
+			"file" : "CR",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "シャロ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "MAYA",
+			"file" : "MY",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "マヤ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "MEGU",
+			"file" : "MG",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "メグ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "AOYAMA",
+			"file" : "AY",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "青山",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "TAKAHIRO",
+			"file" : "TA",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "タカヒロ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "TIPPY",
+			"file" : "TP",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "ティッピー",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "ZZ",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "みんな",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z0",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "フルール店員",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z1",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女の子Ａ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z2",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女の子Ｂ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z3",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女の子Ｃ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z4",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女の子Ｄ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z5",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女の子Ｅ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z6",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女性Ａ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z7",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女性Ｂ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z8",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女性客Ａ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "Z9",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "女性客Ｂ",
+			"per" : 100
+		},
+		{
+			"10" : 44,
+			"alias" : "",
+			"color" : null,
+			"config" : "ETC",
+			"file" : "ZA",
+			"level" : 
+			[
+				10,
+				44
+			],
+			"name" : "野良ウサギ",
+			"per" : 100
+		}
+	],
+	"map" : 
+	{
+		"default" : 0,
+		"みんな" : 11,
+		"ココア" : 1,
+		"シャロ" : 5,
+		"タカヒロ" : 9,
+		"チノ" : 2,
+		"ティッピー" : 10,
+		"フルール店員" : 12,
+		"マヤ" : 6,
+		"メグ" : 7,
+		"リゼ" : 4,
+		"千夜" : 3,
+		"女の子Ａ" : 13,
+		"女の子Ｂ" : 14,
+		"女の子Ｃ" : 15,
+		"女の子Ｄ" : 16,
+		"女の子Ｅ" : 17,
+		"女性客Ａ" : 20,
+		"女性客Ｂ" : 21,
+		"女性Ａ" : 18,
+		"女性Ｂ" : 19,
+		"野良ウサギ" : 22,
+		"青山" : 8
+	},
+	"scenes" : null
 }
